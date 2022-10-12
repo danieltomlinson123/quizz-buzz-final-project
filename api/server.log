@@ -1,0 +1,2473 @@
+ERROR 2022-09-03T08:46:29.036Z api/index.js | connect ECONNREFUSED ::1:27017
+ERROR 2022-09-03T08:50:35.572Z api/index.js | connect ECONNREFUSED ::1:27017
+ERROR 2022-09-03T08:57:58.123Z api/index.js | connect ECONNREFUSED ::1:27017
+INFO 2022-09-03T08:58:17.266Z api/index.js | db connected
+ERROR 2022-09-03T08:58:17.315Z api/index.js | Cannot find module './users'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/index.js
+INFO 2022-09-03T09:00:13.508Z api/index.js | db connected
+ERROR 2022-09-03T09:00:13.554Z api/index.js | Cannot find module '../../../validators'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/logic/user/registerUser/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/logic/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/user/authenticateUserHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/index.js
+INFO 2022-09-03T09:02:38.520Z api/index.js | db connected
+ERROR 2022-09-03T09:02:38.568Z api/index.js | Cannot find module '../../../validators'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/logic/user/authenticateUser/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/logic/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/user/authenticateUserHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/index.js
+INFO 2022-09-03T09:04:36.390Z api/index.js | db connected
+ERROR 2022-09-03T09:04:36.436Z api/index.js | Cannot find module './notes/updateNote'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/logic/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/user/authenticateUserHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/index.js
+INFO 2022-09-03T09:06:04.038Z api/index.js | db connected
+ERROR 2022-09-03T09:06:04.086Z api/index.js | Cannot read properties of undefined (reading 'authenticateUser')
+INFO 2022-09-03T09:21:32.503Z api/index.js | db connected
+ERROR 2022-09-03T09:21:32.557Z api/index.js | Cannot read properties of undefined (reading 'authenticateUser')
+INFO 2022-09-03T09:23:18.096Z api/index.js | db connected
+ERROR 2022-09-03T09:23:18.143Z api/index.js | Cannot read properties of undefined (reading 'authenticateUser')
+INFO 2022-09-03T09:23:54.556Z api/index.js | db connected
+ERROR 2022-09-03T09:23:54.599Z api/index.js | Cannot read properties of undefined (reading 'authenticateUser')
+INFO 2022-09-03T09:37:32.880Z api/index.js | db connected
+ERROR 2022-09-03T09:37:32.930Z api/index.js | Cannot read properties of undefined (reading 'authenticateUser')
+INFO 2022-09-03T09:39:09.615Z api/index.js | db connected
+ERROR 2022-09-03T09:39:09.663Z api/index.js | Cannot read properties of undefined (reading 'authenticateUser')
+INFO 2022-09-03T09:41:30.524Z api/index.js | db connected
+ERROR 2022-09-03T09:41:30.573Z api/index.js | Cannot read properties of undefined (reading 'authenticateUser')
+INFO 2022-09-03T09:44:57.006Z api/index.js | db connected
+ERROR 2022-09-03T09:44:57.055Z api/index.js | Cannot read properties of undefined (reading 'authenticateUser')
+INFO 2022-09-03T09:47:20.326Z api/index.js | db connected
+ERROR 2022-09-03T09:47:20.377Z api/index.js | Cannot read properties of undefined (reading 'authenticateUser')
+INFO 2022-09-03T09:51:31.132Z api/index.js | db connected
+ERROR 2022-09-03T09:51:31.189Z api/index.js | Cannot find module '../../errors'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/user/registerUserHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/index.js
+INFO 2022-09-03T09:52:33.579Z api/index.js | db connected
+ERROR 2022-09-03T09:52:33.633Z api/index.js | Cannot find module './errors'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/notes/createNoteHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/notes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/postits/api/index.js
+INFO 2022-09-03T09:53:01.199Z api/index.js | db connected
+INFO 2022-09-03T09:53:01.253Z api/index.js | api v1.0.0 started and listening in port 8080
+ERROR 2022-09-03T09:53:21.952Z user/authenticateUserHandler.js | user with email dani@t.com not found
+ERROR 2022-09-03T09:53:35.664Z user/authenticateUserHandler.js | user with email dan@tommy.com not found
+ERROR 2022-09-03T09:54:03.786Z user/authenticateUserHandler.js | user with email kar@na.com not found
+INFO 2022-09-03T09:55:43.610Z api/index.js | 
+api stopped
+INFO 2022-09-03T09:55:43.620Z api/index.js | db disconnected
+INFO 2022-09-03T09:56:03.110Z api/index.js | db connected
+INFO 2022-09-03T09:56:03.171Z api/index.js | api v1.0.0 started and listening in port 8080
+INFO 2022-09-03T09:58:47.627Z api/index.js | 
+api stopped
+INFO 2022-09-03T09:58:47.635Z api/index.js | db disconnected
+INFO 2022-09-03T09:59:23.389Z api/index.js | db connected
+INFO 2022-09-03T09:59:23.445Z api/index.js | api v1.0.0 started and listening in port 8080
+INFO 2022-09-03T10:09:35.072Z api/index.js | 
+api stopped
+INFO 2022-09-03T10:09:35.081Z api/index.js | db disconnected
+INFO 2022-09-03T10:09:37.258Z api/index.js | db connected
+INFO 2022-09-03T10:09:37.311Z api/index.js | api v1.0.0 started and listening in port 8080
+INFO 2022-09-03T10:14:13.350Z api/index.js | 
+api stopped
+INFO 2022-09-03T10:14:13.360Z api/index.js | db disconnected
+INFO 2022-09-03T10:14:14.795Z api/index.js | db connected
+INFO 2022-09-03T10:14:14.847Z api/index.js | api v1.0.0 started and listening in port 8080
+INFO 2022-09-03T10:17:51.543Z api/index.js | 
+api stopped
+INFO 2022-09-03T10:17:51.553Z api/index.js | db disconnected
+INFO 2022-09-03T10:17:53.963Z api/index.js | db connected
+INFO 2022-09-03T10:17:54.018Z api/index.js | api v1.0.0 started and listening in port 8080
+INFO 2022-09-03T10:27:56.255Z api/index.js | 
+api stopped
+INFO 2022-09-03T10:27:56.266Z api/index.js | db disconnected
+INFO 2022-09-03T10:27:58.367Z api/index.js | db connected
+INFO 2022-09-03T10:27:58.425Z api/index.js | api v1.0.0 started and listening in port 8080
+ERROR 2022-09-03T10:28:05.396Z user/retrieveUserHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-03T10:39:26.178Z api/index.js | db connected
+INFO 2022-09-03T10:39:26.231Z api/index.js | api v1.0.0 started and listening in port 8080
+ERROR 2022-09-03T10:40:48.582Z notes/createNoteHandler.js | verifytoken is not a function
+ERROR 2022-09-03T11:25:03.128Z notes/createNoteHandler.js | verifytoken is not a function
+ERROR 2022-09-03T11:25:43.227Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-03T11:25:55.456Z notes/createNoteHandler.js | verifytoken is not a function
+ERROR 2022-09-03T11:27:10.473Z notes/createNoteHandler.js | verifytoken is not a function
+INFO 2022-09-05T08:23:34.820Z api/index.js | db connected
+INFO 2022-09-05T08:23:34.882Z api/index.js | api v1.0.0 started and listening in port 8080
+ERROR 2022-09-05T08:23:41.535Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T08:25:57.315Z user/authenticateUserHandler.js | user with email dani@tomi.com not found
+ERROR 2022-09-05T08:26:09.876Z user/authenticateUserHandler.js | user with email d@t.com not found
+ERROR 2022-09-05T08:26:56.285Z notes/createNoteHandler.js | verifytoken is not a function
+ERROR 2022-09-05T08:26:59.565Z notes/createNoteHandler.js | verifytoken is not a function
+ERROR 2022-09-05T08:27:47.413Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-05T09:15:24.492Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T09:15:26.369Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T09:15:57.946Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T09:15:59.620Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T09:25:27.328Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T09:31:28.727Z notes/createNoteHandler.js | verifytoken is not a function
+ERROR 2022-09-05T10:10:47.166Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T10:10:48.814Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T10:10:52.648Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T10:10:55.475Z notes/createNoteHandler.js | verifytoken is not a function
+ERROR 2022-09-05T10:12:00.914Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T10:18:51.986Z user/authenticateUserHandler.js | user with email peter@pan.com not found
+ERROR 2022-09-05T10:19:09.386Z user/authenticateUserHandler.js | user with email d@t.com not found
+ERROR 2022-09-05T10:21:52.076Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-05T10:28:27.279Z api/index.js | 
+api stopped
+INFO 2022-09-05T10:28:27.294Z api/index.js | db disconnected
+INFO 2022-09-05T10:28:44.631Z api/index.js | db connected
+ERROR 2022-09-05T10:28:44.688Z api/index.js | Cannot find module './retrieveNoteHandler'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/New_APP/api/routes/notes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/New_APP/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/New_APP/api/index.js
+INFO 2022-09-05T10:29:29.299Z api/index.js | db connected
+ERROR 2022-09-05T10:29:29.349Z api/index.js | retrieveNoteHandler is not defined
+INFO 2022-09-05T10:30:39.541Z api/index.js | db connected
+ERROR 2022-09-05T10:30:39.597Z api/index.js | retrieveNoteHandler is not defined
+INFO 2022-09-05T10:31:05.884Z api/index.js | db connected
+ERROR 2022-09-05T10:31:05.935Z api/index.js | retrieveNotesHandler is not defined
+INFO 2022-09-05T10:31:34.501Z api/index.js | db connected
+ERROR 2022-09-05T10:31:34.558Z api/index.js | retrieveNotesHandler is not defined
+INFO 2022-09-05T10:32:06.968Z api/index.js | db connected
+ERROR 2022-09-05T10:32:07.027Z api/index.js | retrieveNotesHandler is not defined
+INFO 2022-09-05T10:35:32.832Z api/index.js | db connected
+INFO 2022-09-05T10:35:32.897Z api/index.js | api v1.0.0 started and listening in port 8080
+ERROR 2022-09-05T10:35:38.983Z notes/retrieveNotesHandler.js | retrieveNotes is not defined
+INFO 2022-09-05T10:36:55.472Z api/index.js | 
+api stopped
+INFO 2022-09-05T10:36:55.484Z api/index.js | db disconnected
+INFO 2022-09-05T10:36:56.754Z api/index.js | db connected
+INFO 2022-09-05T10:36:56.816Z api/index.js | api v1.0.0 started and listening in port 8080
+INFO 2022-09-05T10:39:15.309Z api/index.js | 
+api stopped
+INFO 2022-09-05T10:39:15.315Z api/index.js | db disconnected
+INFO 2022-09-05T10:39:16.194Z api/index.js | db connected
+INFO 2022-09-05T10:39:16.248Z api/index.js | api v1.0.0 started and listening in port 8080
+ERROR 2022-09-05T10:40:58.128Z notes/createNoteHandler.js | verifytoken is not a function
+INFO 2022-09-05T10:43:31.558Z api/index.js | 
+api stopped
+INFO 2022-09-05T10:43:31.569Z api/index.js | db disconnected
+INFO 2022-09-05T10:43:33.469Z api/index.js | db connected
+INFO 2022-09-05T10:43:33.533Z api/index.js | api v1.0.0 started and listening in port 8080
+ERROR 2022-09-05T10:43:48.129Z user/authenticateUserHandler.js | user with email dan@tommy.com not found
+INFO 2022-09-05T11:03:00.399Z api/index.js | 
+api stopped
+INFO 2022-09-05T11:03:00.406Z api/index.js | db disconnected
+INFO 2022-09-05T11:03:01.515Z api/index.js | db connected
+INFO 2022-09-05T11:03:01.595Z api/index.js | api v1.0.0 started and listening in port 8080
+ERROR 2022-09-05T12:12:27.263Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-05T12:12:27.717Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T12:12:31.703Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-05T12:12:54.112Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T12:13:50.708Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-05T12:15:20.357Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T12:15:22.221Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-05T12:16:36.723Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-05T12:16:36.881Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-05T12:16:38.195Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-05T12:16:42.074Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T12:17:06.727Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T12:22:23.025Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-05T12:22:23.026Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-05T13:35:00.685Z api/index.js | 
+api stopped
+INFO 2022-09-05T13:35:00.712Z api/index.js | db disconnected
+INFO 2022-09-08T10:03:47.433Z api/index.js | db connected
+INFO 2022-09-08T10:04:10.943Z api/index.js | db connected
+INFO 2022-09-08T10:04:10.980Z api/index.js | api v1.0.0 started and listening in port 8080
+INFO 2022-09-08T10:06:40.609Z api/index.js | 
+api stopped
+INFO 2022-09-08T10:06:40.618Z api/index.js | db disconnected
+INFO 2022-09-08T10:08:03.801Z api/index.js | db connected
+INFO 2022-09-08T10:24:33.115Z api/index.js | 
+api stopped
+INFO 2022-09-08T10:24:43.673Z api/index.js | db connected
+INFO 2022-09-08T10:24:43.722Z api/index.js | api v1.0.0 started and listening in port 8080
+ERROR 2022-09-08T10:25:02.416Z user/authenticateUserHandler.js | user with email dani@tomi.com not found
+ERROR 2022-09-08T10:25:22.636Z user/authenticateUserHandler.js | user with email dani@tommi.com not found
+INFO 2022-09-08T12:01:09.130Z api/index.js | 
+api stopped
+INFO 2022-09-08T12:01:09.140Z api/index.js | db disconnected
+INFO 2022-09-08T12:01:13.169Z api/index.js | db connected
+INFO 2022-09-08T12:01:56.353Z api/index.js | 
+api stopped
+INFO 2022-09-08T12:01:56.359Z api/index.js | db disconnected
+INFO 2022-09-08T12:02:13.674Z api/index.js | db connected
+INFO 2022-09-08T12:14:58.745Z api/index.js | 
+api stopped
+INFO 2022-09-08T12:15:00.639Z api/index.js | db connected
+INFO 2022-09-08T12:15:00.690Z api/index.js | api v1.0.0 started and listening in port 8080
+INFO 2022-09-08T12:18:11.913Z api/index.js | 
+api stopped
+INFO 2022-09-08T12:18:11.921Z api/index.js | db disconnected
+INFO 2022-09-08T12:18:14.522Z api/index.js | db connected
+INFO 2022-09-08T12:36:25.031Z api/index.js | 
+api stopped
+INFO 2022-09-08T12:36:25.039Z api/index.js | db disconnected
+INFO 2022-09-08T12:36:30.977Z api/index.js | db connected
+INFO 2022-09-08T12:47:24.078Z api/index.js | 
+api stopped
+INFO 2022-09-08T12:47:24.087Z api/index.js | db disconnected
+INFO 2022-09-08T12:47:26.806Z api/index.js | db connected
+INFO 2022-09-08T13:04:09.426Z api/index.js | 
+api stopped
+INFO 2022-09-08T13:04:09.435Z api/index.js | db disconnected
+INFO 2022-09-08T13:04:17.937Z api/index.js | db connected
+INFO 2022-09-08T13:06:54.378Z api/index.js | 
+api stopped
+INFO 2022-09-08T13:06:54.387Z api/index.js | db disconnected
+INFO 2022-09-08T13:07:02.933Z api/index.js | db connected
+INFO 2022-09-08T13:11:48.614Z api/index.js | 
+api stopped
+INFO 2022-09-08T13:11:48.623Z api/index.js | db disconnected
+INFO 2022-09-08T13:11:56.366Z api/index.js | db connected
+ERROR 2022-09-08T16:10:05.091Z user/retrieveUserHandler.js | jwt malformed
+ERROR 2022-09-08T16:10:12.700Z user/retrieveUserHandler.js | jwt malformed
+ERROR 2022-09-08T16:10:38.635Z user/registerUserHandler.js | name is not a string
+INFO 2022-09-08T16:44:04.008Z api/index.js | 
+api stopped
+INFO 2022-09-08T16:44:04.020Z api/index.js | db disconnected
+INFO 2022-09-08T16:44:10.356Z api/index.js | db connected
+ERROR 2022-09-08T16:44:10.380Z api/index.js | createGameHandler is not defined
+INFO 2022-09-08T16:47:46.797Z api/index.js | db connected
+ERROR 2022-09-08T16:47:46.817Z api/index.js | Cannot find module './games'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/New_APP/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/New_APP/api/index.js
+INFO 2022-09-08T16:48:22.791Z api/index.js | db connected
+ERROR 2022-09-08T16:48:22.812Z api/index.js | Cannot read properties of undefined (reading 'createGame')
+INFO 2022-09-08T16:56:14.199Z api/index.js | db connected
+ERROR 2022-09-08T16:56:14.223Z api/index.js | Cannot read properties of undefined (reading 'createGame')
+INFO 2022-09-08T16:57:23.545Z api/index.js | db connected
+ERROR 2022-09-08T16:57:23.562Z api/index.js | Cannot read properties of undefined (reading 'createGame')
+INFO 2022-09-08T16:59:07.419Z api/index.js | db connected
+ERROR 2022-09-08T16:59:07.439Z api/index.js | Cannot read properties of undefined (reading 'createGame')
+INFO 2022-09-08T23:07:56.996Z api/index.js | db connected
+ERROR 2022-09-08T23:08:07.396Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:07.398Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-08T23:08:07.399Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:07.402Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-08T23:08:32.817Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-08T23:08:32.818Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:32.818Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-08T23:08:32.819Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:39.187Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:39.187Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-08T23:08:39.188Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:39.189Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-08T23:08:42.738Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:42.739Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-08T23:08:42.739Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:42.740Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-08T23:08:49.562Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:49.563Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-08T23:08:49.564Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-08T23:08:49.565Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-08T23:09:05.877Z api/index.js | 
+api stopped
+INFO 2022-09-08T23:09:05.887Z api/index.js | db disconnected
+INFO 2022-09-08T23:09:08.228Z api/index.js | db connected
+INFO 2022-09-08T23:22:15.325Z api/index.js | 
+api stopped
+INFO 2022-09-08T23:22:15.333Z api/index.js | db disconnected
+INFO 2022-09-08T23:22:25.403Z api/index.js | db connected
+INFO 2022-09-08T23:25:04.585Z api/index.js | 
+api stopped
+INFO 2022-09-08T23:25:04.595Z api/index.js | db disconnected
+INFO 2022-09-08T23:25:06.137Z api/index.js | db connected
+ERROR 2022-09-08T23:31:47.832Z user/retrieveUserHandler.js | jwt expired
+INFO 2022-09-08T23:35:50.880Z api/index.js | 
+api stopped
+INFO 2022-09-08T23:35:50.891Z api/index.js | db disconnected
+INFO 2022-09-08T23:35:52.689Z api/index.js | db connected
+ERROR 2022-09-09T07:26:25.091Z game/createGameHandler.js | jwt expired
+INFO 2022-09-09T07:52:51.129Z api/index.js | 
+api stopped
+INFO 2022-09-09T07:52:51.136Z api/index.js | db disconnected
+INFO 2022-09-09T07:53:02.080Z api/index.js | db connected
+ERROR 2022-09-09T10:45:38.010Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:45:38.012Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T10:45:38.013Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:45:38.015Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T10:45:41.481Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:45:41.482Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T10:45:41.484Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:45:41.484Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T10:45:44.493Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:45:44.494Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T10:45:44.496Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:45:44.497Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T10:45:57.259Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:45:57.260Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T10:45:57.263Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:45:57.263Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T10:46:00.421Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:46:00.421Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T10:46:00.424Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T10:46:00.424Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T11:40:46.014Z notes/createNoteHandler.js | text is not a string
+ERROR 2022-09-09T11:43:25.501Z notes/createNoteHandler.js | text is not a string
+ERROR 2022-09-09T11:44:59.033Z notes/createNoteHandler.js | text is not a string
+ERROR 2022-09-09T11:48:50.912Z game/createGameHandler.js | jwt expired
+ERROR 2022-09-09T11:49:10.829Z game/createGameHandler.js | text is not a string
+ERROR 2022-09-09T11:49:28.732Z game/createGameHandler.js | text is not a string
+ERROR 2022-09-09T11:50:18.811Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T11:50:18.813Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T11:50:18.814Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T11:50:18.815Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T11:50:22.060Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T11:50:22.060Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T11:50:22.061Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T11:50:22.061Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T11:53:05.107Z notes/createNoteHandler.js | text is not a string
+ERROR 2022-09-09T11:53:13.555Z notes/createNoteHandler.js | text is not a string
+ERROR 2022-09-09T11:58:00.542Z notes/createNoteHandler.js | text is not a string
+ERROR 2022-09-09T12:04:50.064Z user/registerUserHandler.js | user already exists
+INFO 2022-09-09T12:05:15.917Z api/index.js | 
+api stopped
+INFO 2022-09-09T12:05:15.926Z api/index.js | db disconnected
+INFO 2022-09-09T12:05:25.013Z api/index.js | db connected
+ERROR 2022-09-09T12:05:25.034Z api/index.js | gameCode is not defined
+INFO 2022-09-09T12:08:00.652Z api/index.js | db connected
+ERROR 2022-09-09T12:08:00.673Z api/index.js | gameCode is not defined
+INFO 2022-09-09T12:10:43.571Z api/index.js | db connected
+ERROR 2022-09-09T12:10:43.590Z api/index.js | gameCode is not defined
+INFO 2022-09-09T12:12:50.488Z api/index.js | db connected
+ERROR 2022-09-09T12:12:50.505Z api/index.js | gameCode is not defined
+INFO 2022-09-09T12:13:43.898Z api/index.js | db connected
+ERROR 2022-09-09T12:13:43.925Z api/index.js | Cannot find module './createGame'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/logic/gameCodes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/logic/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/authenticateUserHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-09T12:16:10.714Z api/index.js | db connected
+ERROR 2022-09-09T12:16:10.742Z api/index.js | createGame is not defined
+INFO 2022-09-09T12:17:00.917Z api/index.js | db connected
+ERROR 2022-09-09T12:17:22.576Z notes/creatNotesHandler.js | user with id 631b2b31c34c87dfc644fd20 not found
+ERROR 2022-09-09T12:17:29.791Z notes/creatNotesHandler.js | user with id 631b2b31c34c87dfc644fd20 not found
+ERROR 2022-09-09T12:18:31.166Z gameCode/createGameCodeHandler.js | text is not defined
+ERROR 2022-09-09T12:19:36.332Z notes/creatNotesHandler.js | user with id 631b2b31c34c87dfc644fd20 not found
+INFO 2022-09-09T12:22:51.039Z api/index.js | 
+api stopped
+INFO 2022-09-09T12:22:51.052Z api/index.js | db disconnected
+INFO 2022-09-09T12:22:53.048Z api/index.js | db connected
+ERROR 2022-09-09T12:46:30.164Z notes/creatNotesHandler.js | jwt expired
+INFO 2022-09-09T13:14:29.431Z api/index.js | 
+api stopped
+INFO 2022-09-09T13:14:29.440Z api/index.js | db disconnected
+INFO 2022-09-09T13:14:50.386Z api/index.js | db connected
+INFO 2022-09-09T13:14:52.024Z api/index.js | 
+api stopped
+INFO 2022-09-09T13:14:52.032Z api/index.js | db disconnected
+INFO 2022-09-09T13:15:29.224Z api/index.js | db connected
+INFO 2022-09-09T13:20:04.633Z api/index.js | db connected
+ERROR 2022-09-09T13:20:16.085Z gameCode/createGameCodeHandler.js | jwt expired
+INFO 2022-09-09T13:21:03.833Z api/index.js | 
+api stopped
+INFO 2022-09-09T13:21:03.842Z api/index.js | db disconnected
+INFO 2022-09-09T13:21:12.658Z api/index.js | db connected
+ERROR 2022-09-09T14:55:23.051Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T14:55:23.061Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T14:55:23.063Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T14:55:23.066Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T14:55:27.055Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T14:55:27.057Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T14:55:27.061Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T14:55:27.063Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-09T14:55:43.172Z api/index.js | 
+api stopped
+INFO 2022-09-09T14:55:43.184Z api/index.js | db disconnected
+INFO 2022-09-09T14:56:19.893Z api/index.js | db connected
+ERROR 2022-09-09T14:56:33.583Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T14:56:33.585Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T14:56:33.587Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T14:56:33.588Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T14:56:36.282Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T14:56:36.283Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T14:56:36.286Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T14:56:36.287Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T14:59:34.745Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-09T14:59:47.865Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-09T16:00:39.261Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:00:39.262Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:00:39.264Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:00:39.265Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-09T16:00:44.866Z api/index.js | 
+api stopped
+INFO 2022-09-09T16:00:44.871Z api/index.js | db disconnected
+INFO 2022-09-09T16:02:54.214Z api/index.js | db connected
+INFO 2022-09-09T16:13:36.297Z api/index.js | 
+api stopped
+INFO 2022-09-09T16:13:36.306Z api/index.js | db disconnected
+INFO 2022-09-09T16:13:37.470Z api/index.js | db connected
+ERROR 2022-09-09T16:13:43.246Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:13:43.249Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:13:43.251Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:13:43.253Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:14:20.564Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:14:20.566Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-09T16:24:02.249Z api/index.js | 
+api stopped
+INFO 2022-09-09T16:24:02.259Z api/index.js | db disconnected
+INFO 2022-09-09T16:24:08.156Z api/index.js | db connected
+ERROR 2022-09-09T16:24:13.219Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:24:13.222Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:24:13.222Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:24:13.223Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-09T16:26:49.469Z api/index.js | 
+api stopped
+INFO 2022-09-09T16:26:49.473Z api/index.js | db disconnected
+INFO 2022-09-09T16:26:51.220Z api/index.js | db connected
+ERROR 2022-09-09T16:26:55.487Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:26:55.490Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:26:55.499Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:26:55.496Z user/retrieveUserHandler.js | jwt expired
+INFO 2022-09-09T16:40:06.249Z api/index.js | 
+api stopped
+INFO 2022-09-09T16:40:06.261Z api/index.js | db disconnected
+INFO 2022-09-09T16:40:12.062Z api/index.js | db connected
+ERROR 2022-09-09T16:40:17.950Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:40:17.952Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:40:17.954Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:40:17.956Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:40:38.572Z notes/retrieveNotesHandler.js | jwt malformed
+ERROR 2022-09-09T16:42:11.977Z notes/retrieveNotesHandler.js | jwt malformed
+ERROR 2022-09-09T16:42:22.234Z notes/retrieveNotesHandler.js | jwt malformed
+ERROR 2022-09-09T16:42:31.670Z notes/retrieveNotesHandler.js | jwt malformed
+ERROR 2022-09-09T16:43:05.385Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T16:46:41.113Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T16:46:47.053Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T16:46:52.317Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:46:52.318Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:46:52.320Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:46:52.320Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:47:03.280Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T16:48:31.360Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:48:31.361Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:48:36.245Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+INFO 2022-09-09T16:59:12.072Z api/index.js | 
+api stopped
+INFO 2022-09-09T16:59:12.080Z api/index.js | db disconnected
+INFO 2022-09-09T16:59:17.085Z api/index.js | db connected
+ERROR 2022-09-09T16:59:21.890Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:59:21.892Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:59:21.894Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T16:59:21.897Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T16:59:59.828Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T17:00:02.483Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T17:03:24.607Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T17:03:42.955Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T17:03:42.955Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T17:07:42.293Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T17:07:46.133Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T17:07:47.149Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+ERROR 2022-09-09T17:07:56.524Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+INFO 2022-09-09T21:25:21.881Z api/index.js | 
+api stopped
+INFO 2022-09-09T21:25:21.892Z api/index.js | db disconnected
+INFO 2022-09-09T21:25:23.369Z api/index.js | db connected
+ERROR 2022-09-09T21:25:32.476Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T21:25:32.477Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T21:25:32.479Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T21:25:32.483Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T21:25:35.481Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T21:25:35.482Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T21:25:35.484Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-09T21:25:35.485Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-09T21:26:52.845Z gameCode/retrieveGameCodeHandler.js | pin is not defined
+INFO 2022-09-09T21:28:30.316Z api/index.js | 
+api stopped
+INFO 2022-09-09T21:28:30.324Z api/index.js | db disconnected
+INFO 2022-09-09T21:28:31.724Z api/index.js | db connected
+ERROR 2022-09-10T16:46:33.509Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-10T16:46:33.510Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-10T16:46:33.511Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-10T16:46:33.512Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-11T13:42:55.389Z api/index.js | 
+api stopped
+INFO 2022-09-11T13:42:55.403Z api/index.js | db disconnected
+INFO 2022-09-11T13:42:57.427Z api/index.js | db connected
+ERROR 2022-09-11T13:44:18.681Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-11T13:44:57.845Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-09-11T13:45:18.063Z api/index.js | 
+api stopped
+INFO 2022-09-11T13:45:18.073Z api/index.js | db disconnected
+INFO 2022-09-11T13:45:19.836Z api/index.js | db connected
+ERROR 2022-09-11T13:45:26.548Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-11T13:45:37.135Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-11T13:49:07.176Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-11T13:49:28.182Z gameCode/createGameCodeHandler.js | jwt expired
+ERROR 2022-09-11T13:51:22.400Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-11T13:51:24.518Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-11T13:51:30.950Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-11T18:36:27.597Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-11T19:20:49.211Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-11T19:40:06.901Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-11T19:40:06.903Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-11T19:40:06.904Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-11T19:40:06.905Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-11T19:41:08.546Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-11T19:41:08.548Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-11T19:41:08.551Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-11T19:41:08.553Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-11T20:37:00.526Z gameCode/createGameCodeHandler.js | systemError is not defined
+INFO 2022-09-11T20:43:13.528Z api/index.js | 
+api stopped
+INFO 2022-09-11T20:43:13.538Z api/index.js | db disconnected
+INFO 2022-09-11T20:43:14.770Z api/index.js | db connected
+ERROR 2022-09-11T20:43:21.345Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-11T20:43:21.346Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-11T20:43:21.347Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-11T20:43:21.348Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-11T20:44:03.677Z gameCode/createGameCodeHandler.js | host is not defined
+ERROR 2022-09-11T20:45:11.598Z gameCode/createGameCodeHandler.js | host is not defined
+ERROR 2022-09-11T20:47:30.535Z gameCode/createGameCodeHandler.js | host is not defined
+INFO 2022-09-11T20:47:55.645Z api/index.js | 
+api stopped
+INFO 2022-09-11T20:47:55.653Z api/index.js | db disconnected
+INFO 2022-09-11T20:47:57.504Z api/index.js | db connected
+INFO 2022-09-11T20:58:21.193Z api/index.js | 
+api stopped
+INFO 2022-09-11T20:58:21.205Z api/index.js | db disconnected
+INFO 2022-09-11T20:58:22.110Z api/index.js | db connected
+ERROR 2022-09-11T21:02:54.266Z gameCode/createGameCodeHandler.js | systemError is not defined
+INFO 2022-09-11T21:06:51.277Z api/index.js | 
+api stopped
+INFO 2022-09-11T21:06:51.283Z api/index.js | db disconnected
+INFO 2022-09-11T21:06:52.227Z api/index.js | db connected
+INFO 2022-09-11T21:09:25.683Z api/index.js | db connected
+ERROR 2022-09-11T21:11:29.722Z gameCode/createGameCodeHandler.js | systemError is not defined
+INFO 2022-09-11T21:18:54.320Z api/index.js | 
+api stopped
+INFO 2022-09-11T21:18:54.339Z api/index.js | db disconnected
+INFO 2022-09-11T21:18:55.323Z api/index.js | db connected
+INFO 2022-09-11T21:25:29.291Z api/index.js | 
+api stopped
+INFO 2022-09-11T21:25:29.301Z api/index.js | db disconnected
+INFO 2022-09-11T21:25:30.603Z api/index.js | db connected
+INFO 2022-09-11T21:31:14.402Z api/index.js | 
+api stopped
+INFO 2022-09-11T21:31:14.412Z api/index.js | db disconnected
+INFO 2022-09-11T21:31:15.552Z api/index.js | db connected
+INFO 2022-09-11T21:34:36.588Z api/index.js | 
+api stopped
+INFO 2022-09-11T21:34:36.595Z api/index.js | db disconnected
+INFO 2022-09-11T21:34:38.138Z api/index.js | db connected
+INFO 2022-09-11T21:38:12.706Z api/index.js | 
+api stopped
+INFO 2022-09-11T21:38:12.715Z api/index.js | db disconnected
+INFO 2022-09-11T21:38:13.451Z api/index.js | db connected
+INFO 2022-09-11T21:39:32.861Z api/index.js | 
+api stopped
+INFO 2022-09-11T21:39:32.871Z api/index.js | db disconnected
+INFO 2022-09-11T21:39:33.786Z api/index.js | db connected
+INFO 2022-09-11T21:40:23.784Z api/index.js | 
+api stopped
+INFO 2022-09-11T21:40:23.793Z api/index.js | db disconnected
+INFO 2022-09-11T21:43:14.895Z api/index.js | db connected
+INFO 2022-09-11T21:59:42.284Z api/index.js | 
+api stopped
+INFO 2022-09-11T21:59:42.293Z api/index.js | db disconnected
+INFO 2022-09-11T21:59:43.664Z api/index.js | db connected
+INFO 2022-09-11T22:00:52.253Z api/index.js | db connected
+INFO 2022-09-11T22:02:39.486Z api/index.js | 
+api stopped
+INFO 2022-09-11T22:02:39.496Z api/index.js | db disconnected
+INFO 2022-09-11T22:02:40.902Z api/index.js | db connected
+INFO 2022-09-11T22:22:54.002Z api/index.js | 
+api stopped
+INFO 2022-09-11T22:22:54.009Z api/index.js | db disconnected
+INFO 2022-09-11T22:22:55.034Z api/index.js | db connected
+ERROR 2022-09-11T22:50:58.217Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-11T22:50:58.218Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-11T22:50:58.218Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-11T22:50:58.219Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-11T23:02:46.472Z api/index.js | db connected
+ERROR 2022-09-12T00:19:35.951Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T00:19:35.953Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T00:19:35.957Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T00:19:35.959Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-12T00:30:39.024Z api/index.js | db connected
+ERROR 2022-09-12T01:23:32.179Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T01:23:32.180Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T01:23:32.181Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T01:23:32.183Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T01:46:52.926Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-12T02:28:59.972Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T02:28:59.974Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T02:28:59.979Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T02:28:59.980Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T08:49:59.154Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-12T08:51:03.220Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-12T08:54:21.220Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-12T09:34:11.983Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T09:34:11.984Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T09:34:11.986Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T09:34:11.987Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T09:34:50.291Z gameCode/createGameCodeHandler.js | systemError is not defined
+INFO 2022-09-12T09:51:51.229Z api/index.js | 
+api stopped
+INFO 2022-09-12T09:51:51.239Z api/index.js | db disconnected
+INFO 2022-09-12T09:51:52.434Z api/index.js | db connected
+INFO 2022-09-12T09:55:50.280Z api/index.js | db connected
+INFO 2022-09-12T09:58:11.744Z api/index.js | db connected
+INFO 2022-09-12T09:59:30.553Z api/index.js | 
+api stopped
+INFO 2022-09-12T09:59:30.561Z api/index.js | db disconnected
+INFO 2022-09-12T09:59:31.925Z api/index.js | db connected
+INFO 2022-09-12T10:00:00.093Z api/index.js | 
+api stopped
+INFO 2022-09-12T10:00:00.100Z api/index.js | db disconnected
+INFO 2022-09-12T10:00:00.938Z api/index.js | db connected
+ERROR 2022-09-12T10:00:04.891Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-12T10:13:18.715Z gameCode/createGameCodeHandler.js | systemError is not defined
+INFO 2022-09-12T10:56:47.229Z api/index.js | 
+api stopped
+INFO 2022-09-12T10:56:47.239Z api/index.js | db disconnected
+INFO 2022-09-12T10:56:48.733Z api/index.js | db connected
+ERROR 2022-09-12T10:56:48.760Z api/index.js | Cannot find module './questions'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/logic/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/authenticateUserHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-12T10:59:07.563Z api/index.js | db connected
+ERROR 2022-09-12T10:59:07.609Z api/index.js | Cannot find module './question'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-12T11:00:18.561Z api/index.js | db connected
+ERROR 2022-09-12T11:00:18.592Z api/index.js | Cannot find module './question'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-12T11:01:08.475Z api/index.js | db connected
+ERROR 2022-09-12T11:01:08.524Z api/index.js | Cannot find module './creatQuestionHandler'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/questions/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-12T11:01:55.762Z api/index.js | db connected
+ERROR 2022-09-12T11:02:02.359Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T11:02:02.361Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T11:02:02.368Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T11:02:02.369Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-12T11:07:02.762Z api/index.js | 
+api stopped
+INFO 2022-09-12T11:07:02.773Z api/index.js | db disconnected
+INFO 2022-09-12T11:07:25.873Z api/index.js | db connected
+INFO 2022-09-12T11:07:27.905Z api/index.js | 
+api stopped
+INFO 2022-09-12T11:07:27.913Z api/index.js | db disconnected
+INFO 2022-09-12T11:10:55.796Z api/index.js | db connected
+INFO 2022-09-12T11:15:11.217Z api/index.js | 
+api stopped
+INFO 2022-09-12T11:15:11.225Z api/index.js | db disconnected
+INFO 2022-09-12T11:18:57.194Z api/index.js | db connected
+ERROR 2022-09-12T12:29:25.378Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T12:29:25.380Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T12:29:25.383Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T12:29:25.384Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-12T12:36:13.064Z api/index.js | 
+api stopped
+INFO 2022-09-12T12:36:13.074Z api/index.js | db disconnected
+INFO 2022-09-12T12:36:14.219Z api/index.js | db connected
+INFO 2022-09-12T12:43:24.757Z api/index.js | 
+api stopped
+INFO 2022-09-12T12:43:24.765Z api/index.js | db disconnected
+INFO 2022-09-12T12:57:26.937Z api/index.js | db connected
+INFO 2022-09-12T13:49:15.475Z api/index.js | 
+api stopped
+INFO 2022-09-12T13:49:15.488Z api/index.js | db disconnected
+INFO 2022-09-12T13:54:34.278Z api/index.js | db connected
+INFO 2022-09-12T13:56:38.708Z api/index.js | 
+api stopped
+INFO 2022-09-12T13:56:38.712Z api/index.js | db disconnected
+INFO 2022-09-12T13:57:20.356Z api/index.js | db connected
+ERROR 2022-09-12T14:01:43.645Z questions/createQuestionHandler.js | systemError is not defined
+ERROR 2022-09-12T14:41:05.939Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-12T15:08:42.567Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T15:08:42.568Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T15:08:42.569Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T15:08:42.570Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T15:10:39.166Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T15:10:39.168Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T15:10:39.169Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T15:10:39.171Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T15:11:42.629Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-12T15:22:25.583Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-12T15:23:15.398Z gameCode/createGameCodeHandler.js | systemError is not defined
+INFO 2022-09-12T15:23:38.189Z api/index.js | 
+api stopped
+INFO 2022-09-12T15:23:38.197Z api/index.js | db disconnected
+INFO 2022-09-12T15:23:48.232Z api/index.js | db connected
+ERROR 2022-09-12T15:24:10.838Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-12T15:33:18.830Z gameCode/createGameCodeHandler.js | host is not a string
+ERROR 2022-09-12T15:33:29.263Z gameCode/createGameCodeHandler.js | host is not a string
+INFO 2022-09-12T22:30:06.608Z api/index.js | 
+api stopped
+INFO 2022-09-12T22:30:06.617Z api/index.js | db disconnected
+INFO 2022-09-12T22:43:23.380Z api/index.js | db connected
+ERROR 2022-09-12T22:43:31.177Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T22:43:31.179Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T22:43:31.182Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-12T22:43:31.181Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T22:43:31.182Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T22:43:31.185Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-12T22:44:04.979Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-12T22:47:50.165Z notes/updateNoteTextHandler.js | jwt malformed
+ERROR 2022-09-12T22:48:06.187Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-12T22:51:37.271Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-12T22:51:38.470Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-12T22:51:39.536Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+INFO 2022-09-12T22:51:44.330Z api/index.js | 
+api stopped
+INFO 2022-09-12T22:51:44.338Z api/index.js | db disconnected
+INFO 2022-09-12T22:51:46.223Z api/index.js | db connected
+ERROR 2022-09-12T22:51:49.873Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-13T07:45:47.812Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T07:45:47.813Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T07:45:47.815Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T07:45:47.815Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T07:45:47.818Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T07:45:47.821Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T07:47:29.549Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-13T07:49:20.896Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-13T07:50:54.373Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-13T07:52:21.908Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-13T07:53:06.140Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-13T07:53:07.061Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-13T07:53:18.921Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+ERROR 2022-09-13T07:55:56.003Z notes/updateNoteTextHandler.js | verifyObjectIdString is not a function
+INFO 2022-09-13T07:56:09.579Z api/index.js | 
+api stopped
+INFO 2022-09-13T07:56:09.588Z api/index.js | db disconnected
+INFO 2022-09-13T07:56:11.071Z api/index.js | db connected
+INFO 2022-09-13T08:38:34.649Z api/index.js | 
+api stopped
+INFO 2022-09-13T08:38:34.657Z api/index.js | db disconnected
+INFO 2022-09-13T08:38:58.442Z api/index.js | db connected
+ERROR 2022-09-13T08:38:58.484Z api/index.js | deleteNotesHandler is not defined
+INFO 2022-09-13T08:40:31.678Z api/index.js | db connected
+INFO 2022-09-13T08:46:35.025Z api/index.js | 
+api stopped
+INFO 2022-09-13T08:46:35.035Z api/index.js | db disconnected
+INFO 2022-09-13T08:46:46.313Z api/index.js | db connected
+INFO 2022-09-13T08:51:04.171Z api/index.js | 
+api stopped
+INFO 2022-09-13T08:51:04.183Z api/index.js | db disconnected
+INFO 2022-09-13T08:52:03.969Z api/index.js | db connected
+ERROR 2022-09-13T08:52:08.703Z notes/deleteNoteHandler.js | Cannot read properties of undefined (reading 'noteId')
+INFO 2022-09-13T08:52:24.505Z api/index.js | 
+api stopped
+INFO 2022-09-13T08:52:24.516Z api/index.js | db disconnected
+INFO 2022-09-13T08:52:33.687Z api/index.js | db connected
+ERROR 2022-09-13T08:57:18.110Z notes/deleteNoteHandler.js | Cannot read properties of undefined (reading 'noteId')
+INFO 2022-09-13T08:57:18.123Z api/index.js | 
+api stopped
+INFO 2022-09-13T08:57:18.151Z api/index.js | db disconnected
+INFO 2022-09-13T08:57:35.671Z api/index.js | db connected
+ERROR 2022-09-13T08:58:27.521Z notes/deleteNoteHandler.js | deleteNote is not a function
+INFO 2022-09-13T08:59:38.993Z api/index.js | 
+api stopped
+INFO 2022-09-13T08:59:39.003Z api/index.js | db disconnected
+INFO 2022-09-13T08:59:52.175Z api/index.js | db connected
+ERROR 2022-09-13T09:00:41.445Z notes/deleteNoteHandler.js | note with id 631b304bae27564ee74712bf not found
+ERROR 2022-09-13T09:00:51.440Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T09:01:08.921Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T09:01:10.009Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T09:03:17.991Z notes/deleteNoteHandler.js | note with id 631f264ec235ab5351520459 not found
+ERROR 2022-09-13T09:03:20.814Z notes/deleteNoteHandler.js | note with id 631f264ec235ab5351520459 not found
+ERROR 2022-09-13T09:03:24.097Z notes/deleteNoteHandler.js | note with id 631f2649c235ab5351520454 not found
+ERROR 2022-09-13T09:03:27.463Z notes/deleteNoteHandler.js | note with id 631efd35bef949a5fd8b6006 not found
+ERROR 2022-09-13T09:04:50.679Z notes/deleteNoteHandler.js | note with id 631f264ec235ab5351520459 not found
+ERROR 2022-09-13T09:04:56.063Z notes/deleteNoteHandler.js | note with id 631b304bae27564ee74712bf not found
+ERROR 2022-09-13T09:04:58.597Z notes/deleteNoteHandler.js | note with id 631b3074ae27564ee74712c4 not found
+ERROR 2022-09-13T09:05:07.250Z notes/deleteNoteHandler.js | note with id 631b35b8ae27564ee747130f not found
+ERROR 2022-09-13T09:05:10.865Z notes/deleteNoteHandler.js | note with id 631b36acae27564ee7471312 not found
+ERROR 2022-09-13T09:05:17.746Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T09:05:17.749Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T09:05:17.750Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T09:05:17.751Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T09:05:17.752Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T09:05:17.753Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T09:06:18.694Z notes/deleteNoteHandler.js | note with id 631b3b89ae27564ee7471315 not found
+INFO 2022-09-13T09:17:51.896Z api/index.js | 
+api stopped
+INFO 2022-09-13T09:17:51.905Z api/index.js | db disconnected
+INFO 2022-09-13T09:18:12.527Z api/index.js | db connected
+ERROR 2022-09-13T10:08:53.525Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T10:08:53.525Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:08:53.528Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:08:53.529Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T10:08:53.531Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:08:53.532Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:08:59.529Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T10:08:59.529Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:08:59.532Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:08:59.533Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T10:08:59.534Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:08:59.536Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:09:01.978Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T10:09:01.979Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:09:01.980Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T10:09:01.980Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:09:01.982Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T10:09:01.985Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-13T10:44:05.981Z api/index.js | 
+api stopped
+INFO 2022-09-13T10:44:05.991Z api/index.js | db disconnected
+INFO 2022-09-13T10:44:16.240Z api/index.js | db connected
+ERROR 2022-09-13T11:10:18.541Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T11:10:18.542Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T11:10:18.543Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T11:10:18.544Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T11:10:18.548Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T11:10:18.550Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:19:52.524Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:19:52.525Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T12:19:52.528Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:19:52.529Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T12:19:52.532Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:19:52.533Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:54:29.385Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T12:54:29.386Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:54:29.387Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:59:32.632Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:59:32.633Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T12:59:32.634Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:59:42.306Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T12:59:42.307Z notes/retrieveNotesHandler.js | jwt expired
+ERROR 2022-09-13T12:59:42.309Z notes/retrieveNotesHandler.js | jwt expired
+INFO 2022-09-13T13:13:24.833Z api/index.js | 
+api stopped
+INFO 2022-09-13T13:13:24.842Z api/index.js | db disconnected
+INFO 2022-09-13T13:42:11.574Z api/index.js | db connected
+ERROR 2022-09-13T13:42:11.607Z api/index.js | Cannot find module './retrieveQuestion'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/logic/questions/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/logic/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/authenticateUserHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-13T13:44:26.946Z api/index.js | db connected
+ERROR 2022-09-13T13:44:26.971Z api/index.js | Cannot find module './updateQuestionsHandler'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/questions/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-13T13:46:23.418Z api/index.js | db connected
+ERROR 2022-09-13T13:46:23.448Z api/index.js | Cannot find module './updateQuestionsHandler'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/questions/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-13T13:48:18.914Z api/index.js | db connected
+ERROR 2022-09-13T13:48:25.600Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T13:48:25.602Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T13:48:25.604Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T13:48:25.607Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T13:48:25.608Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T13:48:25.610Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T13:48:41.018Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:48:41.023Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:48:41.027Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:48:41.030Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:53:49.599Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:53:49.602Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:53:49.605Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:53:49.610Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:54:22.531Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:54:22.533Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:54:46.964Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:54:46.966Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:54:46.968Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T13:54:46.970Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T14:00:58.202Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T14:00:58.211Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T14:00:58.218Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T14:00:58.220Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T14:04:00.673Z questions/createQuestionHandler.js | jwt expired
+ERROR 2022-09-13T14:04:52.145Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T14:06:29.069Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+ERROR 2022-09-13T14:06:30.143Z questions/retrieveQuestionsHandler.js | retrieveQuestions is not a function
+INFO 2022-09-13T14:06:33.864Z api/index.js | 
+api stopped
+INFO 2022-09-13T14:06:33.873Z api/index.js | db disconnected
+INFO 2022-09-13T14:06:35.047Z api/index.js | db connected
+ERROR 2022-09-13T14:11:55.045Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-13T19:58:39.989Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T19:58:43.091Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T19:58:43.093Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T19:58:43.093Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T19:58:43.094Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T19:58:43.095Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T19:58:43.098Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T21:01:09.992Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T21:01:09.994Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T21:01:09.995Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T21:01:18.157Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T21:01:18.158Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T21:01:18.160Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T21:01:18.159Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T21:01:18.161Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T21:01:18.162Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T22:07:15.755Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T22:07:15.757Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T22:07:15.758Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-13T22:07:15.758Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T22:07:15.761Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-13T22:07:15.762Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:39:48.396Z questions/createQuestionHandler.js | jwt expired
+ERROR 2022-09-14T07:40:04.742Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:40:04.744Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T07:40:04.747Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:40:04.746Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T07:40:04.747Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:40:04.748Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:52:55.267Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T07:52:55.278Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:52:55.279Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:57:23.298Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T07:57:23.300Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:57:23.305Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:57:41.247Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T07:57:41.248Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:57:41.260Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:58:33.394Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T07:58:33.397Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:58:33.398Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:59:12.929Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T07:59:12.931Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T07:59:12.934Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T08:07:52.908Z questions/createQuestionHandler.js | jwt expired
+ERROR 2022-09-14T09:17:49.242Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:17:49.247Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T09:17:49.248Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:17:49.259Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T09:17:49.259Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:17:49.260Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:30:20.464Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:30:20.466Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T09:30:20.468Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:31:28.708Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:31:28.712Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T09:31:28.710Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:32:28.458Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:32:28.459Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T09:32:28.463Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-14T09:34:49.985Z api/index.js | 
+api stopped
+INFO 2022-09-14T09:34:49.994Z api/index.js | db disconnected
+INFO 2022-09-14T09:34:51.199Z api/index.js | db connected
+ERROR 2022-09-14T09:34:56.486Z questions/retrieveQuestionForEditHandler.js | jwt expired
+ERROR 2022-09-14T09:35:16.995Z questions/retrieveQuestionForEditHandler.js | verifyObjectIdString is not defined
+INFO 2022-09-14T09:38:27.364Z api/index.js | 
+api stopped
+INFO 2022-09-14T09:38:27.374Z api/index.js | db disconnected
+INFO 2022-09-14T09:38:28.391Z api/index.js | db connected
+INFO 2022-09-14T09:40:42.759Z api/index.js | 
+api stopped
+INFO 2022-09-14T09:40:42.770Z api/index.js | db disconnected
+INFO 2022-09-14T09:40:43.986Z api/index.js | db connected
+INFO 2022-09-14T09:43:17.760Z api/index.js | 
+api stopped
+INFO 2022-09-14T09:43:17.769Z api/index.js | db disconnected
+INFO 2022-09-14T09:43:18.596Z api/index.js | db connected
+ERROR 2022-09-14T09:46:07.616Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T09:46:07.619Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T09:46:07.625Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-14T09:46:14.807Z api/index.js | 
+api stopped
+INFO 2022-09-14T09:46:14.816Z api/index.js | db disconnected
+INFO 2022-09-14T09:46:15.939Z api/index.js | db connected
+INFO 2022-09-14T09:49:49.980Z api/index.js | 
+api stopped
+INFO 2022-09-14T09:49:49.991Z api/index.js | db disconnected
+INFO 2022-09-14T09:50:21.264Z api/index.js | db connected
+INFO 2022-09-14T09:53:10.340Z api/index.js | db connected
+ERROR 2022-09-14T09:53:10.389Z api/index.js | Cannot use import statement outside a module
+INFO 2022-09-14T09:54:03.705Z api/index.js | db connected
+ERROR 2022-09-14T09:54:18.521Z questions/retrieveQuestionForEditHandler.js | debuger is not defined
+INFO 2022-09-14T09:54:50.464Z api/index.js | 
+api stopped
+INFO 2022-09-14T09:54:50.473Z api/index.js | db disconnected
+INFO 2022-09-14T09:54:59.606Z api/index.js | db connected
+INFO 2022-09-14T09:57:15.017Z api/index.js | 
+api stopped
+INFO 2022-09-14T09:57:15.030Z api/index.js | db disconnected
+INFO 2022-09-14T09:57:35.539Z api/index.js | db connected
+ERROR 2022-09-14T10:03:30.439Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:03:30.441Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:03:30.448Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:25:24.993Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-14T10:25:24.996Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-14T10:26:09.384Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-14T10:27:20.193Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-14T10:27:20.195Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-14T10:32:10.771Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:32:10.778Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:32:10.780Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:32:10.783Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:32:10.785Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:32:10.789Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:32:14.360Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:32:14.361Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:32:14.364Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:32:24.389Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:32:24.413Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:32:24.417Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:34:40.442Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:34:40.445Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:34:40.447Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:34:40.451Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:34:40.452Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:34:40.454Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:35:45.495Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:35:45.513Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:35:45.529Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:37:08.663Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:37:08.664Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:37:08.665Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:47:54.335Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:47:54.336Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:47:54.338Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:48:05.392Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:48:05.394Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:48:05.395Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:48:17.389Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:48:17.390Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:48:17.392Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:48:25.395Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:48:25.395Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:48:25.396Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:48:47.189Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:48:47.190Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:48:47.192Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:51:40.741Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:51:40.747Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:51:40.748Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T10:51:40.750Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:51:40.752Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T10:51:40.753Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T11:14:05.260Z questions/retrieveQuestionForEditHandler.js | jwt expired
+INFO 2022-09-14T12:37:37.357Z api/index.js | 
+api stopped
+INFO 2022-09-14T12:37:37.368Z api/index.js | db disconnected
+INFO 2022-09-14T12:39:40.964Z api/index.js | db connected
+INFO 2022-09-14T12:48:52.479Z api/index.js | 
+api stopped
+INFO 2022-09-14T12:48:52.490Z api/index.js | db disconnected
+INFO 2022-09-14T12:48:54.575Z api/index.js | db connected
+ERROR 2022-09-14T12:49:02.945Z questions/searchQuestionsHandler.js | string is not a string
+ERROR 2022-09-14T12:49:14.026Z questions/searchQuestionsHandler.js | string is not a string
+INFO 2022-09-14T12:50:58.953Z api/index.js | 
+api stopped
+INFO 2022-09-14T12:50:58.961Z api/index.js | db disconnected
+INFO 2022-09-14T12:50:59.929Z api/index.js | db connected
+INFO 2022-09-14T12:53:42.420Z api/index.js | 
+api stopped
+INFO 2022-09-14T12:53:42.430Z api/index.js | db disconnected
+INFO 2022-09-14T12:53:43.493Z api/index.js | db connected
+INFO 2022-09-14T12:56:21.673Z api/index.js | 
+api stopped
+INFO 2022-09-14T12:56:21.682Z api/index.js | db disconnected
+INFO 2022-09-14T12:56:22.813Z api/index.js | db connected
+INFO 2022-09-14T12:56:43.793Z api/index.js | 
+api stopped
+INFO 2022-09-14T12:56:43.802Z api/index.js | db disconnected
+INFO 2022-09-14T12:56:45.269Z api/index.js | db connected
+INFO 2022-09-14T12:57:02.441Z api/index.js | 
+api stopped
+INFO 2022-09-14T12:57:02.447Z api/index.js | db disconnected
+INFO 2022-09-14T12:57:03.547Z api/index.js | db connected
+INFO 2022-09-14T13:03:27.042Z api/index.js | 
+api stopped
+INFO 2022-09-14T13:03:27.051Z api/index.js | db disconnected
+INFO 2022-09-14T13:03:28.228Z api/index.js | db connected
+ERROR 2022-09-14T13:06:04.671Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T13:06:04.674Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:06:04.680Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:06:04.683Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T13:06:04.684Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:06:04.686Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:08:19.900Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T13:08:19.903Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:08:19.906Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:10:32.367Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:10:32.369Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T13:10:32.369Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:17:57.391Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T13:17:57.395Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:17:57.399Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-14T13:24:09.791Z api/index.js | 
+api stopped
+INFO 2022-09-14T13:24:09.800Z api/index.js | db disconnected
+INFO 2022-09-14T13:24:10.845Z api/index.js | db connected
+ERROR 2022-09-14T13:27:48.369Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T13:27:48.370Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:27:48.373Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-14T13:41:35.827Z api/index.js | 
+api stopped
+INFO 2022-09-14T13:41:35.836Z api/index.js | db disconnected
+INFO 2022-09-14T13:41:37.233Z api/index.js | db connected
+ERROR 2022-09-14T13:45:58.803Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:46:34.629Z questions/retrieveQuestionForEditHandler.js | jwt malformed
+ERROR 2022-09-14T13:46:38.598Z questions/retrieveQuestionForEditHandler.js | question with id 632108a2d798d19fad377cf3 not found
+ERROR 2022-09-14T13:47:37.498Z questions/searchQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T13:47:47.495Z questions/searchQuestionsHandler.js | Unexpected token > in JSON at position 58
+INFO 2022-09-14T13:51:49.323Z api/index.js | 
+api stopped
+INFO 2022-09-14T13:51:49.334Z api/index.js | db disconnected
+INFO 2022-09-14T13:51:50.687Z api/index.js | db connected
+ERROR 2022-09-14T14:03:06.128Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T14:03:06.129Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T14:03:06.132Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T14:04:16.334Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T14:04:16.340Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T14:04:16.349Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T14:04:51.220Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T14:04:51.223Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T14:04:51.235Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-14T14:20:21.365Z api/index.js | 
+api stopped
+INFO 2022-09-14T14:20:21.377Z api/index.js | db disconnected
+INFO 2022-09-14T14:20:22.559Z api/index.js | db connected
+ERROR 2022-09-14T14:20:22.597Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-14T14:31:17.352Z api/index.js | db connected
+ERROR 2022-09-14T14:31:17.393Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-14T14:32:43.510Z api/index.js | db connected
+ERROR 2022-09-14T14:32:43.651Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-14T14:52:35.412Z api/index.js | db connected
+INFO 2022-09-14T14:52:50.118Z api/index.js | 
+api stopped
+INFO 2022-09-14T14:52:50.129Z api/index.js | db disconnected
+INFO 2022-09-14T14:52:51.031Z api/index.js | db connected
+ERROR 2022-09-14T14:52:51.061Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-14T15:01:27.245Z api/index.js | db connected
+ERROR 2022-09-14T15:01:55.908Z questions/updateQuestionTextHandler.js | jwt expired
+ERROR 2022-09-14T15:02:08.255Z questions/updateQuestionTextHandler.js | jwt expired
+ERROR 2022-09-14T15:02:22.759Z questions/updateQuestionTextHandler.js | jwt expired
+ERROR 2022-09-14T15:02:24.471Z questions/updateQuestionTextHandler.js | jwt expired
+ERROR 2022-09-14T15:02:38.573Z questions/updateQuestionEditHandler.js | text is not defined
+INFO 2022-09-14T15:03:35.470Z api/index.js | db connected
+ERROR 2022-09-14T15:03:58.444Z questions/retrieveQuestionsHandler.js | jwt malformed
+ERROR 2022-09-14T15:04:42.592Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-14T15:05:43.858Z questions/updateQuestionTextHandler.js | string is not a string
+INFO 2022-09-14T15:07:52.477Z api/index.js | 
+api stopped
+INFO 2022-09-14T15:07:52.499Z api/index.js | db disconnected
+INFO 2022-09-14T15:08:03.532Z api/index.js | db connected
+ERROR 2022-09-14T15:08:10.660Z questions/updateQuestionTextHandler.js | string is not a string
+INFO 2022-09-14T15:08:45.545Z api/index.js | 
+api stopped
+INFO 2022-09-14T15:08:45.557Z api/index.js | db disconnected
+INFO 2022-09-14T15:08:54.672Z api/index.js | db connected
+ERROR 2022-09-14T15:09:33.409Z questions/updateQuestionEditHandler.js | text is not defined
+ERROR 2022-09-14T15:09:44.648Z questions/updateQuestionEditHandler.js | text is not defined
+INFO 2022-09-14T15:15:01.977Z api/index.js | 
+api stopped
+INFO 2022-09-14T15:15:01.982Z api/index.js | db disconnected
+INFO 2022-09-14T15:15:18.050Z api/index.js | db connected
+INFO 2022-09-14T15:19:47.851Z api/index.js | 
+api stopped
+INFO 2022-09-14T15:19:47.860Z api/index.js | db disconnected
+INFO 2022-09-14T15:19:56.043Z api/index.js | db connected
+ERROR 2022-09-14T15:22:11.142Z questions/searchQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:29:45.318Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T15:29:45.327Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:29:45.330Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:29:45.350Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T15:29:45.357Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:29:45.362Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:29:48.776Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T15:29:48.779Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:29:48.783Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:30:06.772Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T15:30:06.774Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:30:06.777Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:30:07.633Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T15:30:07.634Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:30:07.636Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:30:08.113Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T15:30:08.114Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:30:08.116Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:30:08.413Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T15:30:08.418Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:30:08.420Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:36:04.032Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-14T15:36:04.047Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:36:04.050Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-14T15:56:16.775Z questions/createQuestionHandler.js | systemError is not defined
+ERROR 2022-09-14T15:56:17.875Z questions/createQuestionHandler.js | systemError is not defined
+ERROR 2022-09-14T15:56:20.730Z questions/createQuestionHandler.js | systemError is not defined
+ERROR 2022-09-14T15:57:20.736Z questions/createQuestionHandler.js | systemError is not defined
+INFO 2022-09-14T15:59:22.331Z api/index.js | 
+api stopped
+INFO 2022-09-14T15:59:22.339Z api/index.js | db disconnected
+INFO 2022-09-14T15:59:23.568Z api/index.js | db connected
+ERROR 2022-09-14T15:59:23.590Z api/index.js | Cannot use import statement outside a module
+INFO 2022-09-14T16:00:27.091Z api/index.js | db connected
+ERROR 2022-09-14T16:00:49.344Z questions/createQuestionHandler.js | Question validation failed: visibility: `Public` is not a valid enum value for path `visibility`.
+ERROR 2022-09-14T16:03:08.333Z questions/retrieveQuestionForEditHandler.js | jwt expired
+INFO 2022-09-14T16:03:29.973Z api/index.js | db connected
+INFO 2022-09-14T16:08:49.182Z api/index.js | db connected
+INFO 2022-09-14T16:10:05.860Z api/index.js | db connected
+ERROR 2022-09-14T16:10:27.607Z questions/retrieveQuestionsHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-14T16:12:31.495Z api/index.js | db connected
+ERROR 2022-09-14T16:12:33.970Z user/authenticateUserHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-14T16:15:53.116Z api/index.js | db connected
+ERROR 2022-09-14T16:16:49.664Z questions/updateQuestionEditHandler.js | jwt expired
+INFO 2022-09-15T07:57:36.300Z api/index.js | db connected
+ERROR 2022-09-15T08:20:55.010Z questions/updateQuestionEditHandler.js | jwt malformed
+INFO 2022-09-15T08:23:25.115Z api/index.js | db connected
+ERROR 2022-09-15T08:23:53.245Z questions/retrieveQuestionForEditHandler.js | question with id 6321cc08444f875d29a80190 not found
+ERROR 2022-09-15T08:24:09.353Z questions/retrieveQuestionsHandler.js | jwt malformed
+INFO 2022-09-15T08:37:42.135Z api/index.js | 
+api stopped
+INFO 2022-09-15T08:37:42.143Z api/index.js | db disconnected
+INFO 2022-09-15T08:43:05.458Z api/index.js | db connected
+INFO 2022-09-15T10:19:50.035Z api/index.js | 
+api stopped
+INFO 2022-09-15T10:19:50.039Z api/index.js | db disconnected
+INFO 2022-09-15T10:19:51.262Z api/index.js | db connected
+ERROR 2022-09-15T10:19:51.285Z api/index.js | Cannot find module '../../models'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/logic/users/updatePassword/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/logic/users/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/logic/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/authenticateUserHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-15T10:20:45.092Z api/index.js | db connected
+ERROR 2022-09-15T10:20:45.114Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-15T10:22:10.268Z api/index.js | db connected
+ERROR 2022-09-15T10:22:10.295Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-15T10:22:43.871Z api/index.js | db connected
+ERROR 2022-09-15T10:22:43.895Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-15T10:23:14.491Z api/index.js | db connected
+ERROR 2022-09-15T10:23:14.515Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-15T10:25:01.040Z api/index.js | db connected
+ERROR 2022-09-15T10:25:01.065Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-15T10:26:33.305Z api/index.js | db connected
+ERROR 2022-09-15T10:26:33.331Z api/index.js | Route.patch() requires a callback function but got a [object Undefined]
+INFO 2022-09-15T10:31:16.732Z api/index.js | db connected
+ERROR 2022-09-15T10:31:16.757Z api/index.js | Cannot find module '../../logger'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/updatePasswordHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-15T10:32:20.475Z api/index.js | db connected
+INFO 2022-09-15T10:33:35.943Z api/index.js | 
+api stopped
+INFO 2022-09-15T10:33:35.953Z api/index.js | db disconnected
+INFO 2022-09-15T10:33:36.799Z api/index.js | db connected
+INFO 2022-09-15T10:34:53.753Z api/index.js | 
+api stopped
+INFO 2022-09-15T10:34:53.762Z api/index.js | db disconnected
+INFO 2022-09-15T10:35:05.546Z api/index.js | db connected
+INFO 2022-09-15T10:36:01.574Z api/index.js | 
+api stopped
+INFO 2022-09-15T10:36:01.585Z api/index.js | db disconnected
+INFO 2022-09-15T10:36:02.970Z api/index.js | db connected
+INFO 2022-09-15T10:37:40.990Z api/index.js | db connected
+ERROR 2022-09-15T10:37:41.012Z api/index.js | Cannot find module '../../../utils'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/updatePasswordHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-15T10:38:03.171Z api/index.js | db connected
+INFO 2022-09-15T10:41:58.746Z api/index.js | db connected
+ERROR 2022-09-15T10:41:58.768Z api/index.js | Cannot find module '../../../utils'
+Require stack:
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/updatePasswordHandler.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/user/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/routes/index.js
+- /Users/danieltomlinson/workspace/neoland-bootcamp-202207/staff/daniel-tomlinson/final-project/api/index.js
+INFO 2022-09-15T10:42:12.450Z api/index.js | db connected
+INFO 2022-09-15T10:47:33.229Z api/index.js | db connected
+INFO 2022-09-15T10:49:36.984Z api/index.js | db connected
+INFO 2022-09-15T10:51:57.544Z api/index.js | db connected
+ERROR 2022-09-15T10:54:13.945Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T10:55:03.352Z api/index.js | 
+api stopped
+INFO 2022-09-15T10:55:03.362Z api/index.js | db disconnected
+INFO 2022-09-15T10:55:15.784Z api/index.js | db connected
+ERROR 2022-09-15T10:55:23.869Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T10:55:31.264Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T11:02:55.369Z api/index.js | 
+api stopped
+INFO 2022-09-15T11:02:55.378Z api/index.js | db disconnected
+INFO 2022-09-15T11:02:57.115Z api/index.js | db connected
+INFO 2022-09-15T11:04:03.112Z api/index.js | db connected
+ERROR 2022-09-15T11:04:08.524Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T11:04:28.152Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 changed password succesfully
+INFO 2022-09-15T11:04:41.965Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 changed password succesfully
+INFO 2022-09-15T11:11:12.825Z api/index.js | 
+api stopped
+INFO 2022-09-15T11:11:12.835Z api/index.js | db disconnected
+INFO 2022-09-15T11:11:13.979Z api/index.js | db connected
+INFO 2022-09-15T11:11:58.673Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 changed password succesfully
+INFO 2022-09-15T11:13:55.107Z api/index.js | 
+api stopped
+INFO 2022-09-15T11:13:55.116Z api/index.js | db disconnected
+INFO 2022-09-15T11:13:56.518Z api/index.js | db connected
+INFO 2022-09-15T11:14:39.888Z api/index.js | db connected
+INFO 2022-09-15T11:15:08.171Z api/index.js | db connected
+INFO 2022-09-15T11:15:54.713Z api/index.js | db connected
+INFO 2022-09-15T11:16:22.350Z api/index.js | db connected
+ERROR 2022-09-15T11:16:28.639Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:16:41.767Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:05.348Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:06.949Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:07.119Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:07.247Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:07.394Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:13.931Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:19.689Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:28.863Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:29.852Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:29.976Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:30.128Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:17:30.481Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T11:18:04.264Z api/index.js | db connected
+INFO 2022-09-15T11:18:16.616Z api/index.js | db connected
+ERROR 2022-09-15T11:18:35.702Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T11:18:41.251Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T11:19:10.690Z api/index.js | db connected
+INFO 2022-09-15T11:19:15.786Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 changed password succesfully
+INFO 2022-09-15T11:19:39.678Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 changed password succesfully
+ERROR 2022-09-15T13:26:07.361Z questions/retrieveQuestionForEditHandler.js | authorization is not a string
+INFO 2022-09-15T13:26:54.949Z api/index.js | 
+api stopped
+INFO 2022-09-15T13:26:54.956Z api/index.js | db disconnected
+INFO 2022-09-15T13:26:56.079Z api/index.js | db connected
+ERROR 2022-09-15T13:27:03.982Z questions/retrieveQuestionsHandler.js | authorization is not a string
+ERROR 2022-09-15T13:27:05.578Z questions/retrieveQuestionsHandler.js | authorization is not a string
+ERROR 2022-09-15T13:27:06.909Z questions/retrieveQuestionsHandler.js | authorization is not a string
+ERROR 2022-09-15T13:27:07.074Z questions/retrieveQuestionsHandler.js | authorization is not a string
+ERROR 2022-09-15T13:27:07.391Z questions/retrieveQuestionsHandler.js | authorization is not a string
+ERROR 2022-09-15T13:27:33.159Z questions/retrieveQuestionsHandler.js | authorization is not a string
+INFO 2022-09-15T13:27:42.107Z api/index.js | 
+api stopped
+INFO 2022-09-15T13:27:42.116Z api/index.js | db disconnected
+INFO 2022-09-15T13:27:43.304Z api/index.js | db connected
+ERROR 2022-09-15T13:27:48.782Z questions/retrieveQuestionsPublicHandler.js | authorization is not a string
+INFO 2022-09-15T13:34:10.846Z api/index.js | 
+api stopped
+INFO 2022-09-15T13:34:10.855Z api/index.js | db disconnected
+INFO 2022-09-15T13:34:11.713Z api/index.js | db connected
+ERROR 2022-09-15T13:34:15.991Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:35:21.761Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:35:22.661Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+INFO 2022-09-15T13:36:48.897Z api/index.js | 
+api stopped
+INFO 2022-09-15T13:36:48.906Z api/index.js | db disconnected
+INFO 2022-09-15T13:36:50.015Z api/index.js | db connected
+ERROR 2022-09-15T13:36:53.622Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:40:09.402Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:40:10.307Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:40:10.472Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:40:10.640Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:40:10.806Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:40:30.254Z questions/retrieveQuestionsHandler.js | authorization is not a string
+ERROR 2022-09-15T13:40:44.756Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:42:10.465Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:42:11.547Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:42:21.791Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:42:22.739Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:43:44.922Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:43:49.718Z questions/retrieveQuestionsHandler.js | authorization is not a string
+ERROR 2022-09-15T13:43:59.149Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+ERROR 2022-09-15T13:46:44.595Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+INFO 2022-09-15T13:46:55.087Z api/index.js | 
+api stopped
+INFO 2022-09-15T13:46:55.096Z api/index.js | db disconnected
+INFO 2022-09-15T13:46:56.131Z api/index.js | db connected
+ERROR 2022-09-15T13:46:58.603Z questions/retrieveQuestionsPublicHandler.js | user with id undefined not found
+INFO 2022-09-15T13:49:03.496Z api/index.js | 
+api stopped
+INFO 2022-09-15T13:49:03.505Z api/index.js | db disconnected
+INFO 2022-09-15T13:49:04.778Z api/index.js | db connected
+ERROR 2022-09-15T13:53:08.727Z questions/retrieveQuestionForEditHandler.js | jwt expired
+ERROR 2022-09-15T13:53:11.858Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T14:20:27.113Z questions/searchQuestionsHandler.js | jwt expired
+INFO 2022-09-15T14:24:33.170Z api/index.js | 
+api stopped
+INFO 2022-09-15T14:24:33.175Z api/index.js | db disconnected
+INFO 2022-09-15T14:24:34.469Z api/index.js | db connected
+ERROR 2022-09-15T14:24:36.510Z questions/searchQuestionsHandler.js | jwt malformed
+ERROR 2022-09-15T14:25:40.168Z questions/searchQuestionsHandler.js | authorization is not a string
+ERROR 2022-09-15T14:25:49.335Z questions/searchQuestionsHandler.js | authorization is not a string
+INFO 2022-09-15T14:26:51.570Z api/index.js | 
+api stopped
+INFO 2022-09-15T14:26:51.578Z api/index.js | db disconnected
+INFO 2022-09-15T14:26:53.139Z api/index.js | db connected
+ERROR 2022-09-15T14:26:53.167Z api/index.js | searchQuestionsPublicHandler is not defined
+INFO 2022-09-15T14:27:16.679Z api/index.js | db connected
+ERROR 2022-09-15T14:42:23.935Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T14:42:25.019Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T14:42:33.195Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T14:46:00.960Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T14:46:32.360Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T14:46:36.357Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T14:59:10.899Z api/index.js | 
+api stopped
+INFO 2022-09-15T14:59:10.907Z api/index.js | db disconnected
+INFO 2022-09-15T14:59:11.976Z api/index.js | db connected
+ERROR 2022-09-15T14:59:41.284Z questions/retrieveQuestionForEditHandler.js | AuthError is not defined
+INFO 2022-09-15T15:03:33.502Z api/index.js | 
+api stopped
+INFO 2022-09-15T15:03:33.512Z api/index.js | db disconnected
+INFO 2022-09-15T15:03:34.525Z api/index.js | db connected
+ERROR 2022-09-15T15:03:34.545Z api/index.js | Identifier 'NotFoundError' has already been declared
+INFO 2022-09-15T15:03:52.065Z api/index.js | db connected
+INFO 2022-09-15T15:14:00.114Z api/index.js | 
+api stopped
+INFO 2022-09-15T15:14:00.117Z api/index.js | db disconnected
+INFO 2022-09-15T15:14:01.246Z api/index.js | db connected
+ERROR 2022-09-15T15:15:37.973Z questions/searchQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T15:27:32.016Z questions/retrieveQuestionForEditHandler.js | question with id 6322dba0798960dac3f0f02b does not belong to user with id 63233a16dffdcead75fb997d
+ERROR 2022-09-15T18:27:35.659Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-15T18:27:35.660Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T19:28:31.887Z questions/retrieveQuestionForEditHandler.js | jwt expired
+ERROR 2022-09-15T19:28:35.012Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T19:28:44.105Z questions/retrieveQuestionForEditHandler.js | jwt expired
+ERROR 2022-09-15T19:28:56.951Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-15T19:28:56.953Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T20:45:14.256Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-15T20:45:14.257Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T20:45:21.439Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-15T20:45:21.440Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T20:45:44.564Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-15T20:45:44.565Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T20:46:18.344Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-15T20:46:18.344Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T20:46:29.186Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-15T20:46:29.187Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T20:46:38.441Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-15T20:46:38.442Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-15T20:47:11.169Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-15T20:47:11.171Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-15T20:56:52.724Z api/index.js | 
+api stopped
+INFO 2022-09-15T20:56:52.733Z api/index.js | db disconnected
+INFO 2022-09-15T20:56:54.085Z api/index.js | db connected
+INFO 2022-09-15T21:01:29.155Z api/index.js | db connected
+INFO 2022-09-15T21:04:00.151Z api/index.js | db connected
+INFO 2022-09-15T21:06:20.549Z api/index.js | db connected
+INFO 2022-09-15T21:08:00.603Z api/index.js | db connected
+INFO 2022-09-15T21:08:34.831Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 updated details succesfully
+INFO 2022-09-15T21:09:16.731Z api/index.js | 
+api stopped
+INFO 2022-09-15T21:09:16.741Z api/index.js | db disconnected
+INFO 2022-09-15T21:09:22.428Z api/index.js | db connected
+INFO 2022-09-15T21:12:21.532Z api/index.js | 
+api stopped
+INFO 2022-09-15T21:12:21.543Z api/index.js | db disconnected
+INFO 2022-09-15T21:12:22.356Z api/index.js | db connected
+INFO 2022-09-15T21:14:37.919Z api/index.js | 
+api stopped
+INFO 2022-09-15T21:14:37.929Z api/index.js | db disconnected
+INFO 2022-09-15T21:14:38.817Z api/index.js | db connected
+INFO 2022-09-15T21:18:29.987Z api/index.js | db connected
+INFO 2022-09-15T21:21:02.110Z api/index.js | db connected
+INFO 2022-09-15T21:22:12.516Z api/index.js | db connected
+INFO 2022-09-15T21:23:41.363Z api/index.js | db connected
+INFO 2022-09-15T21:23:46.394Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 updated details succesfully
+INFO 2022-09-15T21:26:49.909Z api/index.js | db connected
+INFO 2022-09-15T21:27:13.656Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 updated details succesfully
+INFO 2022-09-15T21:27:26.044Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 updated details succesfully
+INFO 2022-09-15T21:29:38.469Z api/index.js | 
+api stopped
+INFO 2022-09-15T21:29:38.480Z api/index.js | db disconnected
+INFO 2022-09-15T21:29:49.880Z api/index.js | db connected
+INFO 2022-09-15T21:56:11.224Z api/index.js | db connected
+ERROR 2022-09-15T21:56:19.177Z user/authenticateUserHandler.js | user with email dani@t.com not found
+ERROR 2022-09-15T21:56:37.090Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T21:57:24.321Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 updated details succesfully
+ERROR 2022-09-15T21:57:42.868Z user/authenticateUserHandler.js | user with email dani@t.com not found
+ERROR 2022-09-15T21:58:01.592Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T21:58:45.412Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 updated details succesfully
+ERROR 2022-09-15T21:59:02.767Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T22:05:45.878Z api/index.js | db connected
+INFO 2022-09-15T22:06:04.901Z api/index.js | db connected
+INFO 2022-09-15T22:08:00.382Z api/index.js | db connected
+INFO 2022-09-15T22:15:09.779Z api/index.js | db connected
+INFO 2022-09-15T22:16:32.742Z api/index.js | db connected
+INFO 2022-09-15T22:18:21.444Z api/index.js | db connected
+INFO 2022-09-15T22:20:00.654Z api/index.js | db connected
+INFO 2022-09-15T22:21:17.095Z api/index.js | db connected
+INFO 2022-09-15T22:23:51.143Z api/index.js | db connected
+INFO 2022-09-15T22:24:08.211Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 updated details succesfully
+ERROR 2022-09-15T22:24:29.340Z user/authenticateUserHandler.js | wrong password
+ERROR 2022-09-15T22:24:32.903Z user/authenticateUserHandler.js | wrong password
+INFO 2022-09-15T22:25:30.042Z user/updatePasswordHandler.js | User: 63208b654c52345edcb45505 updated details succesfully
+ERROR 2022-09-16T08:45:14.925Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-16T08:45:14.926Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-16T08:46:14.039Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-16T08:46:14.040Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-16T08:46:37.912Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-16T08:46:37.914Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-16T09:13:31.620Z api/index.js | 
+api stopped
+INFO 2022-09-16T09:13:31.632Z api/index.js | db disconnected
+INFO 2022-09-16T10:21:52.455Z api/index.js | db connected
+ERROR 2022-09-16T10:21:52.492Z api/index.js | updateFavoritesHandler is not defined
+INFO 2022-09-16T10:22:46.394Z api/index.js | db connected
+ERROR 2022-09-16T10:22:46.420Z api/index.js | updateFavoritesHandler is not defined
+INFO 2022-09-16T10:22:57.484Z api/index.js | db connected
+ERROR 2022-09-16T10:22:57.507Z api/index.js | updateFavoritesHandler is not defined
+INFO 2022-09-16T10:23:57.899Z api/index.js | db connected
+INFO 2022-09-16T10:36:42.984Z api/index.js | 
+api stopped
+INFO 2022-09-16T10:36:42.992Z api/index.js | db disconnected
+INFO 2022-09-16T10:55:51.097Z api/index.js | db connected
+INFO 2022-09-16T10:56:55.356Z api/index.js | 
+api stopped
+INFO 2022-09-16T10:56:55.367Z api/index.js | db disconnected
+INFO 2022-09-16T10:57:01.668Z api/index.js | db connected
+ERROR 2022-09-16T10:57:20.452Z questions/retrieveQuestionsPublicHandler.js | verifyToken is not defined
+INFO 2022-09-16T10:57:58.055Z api/index.js | 
+api stopped
+INFO 2022-09-16T10:57:58.065Z api/index.js | db disconnected
+INFO 2022-09-16T10:58:02.947Z api/index.js | db connected
+INFO 2022-09-16T10:58:59.551Z api/index.js | 
+api stopped
+INFO 2022-09-16T10:58:59.561Z api/index.js | db disconnected
+INFO 2022-09-16T10:59:03.889Z api/index.js | db connected
+INFO 2022-09-16T11:01:24.887Z api/index.js | 
+api stopped
+INFO 2022-09-16T11:01:24.895Z api/index.js | db disconnected
+INFO 2022-09-16T11:01:33.661Z api/index.js | db connected
+ERROR 2022-09-16T11:04:01.796Z questions/retrieveQuestionsPublicHandler.js | authorization is not a string
+ERROR 2022-09-16T11:06:37.821Z questions/retrieveQuestionsPublicHandler.js | authorization is not a string
+INFO 2022-09-16T11:38:17.956Z api/index.js | db connected
+INFO 2022-09-16T11:40:25.400Z api/index.js | db connected
+INFO 2022-09-16T11:40:56.249Z api/index.js | db connected
+INFO 2022-09-16T11:41:36.864Z api/index.js | db connected
+INFO 2022-09-16T11:42:24.689Z api/index.js | db connected
+INFO 2022-09-16T11:43:08.615Z api/index.js | db connected
+INFO 2022-09-16T11:44:33.031Z api/index.js | db connected
+INFO 2022-09-16T11:44:45.490Z api/index.js | db connected
+INFO 2022-09-16T11:45:32.348Z api/index.js | db connected
+INFO 2022-09-16T11:46:21.144Z api/index.js | db connected
+INFO 2022-09-16T11:47:18.606Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:47:20.123Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:47:21.726Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:47:23.057Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:47:30.304Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:47:32.209Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:47:33.139Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:47:34.124Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:49:56.392Z api/index.js | 
+api stopped
+INFO 2022-09-16T11:49:56.402Z api/index.js | db disconnected
+INFO 2022-09-16T11:49:57.522Z api/index.js | db connected
+INFO 2022-09-16T11:51:03.449Z api/index.js | db connected
+INFO 2022-09-16T11:51:07.529Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:08.527Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:09.263Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:10.908Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:27.027Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:28.759Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:29.624Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:30.541Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:31.459Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:31.925Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:32.974Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:51:35.134Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:53:38.425Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:53:43.359Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:54:48.108Z api/index.js | 
+api stopped
+INFO 2022-09-16T11:54:48.116Z api/index.js | db disconnected
+INFO 2022-09-16T11:54:50.050Z api/index.js | db connected
+INFO 2022-09-16T11:54:56.406Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:54:57.311Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:58:26.494Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T11:58:27.440Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:09:31.126Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:09:56.509Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:09:57.588Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:10:02.543Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:11:36.673Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:11:39.438Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:11:40.958Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:11:43.141Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:11:50.893Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:12:00.261Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:12:09.761Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+ERROR 2022-09-16T12:12:31.876Z questions/retrieveQuestionForEditHandler.js | question with id 63244b7e759ec5847562ba3c does not belong to user with id 63244b7e759ec5847562ba29
+ERROR 2022-09-16T12:12:45.081Z questions/retrieveQuestionForEditHandler.js | question with id 63244b7e759ec5847562ba3a does not belong to user with id 63244b7e759ec5847562ba29
+INFO 2022-09-16T12:13:07.550Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:13:08.486Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+ERROR 2022-09-16T12:13:39.632Z questions/deleteQuestionHandler.js | question with id 63244b7e759ec5847562ba3c not found
+INFO 2022-09-16T12:26:57.399Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:03.163Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:05.630Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:06.931Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:08.315Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:10.730Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:16.276Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:18.146Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:19.633Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:20.567Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:22.364Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:23.581Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:24.866Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:26.433Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:29.907Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:31.015Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+INFO 2022-09-16T12:27:39.126Z user/updateFavoritesHandler.js | User: 63244b7e759ec5847562ba29 updated favorites succesfully
+ERROR 2022-09-16T12:29:13.765Z questions/deleteQuestionHandler.js | question with id 63244b7e759ec5847562ba3a not found
+INFO 2022-09-16T12:38:00.866Z api/index.js | 
+api stopped
+INFO 2022-09-16T12:38:00.873Z api/index.js | db disconnected
+INFO 2022-09-16T12:38:24.565Z api/index.js | db connected
+ERROR 2022-09-16T12:38:27.002Z user/retrieveUserHandler.js | user with id 63244b7e759ec5847562ba29 not found
+ERROR 2022-09-16T12:38:27.003Z questions/retrieveQuestionsHandler.js | user with id 63244b7e759ec5847562ba29 not found
+ERROR 2022-09-16T12:38:27.022Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+ERROR 2022-09-16T12:38:27.023Z questions/retrieveQuestionsHandler.js | user with id 63244b7e759ec5847562ba29 not found
+ERROR 2022-09-16T12:38:30.522Z user/retrieveUserHandler.js | user with id 63244b7e759ec5847562ba29 not found
+ERROR 2022-09-16T12:38:30.524Z questions/retrieveQuestionsHandler.js | user with id 63244b7e759ec5847562ba29 not found
+ERROR 2022-09-16T12:38:30.525Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+ERROR 2022-09-16T12:38:30.528Z questions/retrieveQuestionsHandler.js | user with id 63244b7e759ec5847562ba29 not found
+INFO 2022-09-16T12:39:00.537Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T12:39:03.911Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T12:40:43.080Z api/index.js | 
+api stopped
+INFO 2022-09-16T12:40:43.088Z api/index.js | db disconnected
+INFO 2022-09-16T12:40:44.527Z api/index.js | db connected
+ERROR 2022-09-16T12:49:37.473Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910464 does not belong to user with id 63246e2e95d9c37e31910451
+ERROR 2022-09-16T13:48:27.292Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-16T13:48:30.128Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-16T13:48:32.865Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-16T13:52:51.893Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T13:52:52.704Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T13:52:58.840Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T13:52:59.553Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+ERROR 2022-09-16T13:54:56.439Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910464 does not belong to user with id 63246e2e95d9c37e31910451
+ERROR 2022-09-16T13:55:39.954Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910463 does not belong to user with id 63246e2e95d9c37e31910451
+ERROR 2022-09-16T13:55:53.746Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910463 does not belong to user with id 63246e2e95d9c37e31910451
+ERROR 2022-09-16T13:55:58.729Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910464 does not belong to user with id 63246e2e95d9c37e31910451
+ERROR 2022-09-16T13:56:04.128Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910463 does not belong to user with id 63246e2e95d9c37e31910451
+ERROR 2022-09-16T13:57:45.141Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910463 does not belong to user with id 63246e2e95d9c37e31910451
+ERROR 2022-09-16T13:59:13.239Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910463 does not belong to user with id 63246e2e95d9c37e31910451
+ERROR 2022-09-16T13:59:24.104Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910463 does not belong to user with id 63246e2e95d9c37e31910451
+ERROR 2022-09-16T13:59:35.221Z questions/retrieveQuestionForEditHandler.js | question with id 63246e2e95d9c37e31910463 does not belong to user with id 63246e2e95d9c37e31910451
+INFO 2022-09-16T14:01:39.947Z api/index.js | 
+api stopped
+INFO 2022-09-16T14:01:39.955Z api/index.js | db disconnected
+INFO 2022-09-16T14:01:40.867Z api/index.js | db connected
+ERROR 2022-09-16T14:11:56.832Z questions/retrieveQuestionForEditHandler.js | question with id 632482c6c9642335ea91a2b2 not found
+INFO 2022-09-16T15:05:40.918Z api/index.js | 
+api stopped
+INFO 2022-09-16T15:05:40.927Z api/index.js | db disconnected
+INFO 2022-09-16T15:05:42.462Z api/index.js | db connected
+INFO 2022-09-16T15:09:40.587Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T15:09:41.620Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T15:09:42.652Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T15:09:43.936Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T15:09:53.097Z user/updateFavoritesHandler.js | User: 63246e2e95d9c37e31910451 updated favorites succesfully
+INFO 2022-09-16T15:47:39.273Z api/index.js | db connected
+ERROR 2022-09-16T15:48:49.200Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-16T15:49:25.281Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-16T15:53:53.199Z questions/updateQuestionTextHandler.js | string is not a string
+INFO 2022-09-16T15:53:57.789Z api/index.js | 
+api stopped
+INFO 2022-09-16T15:53:57.795Z api/index.js | db disconnected
+INFO 2022-09-16T15:54:03.450Z api/index.js | db connected
+INFO 2022-09-16T15:56:14.527Z api/index.js | 
+api stopped
+INFO 2022-09-16T15:56:14.535Z api/index.js | db disconnected
+INFO 2022-09-16T15:56:36.268Z api/index.js | db connected
+ERROR 2022-09-16T15:56:38.747Z user/retrieveUserHandler.js | user with id 63246e2e95d9c37e31910451 not found
+ERROR 2022-09-16T15:56:38.748Z questions/retrieveQuestionsHandler.js | user with id 63246e2e95d9c37e31910451 not found
+ERROR 2022-09-16T15:56:38.766Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+ERROR 2022-09-16T15:56:38.788Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+ERROR 2022-09-16T15:56:41.298Z user/retrieveUserHandler.js | user with id 63246e2e95d9c37e31910451 not found
+ERROR 2022-09-16T15:56:41.300Z questions/retrieveQuestionsHandler.js | user with id 63246e2e95d9c37e31910451 not found
+ERROR 2022-09-16T15:56:41.313Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+ERROR 2022-09-16T15:56:41.323Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+ERROR 2022-09-16T15:56:46.785Z user/retrieveUserHandler.js | user with id 63246e2e95d9c37e31910451 not found
+ERROR 2022-09-16T15:56:46.787Z questions/retrieveQuestionsHandler.js | user with id 63246e2e95d9c37e31910451 not found
+ERROR 2022-09-16T15:56:46.797Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+INFO 2022-09-16T16:11:43.933Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-16T16:11:44.765Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-16T21:08:05.483Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-16T21:08:14.620Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-16T21:10:46.401Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-16T21:10:48.084Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-16T21:10:49.402Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-16T21:11:02.246Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+ERROR 2022-09-17T11:24:57.459Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T11:24:57.459Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T11:24:57.460Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-17T11:25:31.451Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T11:25:31.451Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T11:25:31.452Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-17T11:27:49.508Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T11:27:49.509Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T11:27:49.510Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-17T11:28:20.767Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T11:28:20.768Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T11:28:20.768Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-17T11:28:30.747Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T11:28:30.748Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T11:28:30.749Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-17T11:29:20.727Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T11:29:20.727Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T11:29:20.728Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-17T11:30:26.629Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T11:30:26.630Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T11:30:26.631Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-17T11:31:22.686Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T11:31:22.686Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T11:31:22.687Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-17T11:35:44.513Z api/index.js | 
+api stopped
+INFO 2022-09-17T11:35:44.521Z api/index.js | db disconnected
+INFO 2022-09-17T11:35:45.529Z api/index.js | db connected
+ERROR 2022-09-17T12:39:08.465Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-17T12:39:08.466Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T12:39:08.467Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T12:39:13.560Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T12:39:13.561Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T12:39:13.562Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-17T14:29:20.528Z questions/createQuestionHandler.js | jwt expired
+INFO 2022-09-17T14:30:12.334Z api/index.js | db connected
+INFO 2022-09-17T14:31:21.522Z api/index.js | db connected
+INFO 2022-09-17T14:36:52.527Z api/index.js | db connected
+ERROR 2022-09-17T14:40:15.061Z questions/createQuestionHandler.js | jwt malformed
+ERROR 2022-09-17T17:04:16.646Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-17T17:04:16.647Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-17T17:04:16.648Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-17T17:11:20.279Z api/index.js | db connected
+INFO 2022-09-17T17:12:24.391Z api/index.js | 
+api stopped
+ERROR 2022-09-17T17:12:24.408Z gameCode/createGameCodeHandler.js | systemError is not defined
+ERROR 2022-09-17T17:12:24.419Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-09-17T17:12:24.427Z api/index.js | db disconnected
+INFO 2022-09-17T17:12:54.063Z api/index.js | db connected
+INFO 2022-09-17T17:18:36.327Z api/index.js | db connected
+INFO 2022-09-17T17:20:19.830Z api/index.js | db connected
+ERROR 2022-09-18T08:54:46.081Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T08:54:46.082Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T08:54:46.083Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T09:56:03.462Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T09:56:03.466Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T09:56:03.468Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T09:56:05.456Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T09:56:05.456Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T09:56:05.457Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T09:56:24.257Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T09:56:24.258Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T09:56:24.258Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T11:01:27.123Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T11:01:27.124Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T11:01:27.125Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T11:01:43.850Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T11:01:43.851Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T11:01:43.851Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-18T11:34:05.456Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T11:34:08.556Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T11:34:09.527Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+ERROR 2022-09-18T12:02:38.524Z questions/createQuestionHandler.js | jwt expired
+ERROR 2022-09-18T12:18:19.403Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T12:18:25.938Z questions/retrieveQuestionForEditHandler.js | jwt expired
+ERROR 2022-09-18T12:18:33.967Z questions/retrieveQuestionForEditHandler.js | jwt expired
+INFO 2022-09-18T13:18:27.287Z api/index.js | 
+api stopped
+INFO 2022-09-18T13:18:27.300Z api/index.js | db disconnected
+INFO 2022-09-18T13:18:28.760Z api/index.js | db connected
+INFO 2022-09-18T13:21:59.569Z api/index.js | 
+api stopped
+INFO 2022-09-18T13:21:59.579Z api/index.js | db disconnected
+INFO 2022-09-18T13:22:20.747Z api/index.js | db connected
+INFO 2022-09-18T13:23:50.372Z api/index.js | 
+api stopped
+INFO 2022-09-18T13:23:50.380Z api/index.js | db disconnected
+INFO 2022-09-18T13:24:02.224Z api/index.js | db connected
+INFO 2022-09-18T13:29:08.684Z api/index.js | 
+api stopped
+INFO 2022-09-18T13:29:08.696Z api/index.js | db disconnected
+INFO 2022-09-18T13:29:23.655Z api/index.js | db connected
+INFO 2022-09-18T13:35:45.867Z api/index.js | 
+api stopped
+INFO 2022-09-18T13:35:45.873Z api/index.js | db disconnected
+INFO 2022-09-18T13:36:01.124Z api/index.js | db connected
+INFO 2022-09-18T13:39:56.172Z api/index.js | 
+api stopped
+INFO 2022-09-18T13:39:56.183Z api/index.js | db disconnected
+INFO 2022-09-18T13:40:06.611Z api/index.js | db connected
+INFO 2022-09-18T13:52:56.181Z api/index.js | 
+api stopped
+INFO 2022-09-18T13:52:56.189Z api/index.js | db disconnected
+INFO 2022-09-18T13:53:00.125Z api/index.js | db connected
+INFO 2022-09-18T14:55:46.652Z api/index.js | 
+api stopped
+INFO 2022-09-18T14:55:46.661Z api/index.js | db disconnected
+INFO 2022-09-18T14:55:49.502Z api/index.js | db connected
+INFO 2022-09-18T14:55:53.396Z api/index.js | 
+api stopped
+INFO 2022-09-18T14:55:53.406Z api/index.js | db disconnected
+INFO 2022-09-18T14:56:02.106Z api/index.js | db connected
+INFO 2022-09-18T15:03:31.970Z api/index.js | 
+api stopped
+INFO 2022-09-18T15:03:31.979Z api/index.js | db disconnected
+INFO 2022-09-18T15:03:34.767Z api/index.js | db connected
+ERROR 2022-09-18T15:19:06.027Z questions/retrieveQuestionForEditHandler.js | jwt expired
+ERROR 2022-09-18T15:19:06.030Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T15:19:06.037Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T15:19:06.038Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T16:20:11.912Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T16:20:11.916Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T16:20:11.918Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T19:43:04.761Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T19:43:04.762Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T19:43:04.763Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T19:48:56.481Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T19:48:56.481Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T19:48:56.482Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T19:49:49.589Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T19:49:49.591Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T19:49:49.591Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T20:23:14.227Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T20:23:14.228Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T20:23:14.228Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T20:29:17.214Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T20:29:17.214Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T20:29:17.215Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T20:30:30.179Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T20:30:30.180Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T20:30:30.181Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T20:31:24.270Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T20:31:24.272Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T20:31:24.273Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T21:43:57.791Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T21:43:57.792Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T21:43:57.792Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-18T22:19:17.378Z api/index.js | 
+api stopped
+INFO 2022-09-18T22:19:17.390Z api/index.js | db disconnected
+INFO 2022-09-18T22:19:48.633Z api/index.js | db connected
+ERROR 2022-09-18T23:33:42.050Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T23:33:42.051Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T23:34:27.116Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T23:34:27.117Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T23:34:55.206Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T23:34:55.207Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T23:35:01.858Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-18T23:35:01.858Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-18T23:35:01.859Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-18T23:35:01.861Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-18T23:37:38.747Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:37:39.577Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:40:31.641Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:40:32.324Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:40:32.806Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:40:33.372Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:40:36.071Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:40:40.569Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:40:52.740Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:40:54.790Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:41:03.640Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:41:04.859Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:43:25.806Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:43:26.503Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:43:27.173Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:43:27.333Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:43:28.020Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:38.740Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:39.455Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:40.818Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:41.999Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:43.587Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:45.954Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:48.508Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:50.254Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:52.187Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:54.152Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:56.385Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:57.220Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:58.619Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:45:59.903Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:05.972Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:07.668Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:09.720Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:11.586Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:12.983Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:15.153Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:15.834Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:17.251Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:17.968Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:19.221Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:19.886Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:22.321Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:23.686Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:24.519Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:46:25.156Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:20.662Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:22.109Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:23.795Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:28.346Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:29.961Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:32.794Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:38.581Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:39.898Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:40.995Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:43.378Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:44.030Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:45.277Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:45.713Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:51.780Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:53.079Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:47:54.395Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:48:28.929Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:48:29.728Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:48:33.112Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:48:36.277Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:48:37.773Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:48:44.030Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:48:46.845Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:48:58.197Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:54:55.966Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:54:57.381Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:54:57.841Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:54:58.796Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:54:59.063Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:54:59.595Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:55:00.714Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:55:00.880Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:55:01.232Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:55:01.860Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:55:02.147Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:55:32.834Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:55:33.714Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:55:34.015Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:55:34.497Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:56:31.764Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:56:32.231Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:56:32.462Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:56:37.412Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:56:38.130Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:56:38.731Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:56:39.201Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:56:41.915Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:57:03.453Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:58:54.062Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:59:07.848Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:59:42.610Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:59:44.733Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:59:49.051Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-18T23:59:51.717Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:01:07.453Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:02:26.201Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:02:27.402Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:02:28.484Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:02:31.264Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:02:31.984Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:05:44.002Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:05:45.237Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:05:46.016Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:05:46.569Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:05:46.731Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:05:47.085Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:05:47.951Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:05:48.202Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:05:49.221Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:06:14.639Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:06:32.521Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:06:33.185Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:06:33.884Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:06:40.263Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:06:41.220Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:07:59.750Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:08:00.418Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:08:00.973Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:08:01.369Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:08:07.471Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:08:12.691Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:08:14.036Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:08:19.470Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:08:20.622Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:28.869Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:32.698Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:33.854Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:50.471Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:51.187Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:52.387Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:52.821Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:53.301Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:54.265Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:54.669Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:55.002Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:55.302Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:55.589Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:10:55.803Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:11:05.040Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:11:06.403Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:11:10.020Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T00:11:10.572Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+ERROR 2022-09-19T07:45:00.329Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-19T07:45:00.330Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-19T07:45:00.331Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-19T07:45:03.313Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-19T07:45:03.314Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-19T07:45:03.315Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-19T07:47:33.157Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T07:47:38.907Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T07:47:40.189Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T07:47:44.226Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T08:01:58.876Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T08:01:59.852Z user/updateFavoritesHandler.js | User: 63249ca510a0d7d9292d6b95 updated favorites succesfully
+INFO 2022-09-19T08:45:52.321Z api/index.js | 
+api stopped
+INFO 2022-09-19T08:45:52.331Z api/index.js | db disconnected
+INFO 2022-09-19T08:50:50.077Z api/index.js | db connected
+INFO 2022-09-19T08:51:13.639Z user/updateFavoritesHandler.js | User: 63282d379db3bc991bd9fe41 updated favorites succesfully
+INFO 2022-09-19T08:51:33.287Z user/updateFavoritesHandler.js | User: 63282d379db3bc991bd9fe41 updated favorites succesfully
+INFO 2022-09-19T08:51:51.589Z user/updateFavoritesHandler.js | User: 63282d379db3bc991bd9fe41 updated favorites succesfully
+INFO 2022-09-19T08:54:51.506Z api/index.js | 
+api stopped
+INFO 2022-09-19T08:54:51.516Z api/index.js | db disconnected
+INFO 2022-09-19T08:54:58.686Z api/index.js | db connected
+ERROR 2022-09-19T08:55:04.348Z questions/retrieveQuestionsHandler.js | user with id 63282d379db3bc991bd9fe41 not found
+ERROR 2022-09-19T08:55:04.354Z questions/retrieveQuestionsHandler.js | user with id 63282d379db3bc991bd9fe41 not found
+ERROR 2022-09-19T08:55:07.808Z questions/retrieveQuestionsHandler.js | user with id 63282d379db3bc991bd9fe41 not found
+ERROR 2022-09-19T08:55:07.810Z user/retrieveUserHandler.js | user with id 63282d379db3bc991bd9fe41 not found
+ERROR 2022-09-19T08:55:07.817Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+ERROR 2022-09-19T08:55:07.818Z questions/retrieveQuestionsHandler.js | user with id 63282d379db3bc991bd9fe41 not found
+ERROR 2022-09-19T08:55:11.299Z user/retrieveUserHandler.js | user with id 63282d379db3bc991bd9fe41 not found
+ERROR 2022-09-19T08:55:11.299Z questions/retrieveQuestionsHandler.js | user with id 63282d379db3bc991bd9fe41 not found
+ERROR 2022-09-19T08:55:11.301Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+INFO 2022-09-19T09:00:15.832Z api/index.js | 
+api stopped
+INFO 2022-09-19T09:00:15.843Z api/index.js | db disconnected
+INFO 2022-09-19T09:00:21.108Z api/index.js | db connected
+ERROR 2022-09-19T10:02:04.012Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-19T10:02:04.014Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-19T10:02:04.015Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-19T10:18:12.949Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:18:13.910Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:18:14.606Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:18:15.509Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:18:16.007Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:18:16.889Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:23:00.546Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:23:01.543Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:23:01.928Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:23:03.126Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:23:03.988Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:23:04.825Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:23:05.142Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T10:31:34.624Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+ERROR 2022-09-19T11:02:56.985Z questions/retrieveQuestionForEditHandler.js | jwt expired
+ERROR 2022-09-19T11:03:33.150Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-19T11:03:33.150Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-19T11:03:33.150Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-19T12:16:49.032Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-19T12:16:49.034Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-19T13:51:13.652Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T13:51:14.683Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T13:51:15.582Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T13:51:16.550Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T13:51:18.151Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T13:51:29.667Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T13:51:47.735Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T13:51:50.360Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T14:13:12.181Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T14:13:21.433Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T14:13:22.179Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T14:15:41.566Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T14:15:42.624Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+INFO 2022-09-19T14:15:52.632Z user/updateFavoritesHandler.js | User: 63282fa2808b1215e4c1c654 updated favorites succesfully
+ERROR 2022-09-19T15:01:25.375Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-19T15:01:25.375Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-19T15:01:25.376Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-19T17:20:44.337Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-19T17:20:44.339Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-19T17:20:44.342Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-19T17:20:45.930Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-19T17:20:45.931Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-19T17:20:45.932Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-19T18:31:32.156Z api/index.js | 
+api stopped
+INFO 2022-09-19T18:31:32.167Z api/index.js | db disconnected
+INFO 2022-09-19T18:31:38.861Z api/index.js | db connected
+ERROR 2022-09-19T18:31:53.930Z questions/retrieveQuestionsHandler.js | user with id 63282fa2808b1215e4c1c654 not found
+ERROR 2022-09-19T18:31:53.935Z questions/retrieveQuestionsHandler.js | user with id 63282fa2808b1215e4c1c654 not found
+INFO 2022-09-19T19:01:22.046Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+INFO 2022-09-19T19:01:22.855Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+ERROR 2022-09-19T19:37:31.225Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-19T19:37:31.232Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-19T19:37:31.234Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-19T19:38:09.596Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-19T19:38:09.597Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-19T19:38:09.602Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-19T19:39:23.191Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+INFO 2022-09-19T19:39:23.626Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+ERROR 2022-09-19T22:39:22.421Z gameCode/createGameCodeHandler.js | jwt expired
+ERROR 2022-09-20T07:39:19.364Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-20T07:39:19.365Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-20T07:39:19.366Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-20T11:04:17.171Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-20T11:04:17.173Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-20T11:04:17.174Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-20T11:27:27.898Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+INFO 2022-09-20T11:27:30.593Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+INFO 2022-09-20T11:27:32.780Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+INFO 2022-09-20T11:27:33.580Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+INFO 2022-09-20T11:27:35.425Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+INFO 2022-09-20T11:27:36.295Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+INFO 2022-09-20T11:27:38.076Z user/updateFavoritesHandler.js | User: 6328b5860c99f3a354e4b9fb updated favorites succesfully
+ERROR 2022-09-20T12:17:08.638Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-20T12:17:08.639Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-20T12:17:08.639Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-20T12:17:14.168Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-20T12:17:14.169Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-20T12:17:14.171Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-20T13:21:10.672Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-20T13:21:10.674Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-20T15:14:17.025Z api/index.js | 
+api stopped
+INFO 2022-09-20T15:14:17.037Z api/index.js | db disconnected
+INFO 2022-09-20T15:14:19.704Z api/index.js | db connected
+ERROR 2022-09-20T15:14:23.778Z user/authenticateUserHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-20T15:16:53.038Z api/index.js | db connected
+INFO 2022-09-20T15:16:54.850Z api/index.js | 
+api stopped
+INFO 2022-09-20T15:16:54.860Z api/index.js | db disconnected
+INFO 2022-09-20T15:17:09.929Z api/index.js | db connected
+ERROR 2022-09-20T15:17:21.884Z user/authenticateUserHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-20T15:18:04.240Z api/index.js | db connected
+ERROR 2022-09-20T15:19:25.633Z user/authenticateUserHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-20T15:28:58.959Z api/index.js | db connected
+ERROR 2022-09-20T15:29:21.671Z user/authenticateUserHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-20T15:31:41.043Z api/index.js | db connected
+ERROR 2022-09-20T15:46:22.848Z user/retrieveUserHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-20T15:47:42.948Z api/index.js | db connected
+ERROR 2022-09-20T15:48:34.344Z user/registerUserHandler.js | user already exists
+ERROR 2022-09-20T15:48:34.890Z user/registerUserHandler.js | user already exists
+ERROR 2022-09-20T15:53:24.359Z gameCode/createGameCodeHandler.js | host is not a string
+ERROR 2022-09-20T15:53:25.663Z gameCode/createGameCodeHandler.js | host is not a string
+ERROR 2022-09-20T15:54:55.460Z gameCode/createGameCodeHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-20T15:55:35.083Z api/index.js | 
+api stopped
+INFO 2022-09-20T15:55:35.095Z api/index.js | db disconnected
+INFO 2022-09-20T15:55:36.161Z api/index.js | db connected
+INFO 2022-09-20T15:56:09.236Z api/index.js | 
+api stopped
+INFO 2022-09-20T15:56:09.245Z api/index.js | db disconnected
+INFO 2022-09-20T15:56:10.020Z api/index.js | db connected
+ERROR 2022-09-20T15:56:34.940Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:56:36.255Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:56:40.752Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:57:59.158Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:58:01.371Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:58:26.258Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:58:27.122Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:58:27.268Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:58:27.436Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:58:27.622Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-09-20T15:58:55.188Z api/index.js | 
+api stopped
+INFO 2022-09-20T15:58:55.198Z api/index.js | db disconnected
+INFO 2022-09-20T15:58:56.201Z api/index.js | db connected
+ERROR 2022-09-20T15:58:58.733Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:58:59.989Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:59:00.935Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:59:01.083Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:59:01.235Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T15:59:01.365Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T16:00:12.188Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T16:00:13.035Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T16:00:13.165Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T16:00:13.300Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T16:00:13.465Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T16:00:13.620Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T16:00:13.816Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T16:00:14.719Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T16:00:47.479Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-20T16:01:41.708Z api/index.js | 
+api stopped
+INFO 2022-09-20T16:01:41.720Z api/index.js | db disconnected
+INFO 2022-09-20T16:01:42.683Z api/index.js | db connected
+ERROR 2022-09-20T16:01:44.942Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:01:45.978Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:01:46.872Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:02:26.051Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:02:27.008Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:02:27.169Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:02:27.430Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:02:28.006Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:02:28.170Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:02:28.354Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:02:28.821Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-20T16:04:04.925Z api/index.js | 
+api stopped
+INFO 2022-09-20T16:04:04.934Z api/index.js | db disconnected
+INFO 2022-09-20T16:04:06.017Z api/index.js | db connected
+ERROR 2022-09-20T16:04:08.620Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:09.311Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:09.529Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:09.685Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:09.860Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:10.114Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:10.489Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:10.802Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:11.088Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:11.215Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:11.372Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+ERROR 2022-09-20T16:04:11.539Z questions/createQuestionHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-20T16:05:20.228Z api/index.js | 
+api stopped
+INFO 2022-09-20T16:05:20.236Z api/index.js | db disconnected
+INFO 2022-09-20T16:05:21.234Z api/index.js | db connected
+INFO 2022-09-20T16:09:50.612Z api/index.js | 
+api stopped
+INFO 2022-09-20T16:09:50.621Z api/index.js | db disconnected
+INFO 2022-09-20T16:09:51.594Z api/index.js | db connected
+ERROR 2022-09-20T20:24:20.902Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-20T20:24:20.907Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-20T20:24:20.910Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-20T20:25:16.517Z api/index.js | 
+api stopped
+INFO 2022-09-20T20:25:16.527Z api/index.js | db disconnected
+INFO 2022-09-20T20:25:17.468Z api/index.js | db connected
+ERROR 2022-09-20T20:36:40.497Z questions/searchQuestionsHandler.js | jwt expired
+ERROR 2022-09-20T20:39:06.613Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-20T20:40:27.903Z questions/retrieveQuestionForEditHandler.js | question with id 6329e4c318647dbd478d978c not found
+ERROR 2022-09-20T20:40:33.565Z questions/retrieveQuestionForEditHandler.js | Unexpected token � in JSON at position 0
+ERROR 2022-09-20T20:41:10.334Z questions/retrieveQuestionForEditHandler.js | question with id 6329e4c318647dbd478d978c not found
+ERROR 2022-09-20T20:41:31.067Z questions/createQuestionHandler.js | jwt expired
+ERROR 2022-09-20T20:42:01.514Z questions/updateQuestionTextHandler.js | jwt expired
+ERROR 2022-09-20T20:42:10.798Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-20T20:42:19.001Z questions/updateQuestionTextHandler.js | string is not a string
+ERROR 2022-09-20T20:43:10.240Z questions/updateQuestionEditHandler.js | Question validation failed: questionType: Path `questionType` is required.
+INFO 2022-09-20T20:46:25.921Z user/updatePasswordHandler.js | User: 6328b5860c99f3a354e4b9fb updated details succesfully
+ERROR 2022-09-20T20:46:31.263Z user/retrieveUserHandler.js | jwt expired
+INFO 2022-09-20T20:46:49.151Z user/updatePasswordHandler.js | User: 6328b5860c99f3a354e4b9fb updated details succesfully
+ERROR 2022-09-20T20:47:09.530Z user/updatePasswordHandler.js | jwt expired
+ERROR 2022-09-20T20:47:13.363Z user/updatePasswordHandler.js | jwt expired
+ERROR 2022-09-20T20:47:29.000Z user/updatePasswordHandler.js | jwt expired
+ERROR 2022-09-20T20:47:52.877Z user/updatePasswordHandler.js | jwt expired
+ERROR 2022-09-20T21:06:25.625Z user/updatePasswordHandler.js | jwt expired
+ERROR 2022-09-20T21:06:31.608Z user/updatePasswordHandler.js | jwt expired
+INFO 2022-09-20T21:22:19.297Z api/index.js | 
+api stopped
+INFO 2022-09-20T21:22:19.309Z api/index.js | db disconnected
+INFO 2022-09-20T21:22:32.745Z api/index.js | db connected
+ERROR 2022-09-20T21:25:05.797Z user/updatePasswordHandler.js | jwt expired
+INFO 2022-09-20T21:25:27.680Z user/updatePasswordHandler.js | User: 6328b5860c99f3a354e4b9fb updated details succesfully
+INFO 2022-09-20T21:32:44.306Z api/index.js | 
+api stopped
+INFO 2022-09-20T21:32:44.319Z api/index.js | db disconnected
+INFO 2022-09-20T21:33:07.895Z api/index.js | db connected
+INFO 2022-09-20T21:41:09.544Z api/index.js | db connected
+ERROR 2022-09-20T21:41:11.959Z questions/searchQuestionsHandler.js | jwt expired
+ERROR 2022-09-20T21:41:16.782Z user/authenticateUserHandler.js | user with email pepito@grillo.com not found
+ERROR 2022-09-20T21:42:15.606Z questions/createQuestionHandler.js | jwt expired
+ERROR 2022-09-20T21:42:18.973Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-20T21:42:18.975Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-20T21:42:18.976Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-20T21:42:49.706Z user/authenticateUserHandler.js | user with email dannd@t.com not found
+ERROR 2022-09-20T21:44:58.263Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T21:45:32.063Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T21:45:59.478Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T21:46:00.476Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T21:46:00.639Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T21:46:01.240Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T21:48:40.570Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-09-20T21:48:44.458Z api/index.js | 
+api stopped
+INFO 2022-09-20T21:48:44.468Z api/index.js | db disconnected
+INFO 2022-09-20T21:48:51.978Z api/index.js | db connected
+ERROR 2022-09-20T21:51:56.334Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-20T21:59:18.286Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-09-21T08:06:34.878Z api/index.js | 
+api stopped
+INFO 2022-09-21T08:06:34.896Z api/index.js | db disconnected
+INFO 2022-09-21T09:31:15.370Z api/index.js | db connected
+INFO 2022-09-21T09:31:32.587Z user/updateFavoritesHandler.js | User: 632ad679b71e0befe503da4f updated favorites succesfully
+INFO 2022-09-21T09:31:33.685Z user/updateFavoritesHandler.js | User: 632ad679b71e0befe503da4f updated favorites succesfully
+INFO 2022-09-21T09:31:34.675Z user/updateFavoritesHandler.js | User: 632ad679b71e0befe503da4f updated favorites succesfully
+INFO 2022-09-21T09:31:36.135Z user/updateFavoritesHandler.js | User: 632ad679b71e0befe503da4f updated favorites succesfully
+INFO 2022-09-21T09:31:37.347Z user/updateFavoritesHandler.js | User: 632ad679b71e0befe503da4f updated favorites succesfully
+INFO 2022-09-21T09:31:58.074Z user/updateFavoritesHandler.js | User: 632ad679b71e0befe503da4f updated favorites succesfully
+INFO 2022-09-21T09:33:25.236Z user/updateFavoritesHandler.js | User: 632ad679b71e0befe503da4f updated favorites succesfully
+INFO 2022-09-21T09:43:58.199Z api/index.js | 
+api stopped
+INFO 2022-09-21T09:43:58.209Z api/index.js | db disconnected
+INFO 2022-09-21T13:15:42.590Z api/index.js | db connected
+ERROR 2022-09-21T13:15:46.250Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-21T13:15:46.252Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-21T13:15:46.253Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-21T13:15:56.244Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-21T13:15:56.245Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-21T13:15:56.246Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-21T13:16:13.660Z user/authenticateUserHandler.js | user with email pepito@grillo.com not found
+INFO 2022-09-21T13:16:22.402Z api/index.js | 
+api stopped
+INFO 2022-09-21T13:16:22.411Z api/index.js | db disconnected
+INFO 2022-09-21T13:16:47.435Z api/index.js | db connected
+ERROR 2022-09-21T13:17:08.368Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-09-21T13:17:19.235Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-09-21T13:19:24.245Z api/index.js | 
+api stopped
+INFO 2022-09-21T13:19:24.255Z api/index.js | db disconnected
+INFO 2022-09-21T13:20:58.868Z api/index.js | db connected
+INFO 2022-09-21T13:21:15.172Z api/index.js | 
+api stopped
+INFO 2022-09-21T13:21:15.182Z api/index.js | db disconnected
+INFO 2022-09-21T13:21:26.750Z api/index.js | db connected
+INFO 2022-09-21T13:21:45.202Z api/index.js | 
+api stopped
+INFO 2022-09-21T13:21:45.214Z api/index.js | db disconnected
+INFO 2022-09-21T13:22:17.920Z api/index.js | db connected
+ERROR 2022-09-21T13:27:17.818Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-21T13:27:17.825Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-21T13:27:17.828Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-21T13:27:24.212Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-21T13:27:24.216Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-21T13:27:24.221Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-21T13:27:33.873Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-21T13:27:33.877Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-21T13:27:33.884Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-21T13:31:13.896Z api/index.js | 
+api stopped
+INFO 2022-09-21T13:31:13.905Z api/index.js | db disconnected
+INFO 2022-09-21T13:43:20.856Z api/index.js | db connected
+INFO 2022-09-21T13:43:44.219Z api/index.js | 
+api stopped
+INFO 2022-09-21T13:43:44.230Z api/index.js | db disconnected
+INFO 2022-09-21T13:47:13.971Z api/index.js | db connected
+INFO 2022-09-21T13:47:16.751Z api/index.js | 
+api stopped
+INFO 2022-09-21T13:47:16.762Z api/index.js | db disconnected
+INFO 2022-09-21T13:58:59.048Z api/index.js | db connected
+INFO 2022-09-21T14:10:53.403Z api/index.js | 
+api stopped
+INFO 2022-09-21T14:10:53.411Z api/index.js | db disconnected
+INFO 2022-09-21T14:11:09.589Z api/index.js | db connected
+INFO 2022-09-21T14:22:50.547Z api/index.js | 
+api stopped
+INFO 2022-09-21T14:22:50.556Z api/index.js | db disconnected
+INFO 2022-09-21T14:23:46.811Z api/index.js | db connected
+INFO 2022-09-21T14:25:08.787Z api/index.js | 
+api stopped
+INFO 2022-09-21T14:25:08.796Z api/index.js | db disconnected
+INFO 2022-09-21T14:25:21.457Z api/index.js | db connected
+INFO 2022-09-21T14:29:51.473Z api/index.js | 
+api stopped
+INFO 2022-09-21T14:29:51.498Z api/index.js | db disconnected
+INFO 2022-09-21T14:30:02.362Z api/index.js | db connected
+ERROR 2022-09-21T14:30:23.544Z gameCode/retrieveGameCodeHandler.js | Cannot read properties of undefined (reading 'catch')
+INFO 2022-09-21T14:31:36.698Z api/index.js | db connected
+INFO 2022-09-21T14:33:13.191Z api/index.js | 
+api stopped
+INFO 2022-09-21T14:33:13.201Z api/index.js | db disconnected
+INFO 2022-09-21T14:44:08.884Z api/index.js | db connected
+INFO 2022-09-21T14:46:00.601Z api/index.js | 
+api stopped
+INFO 2022-09-21T14:46:00.609Z api/index.js | db disconnected
+INFO 2022-09-21T14:46:04.633Z api/index.js | db connected
+INFO 2022-09-21T14:46:12.514Z api/index.js | 
+api stopped
+INFO 2022-09-21T14:46:12.522Z api/index.js | db disconnected
+INFO 2022-09-21T14:46:34.924Z api/index.js | db connected
+ERROR 2022-09-21T14:57:01.118Z gameCode/createGameCodeHandler.js | user with id 632b219467bf71bf13f1f23f not found
+INFO 2022-09-21T15:42:41.911Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:42.673Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:43.722Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:44.973Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:46.024Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:47.406Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:48.806Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:49.810Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:52.073Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:52.952Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T15:42:54.044Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+ERROR 2022-09-21T18:30:58.649Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-21T18:30:58.651Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-09-21T18:48:28.510Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+ERROR 2022-09-21T19:46:26.376Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-09-21T19:46:26.376Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-09-21T19:46:26.377Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-09-21T19:46:26.379Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-09-21T19:49:15.822Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T19:49:16.658Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+INFO 2022-09-21T19:49:17.174Z user/updateFavoritesHandler.js | User: 632b23c53d81c2e008f2e861 updated favorites succesfully
+ERROR 2022-09-21T21:13:43.946Z gameCode/createGameCodeHandler.js | jwt expired
+INFO 2022-09-22T09:42:31.899Z api/index.js | 
+api stopped
+INFO 2022-09-22T09:42:31.907Z api/index.js | db disconnected
+INFO 2022-09-22T09:42:37.052Z api/index.js | db connected
+ERROR 2022-09-22T09:42:50.385Z questions/searchQuestionsHandler.js | user with id 632b23c53d81c2e008f2e861 not found
+ERROR 2022-09-22T09:42:54.170Z user/retrieveUserHandler.js | user with id 632b23c53d81c2e008f2e861 not found
+ERROR 2022-09-22T09:42:54.175Z questions/retrieveQuestionsHandler.js | user with id 632b23c53d81c2e008f2e861 not found
+ERROR 2022-09-22T09:42:54.183Z questions/retrieveQuestionsHandler.js | user with id 632b23c53d81c2e008f2e861 not found
+ERROR 2022-09-22T09:42:54.184Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+ERROR 2022-09-22T09:42:59.238Z user/retrieveUserHandler.js | user with id 632b23c53d81c2e008f2e861 not found
+ERROR 2022-09-22T09:42:59.239Z questions/retrieveQuestionsHandler.js | user with id 632b23c53d81c2e008f2e861 not found
+ERROR 2022-09-22T09:42:59.240Z questions/retrieveQuestionsPublicHandler.js | Cannot read properties of null (reading 'favorites')
+ERROR 2022-09-22T09:42:59.242Z questions/retrieveQuestionsHandler.js | user with id 632b23c53d81c2e008f2e861 not found
+INFO 2022-09-22T09:54:02.539Z api/index.js | 
+api stopped
+INFO 2022-09-22T09:54:02.547Z api/index.js | db disconnected
+INFO 2022-09-22T10:05:24.520Z api/index.js | db connected
+INFO 2022-09-22T10:05:41.230Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-09-22T10:05:46.822Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-09-22T10:05:49.968Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-09-22T10:05:54.888Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-09-22T10:06:46.521Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-09-22T10:36:09.411Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-09-22T10:36:10.585Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-09-22T10:36:33.478Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-09-22T10:36:34.318Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-09-22T14:25:44.477Z api/index.js | 
+api stopped
+INFO 2022-09-22T14:25:44.488Z api/index.js | db disconnected
+INFO 2022-09-22T15:21:16.211Z api/index.js | db connected
+INFO 2022-09-22T15:21:21.628Z api/index.js | 
+api stopped
+INFO 2022-09-22T15:21:21.637Z api/index.js | db disconnected
+INFO 2022-09-22T15:21:44.265Z api/index.js | db connected
+INFO 2022-09-29T13:53:59.533Z api/index.js | 
+api stopped
+INFO 2022-09-29T13:53:59.552Z api/index.js | db disconnected
+INFO 2022-09-29T13:59:19.016Z api/index.js | db connected
+INFO 2022-10-12T13:42:30.643Z api/index.js | 
+api stopped
+INFO 2022-10-12T13:42:30.699Z api/index.js | db disconnected
+INFO 2022-10-12T13:42:46.146Z api/index.js | db connected
+INFO 2022-10-12T13:43:35.933Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-10-12T13:43:39.914Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-10-12T13:43:46.469Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
