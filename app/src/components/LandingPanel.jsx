@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "./LandingPanel.css";
+
 // ================== Component ================== //
 
 function LandingPanel({

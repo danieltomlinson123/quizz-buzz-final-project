@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "./Search.css";
+
 import Loggito from "../utils/Loggito";
 
 // ================== Component ================== //

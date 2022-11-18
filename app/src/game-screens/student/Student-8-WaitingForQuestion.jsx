@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 import { Spinner } from "../../components/";
 
 // ================== Component ================== //

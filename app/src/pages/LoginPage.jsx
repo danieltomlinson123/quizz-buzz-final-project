@@ -4,6 +4,8 @@ import Loggito from "../utils/Loggito";
 import authenticateUser from "../logic/authenticateUser";
 import withContext from "../utils/withContext";
 
+import "./LoginPage.css";
+
 function LoginPage({
   context: {
     handleNavigationToRegister,
@@ -70,7 +72,7 @@ function LoginPage({
       <div className="login-elements flex-container">
         <form
           action=""
-          className=" login-form flex-container login-form"
+          className="flex-container login-form"
           onSubmit={handleFormSubmit}
         >
           <div className="input-fields">

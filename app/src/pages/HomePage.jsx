@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "./HomePage.css";
+
 import { useState, useEffect } from "react";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 

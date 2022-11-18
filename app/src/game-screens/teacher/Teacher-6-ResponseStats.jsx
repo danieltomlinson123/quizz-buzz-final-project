@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 // ================== Component ================== //
 
 function Teacher6ResponseStats({

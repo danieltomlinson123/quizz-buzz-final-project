@@ -1,0 +1,43 @@
+.Feedback {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.Feedback__box {
+  width: 50vw;
+  height: 25vh;
+  border-radius: 1rem;
+  gap: 1.5rem;
+  color: white;
+  padding-top: 2rem;
+}
+
+.toast-accept-button {
+  border: 1px solid white;
+  background-color: transparent;
+  margin-top: 2rem;
+}
+
+.toast-accept-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.Feedback--error > .Feedback__box {
+  background-color: red;
+}
+
+.Feedback--warning > .Feedback__box {
+  background-color: orange;
+}
+
+.Feedback--success > .Feedback__box {
+  background-color: green;
+}
+
+.Feedback--info > .Feedback__box {
+  background-color: dodgerblue;
+}

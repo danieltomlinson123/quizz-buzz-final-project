@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 import { useEffect } from "react";
 
 function TeacherStudentSelectPanel({

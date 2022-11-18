@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 import Teacher3CreateQuestionPanel from "./Teacher-3-CreateQuestionPanel";
 import Teacher3EditQuestionPanel from "./Teacher-3-EditQuestionPanel";
 import Teacher3SelectFolderPanel from "./Teacher-3-SelectFolderPanel";

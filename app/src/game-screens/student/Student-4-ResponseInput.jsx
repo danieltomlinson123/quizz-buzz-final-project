@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 import { useEffect, useState, useRef } from "react";
 
 // ================== Component ================== //

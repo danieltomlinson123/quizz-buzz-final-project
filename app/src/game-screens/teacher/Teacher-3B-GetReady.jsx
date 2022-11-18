@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 import { useEffect } from "react";
 
 import "../../components/ScreenTemplate.1.scss";

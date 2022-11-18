@@ -164,8 +164,6 @@ Sprint 3
 - Bug fix - answers from the student arriving to teacher two times in quiz
 - Bug fix - pages not loading correctly on refresh
 - finish logic testing
-- verifyToken in retrieveGameCode, deleteQuestion and searchQuestionsPublic routeHandler then pass userId to logic to check wih db
-- complete documentation of app logic
 - validation of inputs in app and api
 - improved validation passwoprds, email, other details using RegEx
 - search and correction of potential errors and warnings in game play
@@ -180,4 +178,3 @@ Sprint 3
 - reset forgotten password functionality
 - improve validation of game input
 - change the naming of the files from Teacher/Student to something more general e.g. Host/Guest or Host/Player
-- change updatePassword file/logic name to updateDetails

@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 import "../../components/timeSelect.scss";
 
 import retrieveQuestionForEdit from "../../logic/retrieveQuestionForEdit";

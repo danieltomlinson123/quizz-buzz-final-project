@@ -2460,14 +2460,270 @@ INFO 2022-09-22T15:21:21.628Z api/index.js |
 api stopped
 INFO 2022-09-22T15:21:21.637Z api/index.js | db disconnected
 INFO 2022-09-22T15:21:44.265Z api/index.js | db connected
-INFO 2022-09-29T13:53:59.533Z api/index.js | 
+INFO 2022-10-12T22:47:26.107Z api/index.js | db connected
+ERROR 2022-10-13T11:43:53.389Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-10-13T11:43:53.390Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-10-13T11:43:53.391Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-10-13T11:43:58.873Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-10-13T11:43:58.873Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-10-13T11:43:58.874Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+INFO 2022-10-18T13:04:38.310Z api/index.js | 
 api stopped
-INFO 2022-09-29T13:53:59.552Z api/index.js | db disconnected
-INFO 2022-09-29T13:59:19.016Z api/index.js | db connected
-INFO 2022-10-12T13:42:30.643Z api/index.js | 
+INFO 2022-10-18T13:04:38.378Z api/index.js | db disconnected
+INFO 2022-10-19T19:48:45.034Z api/index.js | db connected
+INFO 2022-10-19T19:49:03.792Z api/index.js | db connected
+INFO 2022-10-19T20:40:26.704Z api/index.js | 
 api stopped
-INFO 2022-10-12T13:42:30.699Z api/index.js | db disconnected
-INFO 2022-10-12T13:42:46.146Z api/index.js | db connected
-INFO 2022-10-12T13:43:35.933Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
-INFO 2022-10-12T13:43:39.914Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
-INFO 2022-10-12T13:43:46.469Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-10-19T20:40:26.721Z api/index.js | db disconnected
+INFO 2022-10-19T20:40:30.542Z api/index.js | db connected
+ERROR 2022-10-19T20:40:39.862Z questions/searchQuestionsPublicHandler.js | user is not defined
+ERROR 2022-10-19T20:40:47.380Z questions/searchQuestionsPublicHandler.js | user is not defined
+INFO 2022-10-19T20:45:45.497Z api/index.js | 
+api stopped
+INFO 2022-10-19T20:45:45.511Z api/index.js | db disconnected
+INFO 2022-10-19T20:45:59.631Z api/index.js | db connected
+INFO 2022-10-19T20:49:04.001Z api/index.js | 
+api stopped
+INFO 2022-10-19T20:49:04.010Z api/index.js | db disconnected
+INFO 2022-10-19T20:49:05.322Z api/index.js | db connected
+ERROR 2022-10-19T20:49:31.836Z questions/searchQuestionsPublicHandler.js | jwt expired
+ERROR 2022-10-20T10:38:17.002Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-10-20T10:38:17.009Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-10-20T10:38:17.016Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-10-20T11:44:50.358Z api/index.js | 
+api stopped
+INFO 2022-10-20T11:44:50.387Z api/index.js | db disconnected
+INFO 2022-10-20T11:44:52.417Z api/index.js | db connected
+INFO 2022-10-20T14:46:48.464Z api/index.js | 
+api stopped
+INFO 2022-10-20T14:46:48.491Z api/index.js | db disconnected
+INFO 2022-10-20T14:46:49.802Z api/index.js | db connected
+INFO 2022-10-20T14:50:17.375Z api/index.js | 
+api stopped
+INFO 2022-10-20T14:50:17.390Z api/index.js | db disconnected
+INFO 2022-10-20T14:50:21.584Z api/index.js | db connected
+ERROR 2022-10-20T14:50:49.073Z gameCode/retrieveGameCodeHandler.js | pin is not a string
+INFO 2022-10-20T14:51:16.707Z api/index.js | 
+api stopped
+INFO 2022-10-20T14:51:16.716Z api/index.js | db disconnected
+INFO 2022-10-20T14:51:19.030Z api/index.js | db connected
+INFO 2022-10-20T14:52:55.458Z api/index.js | 
+api stopped
+INFO 2022-10-20T14:52:55.469Z api/index.js | db disconnected
+INFO 2022-10-20T14:52:56.954Z api/index.js | db connected
+ERROR 2022-10-20T14:53:17.947Z gameCode/retrieveGameCodeHandler.js | validateNumber is not a function
+INFO 2022-10-20T14:54:48.027Z api/index.js | 
+api stopped
+INFO 2022-10-20T14:54:48.041Z api/index.js | db disconnected
+INFO 2022-10-20T14:55:03.743Z api/index.js | db connected
+INFO 2022-10-20T14:58:23.007Z api/index.js | 
+api stopped
+INFO 2022-10-20T14:58:23.017Z api/index.js | db disconnected
+INFO 2022-10-20T14:58:30.794Z api/index.js | db connected
+INFO 2022-10-20T15:01:15.174Z api/index.js | 
+api stopped
+INFO 2022-10-20T15:01:15.180Z api/index.js | db disconnected
+INFO 2022-10-20T15:01:16.351Z api/index.js | db connected
+INFO 2022-10-20T19:43:03.638Z api/index.js | 
+api stopped
+INFO 2022-10-20T19:43:03.662Z api/index.js | db disconnected
+INFO 2022-10-20T19:43:04.802Z api/index.js | db connected
+INFO 2022-10-20T19:47:51.746Z api/index.js | 
+api stopped
+INFO 2022-10-20T19:47:51.755Z api/index.js | db disconnected
+INFO 2022-10-20T19:47:53.368Z api/index.js | db connected
+INFO 2022-10-20T19:59:28.950Z api/index.js | 
+api stopped
+INFO 2022-10-20T19:59:28.971Z api/index.js | db disconnected
+INFO 2022-10-20T19:59:31.450Z api/index.js | db connected
+INFO 2022-10-20T19:59:57.302Z api/index.js | 
+api stopped
+INFO 2022-10-20T19:59:57.311Z api/index.js | db disconnected
+INFO 2022-10-20T19:59:59.244Z api/index.js | db connected
+INFO 2022-10-20T20:07:54.773Z api/index.js | 
+api stopped
+INFO 2022-10-20T20:07:54.781Z api/index.js | db disconnected
+INFO 2022-10-20T20:07:56.031Z api/index.js | db connected
+INFO 2022-10-20T20:15:48.048Z api/index.js | 
+api stopped
+INFO 2022-10-20T20:15:48.059Z api/index.js | db disconnected
+INFO 2022-10-20T20:15:49.370Z api/index.js | db connected
+INFO 2022-10-20T20:16:37.406Z user/updatePasswordHandler.js | User: 632c2e0a7a2234d2c0432b67 updated details succesfully
+INFO 2022-10-20T20:16:55.625Z user/updatePasswordHandler.js | User: 632c2e0a7a2234d2c0432b67 updated details succesfully
+ERROR 2022-10-20T20:16:58.317Z user/authenticateUserHandler.js | user with email pepito@grillo.com not found
+ERROR 2022-10-20T20:17:11.538Z user/authenticateUserHandler.js | user with email pepito@grillo.com not found
+INFO 2022-10-20T20:17:27.394Z user/updatePasswordHandler.js | User: 632c2e0a7a2234d2c0432b67 updated details succesfully
+INFO 2022-10-20T20:17:48.906Z user/updatePasswordHandler.js | User: 632c2e0a7a2234d2c0432b67 updated details succesfully
+INFO 2022-10-20T20:18:11.428Z user/updatePasswordHandler.js | User: 632c2e0a7a2234d2c0432b67 updated details succesfully
+INFO 2022-10-20T20:18:59.139Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-10-20T20:19:00.111Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-10-20T20:19:01.630Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-10-20T20:19:02.792Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-10-20T20:19:05.898Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-10-20T20:19:06.609Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-10-20T20:19:08.878Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-10-20T20:19:13.631Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-10-20T20:24:31.312Z api/index.js | 
+api stopped
+INFO 2022-10-20T20:24:31.323Z api/index.js | db disconnected
+INFO 2022-10-20T20:25:49.830Z api/index.js | db connected
+INFO 2022-10-20T20:30:49.105Z api/index.js | 
+api stopped
+INFO 2022-10-20T20:30:49.116Z api/index.js | db disconnected
+INFO 2022-10-20T20:30:51.676Z api/index.js | db connected
+INFO 2022-10-20T20:32:59.080Z api/index.js | 
+api stopped
+INFO 2022-10-20T20:32:59.091Z api/index.js | db disconnected
+INFO 2022-10-20T20:33:00.005Z api/index.js | db connected
+INFO 2022-10-20T20:40:17.840Z api/index.js | 
+api stopped
+INFO 2022-10-20T20:40:17.861Z api/index.js | db disconnected
+INFO 2022-10-20T20:40:38.236Z api/index.js | db connected
+INFO 2022-10-20T20:46:25.609Z api/index.js | 
+api stopped
+INFO 2022-10-20T20:46:25.624Z api/index.js | db disconnected
+INFO 2022-10-20T20:46:36.717Z api/index.js | db connected
+INFO 2022-10-20T20:59:25.589Z api/index.js | 
+api stopped
+INFO 2022-10-20T20:59:25.605Z api/index.js | db disconnected
+INFO 2022-10-20T20:59:27.306Z api/index.js | db connected
+ERROR 2022-10-20T20:59:57.024Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-10-20T21:03:33.524Z api/index.js | 
+api stopped
+INFO 2022-10-20T21:03:33.544Z api/index.js | db disconnected
+INFO 2022-10-20T21:03:34.738Z api/index.js | db connected
+ERROR 2022-10-20T21:03:59.596Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-10-20T21:06:05.174Z api/index.js | 
+api stopped
+INFO 2022-10-20T21:06:05.186Z api/index.js | db disconnected
+INFO 2022-10-20T21:06:06.260Z api/index.js | db connected
+ERROR 2022-10-20T21:06:36.664Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-10-20T21:07:23.196Z api/index.js | 
+api stopped
+INFO 2022-10-20T21:07:23.207Z api/index.js | db disconnected
+INFO 2022-10-20T21:07:40.177Z api/index.js | db connected
+ERROR 2022-10-20T21:09:57.165Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+ERROR 2022-10-20T21:14:12.636Z gameCode/retrieveGameCodeHandler.js | no open games match the details entered
+INFO 2022-10-20T21:14:50.399Z api/index.js | db connected
+INFO 2022-10-20T21:15:06.175Z api/index.js | db connected
+INFO 2022-10-20T21:17:24.580Z api/index.js | 
+api stopped
+INFO 2022-10-20T21:17:24.596Z api/index.js | db disconnected
+INFO 2022-10-20T21:17:33.581Z api/index.js | db connected
+INFO 2022-10-20T21:19:29.653Z api/index.js | 
+api stopped
+INFO 2022-10-20T21:19:29.670Z api/index.js | db disconnected
+INFO 2022-10-20T21:19:54.189Z api/index.js | db connected
+INFO 2022-10-21T08:19:17.159Z api/index.js | 
+api stopped
+INFO 2022-10-21T08:19:17.193Z api/index.js | db disconnected
+INFO 2022-10-26T10:23:48.465Z api/index.js | db connected
+INFO 2022-10-26T10:25:25.113Z api/index.js | 
+api stopped
+INFO 2022-10-26T10:25:25.127Z api/index.js | db disconnected
+INFO 2022-10-26T10:26:30.760Z api/index.js | db connected
+INFO 2022-10-26T12:59:18.831Z api/index.js | 
+api stopped
+INFO 2022-10-26T12:59:18.846Z api/index.js | db disconnected
+INFO 2022-10-26T20:57:50.010Z api/index.js | db connected
+INFO 2022-10-26T20:57:52.751Z api/index.js | 
+api stopped
+INFO 2022-10-26T20:57:52.757Z api/index.js | db disconnected
+INFO 2022-10-31T20:43:03.590Z api/index.js | db connected
+INFO 2022-10-31T20:43:11.803Z api/index.js | db connected
+INFO 2022-10-31T20:43:45.069Z api/index.js | db connected
+ERROR 2022-10-31T20:44:55.907Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-10-31T20:44:55.911Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-10-31T20:44:55.915Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-10-31T20:45:59.728Z user/authenticateUserHandler.js | user with email d@t.com not found
+ERROR 2022-10-31T20:46:04.798Z user/authenticateUserHandler.js | user with email d@t.com not found
+ERROR 2022-10-31T20:46:25.869Z user/authenticateUserHandler.js | user with email d@tt.com not found
+ERROR 2022-10-31T20:46:33.308Z user/authenticateUserHandler.js | user with email dani@tt.com not found
+INFO 2022-10-31T20:47:33.943Z api/index.js | db connected
+INFO 2022-10-31T20:47:57.794Z api/index.js | db connected
+ERROR 2022-10-31T20:48:07.342Z user/authenticateUserHandler.js | user with email d@t.com not found
+ERROR 2022-11-01T12:22:11.660Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-11-01T12:22:11.664Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-11-01T12:22:11.672Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-11-01T12:22:11.666Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-11-01T13:52:58.897Z gameCode/createGameCodeHandler.js | jwt expired
+ERROR 2022-11-01T13:54:18.099Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-11-01T13:54:18.102Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-11-01T13:54:21.910Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-11-01T13:54:21.912Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-11-01T13:54:25.670Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2022-11-01T13:54:25.671Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-11-01T13:54:25.673Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-11-01T15:28:15.834Z user/retrieveUserHandler.js | jwt expired
+ERROR 2022-11-01T15:28:15.915Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2022-11-01T15:28:15.945Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2022-11-01T15:36:54.969Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:36:56.128Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:36:58.685Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:00.151Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:00.280Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:00.762Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:01.328Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:01.585Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:05.947Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:06.564Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:15.729Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:17.044Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:17.976Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:49.760Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:37:50.641Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:38:19.790Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:38:27.549Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:38:52.654Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:38:53.267Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:38:54.330Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:39:07.814Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:39:09.228Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:39:10.399Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:26.877Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:28.064Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:29.114Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:29.799Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:30.915Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:31.681Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:32.470Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:33.114Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:33.484Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:41.103Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:41.902Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:42.309Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:43.231Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:55.818Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T15:40:56.248Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:00:45.497Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:00:49.204Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:08:13.729Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:08:16.687Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:08:17.477Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:08:18.292Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:08:18.812Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:08:19.807Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:08:38.878Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:09:33.459Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:09:35.212Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:09:47.940Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:09:49.139Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:09:55.105Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:09:58.004Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:09:59.240Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:10:00.442Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:10:01.937Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:10:06.727Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:10:41.071Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:10:42.987Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:10:43.436Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:10:44.533Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:12:34.425Z user/updateFavoritesHandler.js | User: 632c2e0a7a2234d2c0432b67 updated favorites succesfully
+INFO 2022-11-01T16:13:20.559Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-11-01T16:13:26.091Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-11-01T16:13:26.823Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-11-01T16:13:32.493Z user/updateFavoritesHandler.js | User: 6351ad1f4bc646bfa13c8226 updated favorites succesfully
+INFO 2022-11-02T10:04:48.236Z api/index.js | 
+api stopped
+INFO 2022-11-02T10:04:48.354Z api/index.js | db disconnected
+INFO 2022-11-04T18:22:08.120Z api/index.js | db connected

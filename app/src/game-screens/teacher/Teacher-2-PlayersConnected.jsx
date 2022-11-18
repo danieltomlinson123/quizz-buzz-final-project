@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 function Teacher2PlayersConnected({
   pin,
   nameOfClass,

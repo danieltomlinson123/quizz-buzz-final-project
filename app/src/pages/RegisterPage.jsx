@@ -5,6 +5,8 @@ import registerUser from "../logic/registerUser";
 // import onFeedback from "../App";
 import withContext from "../utils/withContext";
 
+import "./RegisterPage.css";
+
 function RegisterPage({
   context: { handleNavigationToLogin, handleFeedback },
 }) {

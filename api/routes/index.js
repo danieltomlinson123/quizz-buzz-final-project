@@ -16,8 +16,8 @@ const {
   retrieveQuestionForEditHandler,
   searchQuestionsHandler,
   searchQuestionsPublicHandler,
-  updateQuestionTextHandler,
   updateQuestionEditHandler,
+  updateQuestionTextHandler,
 } = require("./questions");
 const {
   createGameCodeHandler,
@@ -68,7 +68,7 @@ const gameCodesRouter = Router();
 
 gameCodesRouter.post("/gameCodes", jsonBodyParser, createGameCodeHandler);
 
-gameCodesRouter.get("/gameCodes", jsonBodyParser, retrieveGameCodeHandler);
+gameCodesRouter.post("/gameCodes/pin", jsonBodyParser, retrieveGameCodeHandler);
 
 module.exports = {
   usersRouter,

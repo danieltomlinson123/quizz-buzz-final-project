@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "./EditQuestionPanel.css";
+
 import "./timeSelect.scss";
 
 import { useEffect, useState, useRef } from "react";

@@ -6,6 +6,6 @@ module.exports = {
   retrieveQuestionForEdit: require("./retrieveQuestionForEdit"),
   searchQuestions: require("./searchQuestions"),
   searchQuestionsPublic: require("./searchQuestionsPublic"),
-  updateQuestionEdit: require("./updateQuestionEdit"),
   updateQuestionText: require("./updateQuestionText"),
+  updateQuestionEdit: require("./updateQuestionEdit"),
 };

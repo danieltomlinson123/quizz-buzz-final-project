@@ -1,12 +1,11 @@
 const { GameCode } = require("../../../models");
 const { NotFoundError, SystemError } = require("errors");
-const { validateString } = require("validators");
+const { validateNumber } = require("validators");
 
 /**
  * Retrieves a gameCodes that match the pin.
  *
- * @param {string} userId The user id.
- * @param {string} pin The game pin.
+ * @param {number} pin The game pin. !!!!! Doesn't accept nnumber or string??
  *
  * @returns {Promise}
  *
@@ -18,7 +17,8 @@ const { validateString } = require("validators");
  */
 
 function retrieveGameCode(pin) {
-  validateString(pin, "pin");
+  // validate string breaks the code because pin is not a string here!!! so does validateNumber!!
+  // validateNumber(pin, "pin");
 
   /* return User.findById(userId)
     .lean()
@@ -30,8 +30,10 @@ function retrieveGameCode(pin) {
       if (!user) throw new NotFoundError(`user with id ${userId} not found`);
 
       return  */
+  console.log("pin received as argument in retrieveGameCode");
+  console.log(pin);
 
-  return GameCode.find(pin)
+  return GameCode.find({ pin: pin })
     .catch((error) => {
       throw new SystemError(error.message);
     })

@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "./CreateQuestionPanel.css";
+
 import "./timeSelect.scss";
 
 import Loggito from "../utils/Loggito";

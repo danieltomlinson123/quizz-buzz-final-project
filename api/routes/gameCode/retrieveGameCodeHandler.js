@@ -16,7 +16,7 @@ module.exports = (req, res) => {
         body: { pin },
       } = req;
       // const userId = verifyToken(req);
-
+      debugger;
       return retrieveGameCode(pin).then((gameCode) => res.json(gameCode));
     },
     res,

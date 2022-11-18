@@ -1,10 +1,17 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
+import withContext from "../../utils/withContext";
 import retrieveGameCode from "../../logic/retrieveGameCode";
 
 // ================== Component ================== //
 
-function Student1EnterClass({ handleScreenChangeS1, socket, handleFeedback }) {
+function Student1EnterClass({
+  handleScreenChangeS1,
+  socket,
+  context: { handleFeedback },
+}) {
   // ================== Function: to retrieve gameCode, verify details and join the class room on socket ================== //
 
   const handleFormSubmit = (event) => {
@@ -33,9 +40,10 @@ function Student1EnterClass({ handleScreenChangeS1, socket, handleFeedback }) {
       throw new Error("Input fields cannot be left blank");
     }
 
+    // const pinString = pin.toString();
+
     try {
       retrieveGameCode(pin, (error, gameCodes) => {
-        debugger;
         if (error) {
           handleFeedback({ message: error.message, level: "error" });
 
@@ -131,4 +139,4 @@ function Student1EnterClass({ handleScreenChangeS1, socket, handleFeedback }) {
   );
 }
 
-export default Student1EnterClass;
+export default withContext(Student1EnterClass);

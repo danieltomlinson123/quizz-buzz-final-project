@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "./Settings.css";
+
 import Loggito from "../utils/Loggito";
 import updatePassword from "../logic/updatePassword";
 

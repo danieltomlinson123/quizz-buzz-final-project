@@ -11,11 +11,13 @@ const logger = createLogger(module);
 module.exports = (req, res) => {
   runWithErrorHandling(
     () => {
+      const userId = verifyToken(req);
+
       const {
         query: { q: query },
       } = req;
 
-      return searchQuestionsPublic(query).then((questions) =>
+      return searchQuestionsPublic(userId, query).then((questions) =>
         res.json(questions)
       );
     },

@@ -1,8 +1,12 @@
-const { runWithErrorHandling, verifyToken } = require("../../utils");
+const {
+  runWithErrorHandling,
+  verifyToken,
+  createLogger,
+} = require("../../utils");
 const {
   users: { updatePassword },
 } = require("../../logic");
-const logger = require("../../logger")(module);
+const logger = createLogger(module);
 
 function updatePasswordHandler(req, res) {
   runWithErrorHandling(

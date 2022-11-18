@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 import { useState, useEffect } from "react";
 
 import {
@@ -11,6 +13,7 @@ import {
 // ================== socket connection ================== //
 
 import io from "socket.io-client";
+import Student9ClassClosed from "../student/Student-9-ClassClosed";
 const socket = io.connect("http://localhost:8080", { autoconnect: false });
 
 // ================== Component ================== //

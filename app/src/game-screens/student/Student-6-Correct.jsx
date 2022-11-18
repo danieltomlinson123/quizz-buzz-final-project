@@ -1,5 +1,7 @@
 // ================== Imports ================== //
 
+import "../game-screens.css";
+
 import { Confetti } from "../../components";
 
 import { useEffect } from "react";
