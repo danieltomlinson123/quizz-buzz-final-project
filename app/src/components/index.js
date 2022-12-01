@@ -14,6 +14,7 @@ import QuestionsList from "./list-panels/QuestionsList";
 import Search from "./Search";
 import Settings from "./Settings";
 import Spinner from "./Spinner";
+import Toasts from "./Toasts";
 
 // ================== Exports ================== //
 
@@ -32,4 +33,5 @@ export {
   Search,
   Settings,
   Spinner,
+  Toasts,
 };

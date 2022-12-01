@@ -2727,3 +2727,13 @@ INFO 2022-11-02T10:04:48.236Z api/index.js |
 api stopped
 INFO 2022-11-02T10:04:48.354Z api/index.js | db disconnected
 INFO 2022-11-04T18:22:08.120Z api/index.js | db connected
+ERROR 2022-11-24T14:29:59.530Z api/index.js | connect ECONNREFUSED 127.0.0.1:27017
+ERROR 2022-11-24T14:31:54.666Z api/index.js | connect ECONNREFUSED 127.0.0.1:27017
+ERROR 2022-11-24T14:43:05.015Z api/index.js | connect ECONNREFUSED 127.0.0.1:27017
+ERROR 2022-11-24T18:38:39.048Z api/index.js | connect ECONNREFUSED 127.0.0.1:27017
+ERROR 2022-11-25T09:49:33.316Z api/index.js | connect ECONNREFUSED 127.0.0.1:27017
+INFO 2022-11-25T10:15:17.160Z api/index.js | db connected
+ERROR 2022-11-25T10:15:35.255Z user/authenticateUserHandler.js | user with email pepito@grillo.com not found
+ERROR 2022-11-25T10:15:40.608Z user/authenticateUserHandler.js | user with email pepito@grillo.com not found
+ERROR 2022-11-25T10:15:45.105Z user/authenticateUserHandler.js | user with email dani@t.com not found
+INFO 2022-12-01T16:13:17.106Z api/index.js | db connected

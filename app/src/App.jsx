@@ -2,7 +2,12 @@
 
 import { useState } from "react";
 
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+
 import { HomePage, LoginPage, RegisterPage } from "./pages";
+
+import { Toasts } from "./components";
 
 import { QuizMaster } from "./game-screens/main-screens";
 
@@ -102,7 +107,19 @@ function App() {
         message,
       }}
     >
+      <ToastContainer
+        position="top-right"
+        autoClose={7000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       <Routes>
+        <Route path="toasts" element={<Toasts />} />
         <Route
           path="login"
           element={sessionStorage.token ? <Navigate to="/" /> : <LoginPage />}
