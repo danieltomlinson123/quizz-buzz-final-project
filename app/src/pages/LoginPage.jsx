@@ -51,7 +51,10 @@ function LoginPage({
 
         logger.debug("user logged in");
 
-        sessionStorage.token = token;
+        // sessionStorage.token = token;
+        sessionStorage.setItem("token", token);
+        // or
+        // localStorage.setItem("token", token);
 
         handleNavigationToHome();
         // onLogIn();
