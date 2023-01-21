@@ -3,6 +3,13 @@ module.exports = {
   validatePassword: require("./validatePassword"),
   validateCallback: require("./validateCallback"),
   validateText: require("./validateText"),
+  validateVisibility: require("./validateVisibility"),
+  validateFavoritesAction: require("./validateFavoritesAction"),
+  validateHost: require("./validateHost"),
+  validateQuestionId: require("./validateQuestionId"),
+  validatePin: require("./validatePin"),
   validateString: require("./validateString"),
   validateNumber: require("./validateNumber"),
+  validateTimeLimit: require("./validateTimeLimit"),
+  validateMCQAnswer: require("./validateMCQAnswer"),
 };

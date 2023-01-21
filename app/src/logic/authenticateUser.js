@@ -27,10 +27,6 @@ function authenticateUser(email, password, callback) {
 
     console.log(status);
 
-    // const json = xhr.responseText;
-
-    // const { error, token } = JSON.parse(xhr.responseText);
-
     switch (true) {
       case status >= 500:
         callback(
@@ -48,7 +44,7 @@ function authenticateUser(email, password, callback) {
         );
         break;
       case status === 200:
-        callback(null, JSON.parse(xhr.responseText));
+        callback(null, JSON.parse(xhr.responseText).token);
         break;
       default:
         callback(new UnknownError(`unexpected status ${status}`));
@@ -64,7 +60,6 @@ function authenticateUser(email, password, callback) {
 
   xhr.setRequestHeader("Content-type", "application/json");
 
-  // xhr.send(`{ "email": "${email}", "password": "${password}"}`);
   xhr.send(JSON.stringify({ email, password }));
 }
 

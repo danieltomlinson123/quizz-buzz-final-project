@@ -1,18 +1,16 @@
-import { validateText, validateCallback } from "validators";
+import {
+  validateText,
+  validateCallback,
+  validateQuestionId,
+  validateTimeLimit,
+  validateVisibility,
+  validateMCQAnswer,
+} from "validators";
 import { AuthError, ClientError, ServerError, UnknownError } from "errors";
 
 const API_URL = process.env.REACT_APP_API_URL;
 
-function updateQuestionEdit(
-  token,
-  questionId,
-  questionDetails,
-  /*  question,
-  suggestedAnswer,
-  timeLimit,
-  visibility, */
-  callback
-) {
+function updateQuestionEdit(token, questionId, questionDetails, callback) {
   const {
     question,
     timeLimit,
@@ -24,32 +22,27 @@ function updateQuestionEdit(
     answerC,
     answerD,
   } = questionDetails;
-
-  // TODO: validate inputs
-
-  /*   if (typeof token !== "string") throw new TypeError("token is not a string");
-  if (token.trim().length === 0) throw new Error("token is empty or blank"); */
   validateText(token, "token");
-
-  if (typeof questionId !== "string")
-    throw new TypeError("question id is not a string");
-  if (questionId.trim().length === 0)
-    throw new Error("question id is empty or blank");
-
-  /*   if (typeof callback !== "function")
-    throw new TypeError("callback is not a function"); */
+  validateQuestionId(questionId);
   validateCallback(callback);
+
+  validateText(question, "question");
+  validateTimeLimit(timeLimit);
+  validateVisibility(visibility);
+
+  if (questionType === "MCQ") {
+    validateMCQAnswer(answerA, "answer A");
+    validateMCQAnswer(answerB, "answer B");
+    validateMCQAnswer(answerC, "answer C");
+    validateMCQAnswer(answerD, "answer D");
+  } else if (questionType === "written") {
+    validateText(suggestedAnswer, "suggested answer");
+  }
 
   const xhr = new XMLHttpRequest();
 
   xhr.onload = function () {
     const status = xhr.status;
-
-    // const { error } = JSON.parse(xhr.responseText);
-
-    /*     if (status >= 500) callback(new Error(`server error(${status})`));
-    else if (status >= 400) callback(new Error(`client error(${status})`));
-    else if (status === 204) callback(null); */
 
     switch (true) {
       case status >= 500:
@@ -85,19 +78,6 @@ function updateQuestionEdit(
   xhr.setRequestHeader("Authorization", `Bearer ${token}`);
   xhr.setRequestHeader("Content-type", "application/json");
 
-  /* const json = JSON.stringify({
-    question,
-    timeLimit,
-    visibility,
-    questionType,
-    suggestedAnswer,
-    answerA,
-    answerB,
-    answerC,
-    answerD,
-  });
-
-  xhr.send(json); */
   xhr.send(
     JSON.stringify({
       question,

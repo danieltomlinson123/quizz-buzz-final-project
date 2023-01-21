@@ -1,24 +1,18 @@
-import { validateText, validateString, validateCallback } from "validators";
+import { validateText, validateCallback } from "validators";
 import { AuthError, ClientError, ServerError, UnknownError } from "errors";
 
 const API_URL = process.env.REACT_APP_API_URL;
 
 function searchQuestions(token, query, callback) {
+  debugger;
   validateText(token, "token");
-  validateString(query, "query");
+  validateText(query, "query");
   validateCallback(callback);
 
   const xhr = new XMLHttpRequest();
 
   xhr.onload = function () {
     const status = xhr.status;
-
-    // const json = xhr.responseText;
-
-    // const questions = JSON.parse(json);
-    // const { error } = questions;
-
-    // const { error, questions } = JSON.parse(xhr.responseText);
 
     switch (true) {
       case status >= 500:
@@ -37,7 +31,6 @@ function searchQuestions(token, query, callback) {
         );
         break;
       case status === 200:
-        // callback(null, questions.reverse());
         callback(null, JSON.parse(xhr.responseText).reverse());
         break;
       default:

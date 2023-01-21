@@ -1,39 +1,24 @@
-import { validateText, validateCallback } from "validators";
+import {
+  validateText,
+  validateCallback,
+  validatePin,
+  validateHost,
+} from "validators";
 import { AuthError, ClientError, ServerError, UnknownError } from "errors";
 
 const API_URL = process.env.REACT_APP_API_URL;
 
 function createGameCode(token, nameOfClass, pin, host, callback) {
-  //TODO validate inputs
-  /*   if (typeof token !== "string") throw new TypeError("token is not a string");
-  if (token.trim().length === 0) throw new Error("token is empty or blank"); */
   validateText(token, "token");
-  /*   if (typeof nameOfClass !== "string")
-    throw new TypeError("name of class is not a string");
-  if (nameOfClass.trim().length === 0)
-    throw new Error("name of class is empty or blank"); */
-
   validateText(nameOfClass, "name of class");
-
-  // TODO: validate token, pin and host, check error message returned when name empty or blank
-
+  validatePin(pin);
+  validateHost(host);
   validateCallback(callback);
-  /* 
-  if (typeof callback !== "function")
-    throw new TypeError("callback is not a function"); */
 
   const xhr = new XMLHttpRequest();
 
   xhr.onload = function () {
     const status = xhr.status;
-
-    // This is new, TODO: check error is passed back from api
-    // const json = xhr.responseText;
-    // const { error } = JSON.parse(xhr.responseText);
-
-    /*     if (status >= 500) callback(new Error(`server error(${status})`));
-    else if (status >= 400) callback(new Error(`client error(${status})`));
-    else if (status === 201) callback(null); */
 
     switch (true) {
       case status >= 500:
@@ -68,8 +53,6 @@ function createGameCode(token, nameOfClass, pin, host, callback) {
   xhr.setRequestHeader("Authorization", `Bearer ${token}`);
   xhr.setRequestHeader("Content-type", "application/json");
 
-  /* const json = JSON.stringify({ nameOfClass, pin, host });
-  xhr.send(json); */
   xhr.send(JSON.stringify({ nameOfClass, pin, host }));
 }
 

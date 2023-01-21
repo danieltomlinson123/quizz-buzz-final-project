@@ -26,3 +26,26 @@ INFO 2023-01-21T11:33:52.674Z api/index.js | db connected
 INFO 2023-01-21T11:33:56.226Z api/index.js | db connected
 INFO 2023-01-21T11:33:59.737Z api/index.js | db connected
 INFO 2023-01-21T11:39:40.693Z api/index.js | db connected
+ERROR 2023-01-21T12:48:41.533Z user/retrieveUserHandler.js | jwt expired
+ERROR 2023-01-21T12:48:41.539Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2023-01-21T12:48:41.543Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2023-01-21T12:48:55.557Z user/retrieveUserHandler.js | jwt malformed
+ERROR 2023-01-21T12:48:55.559Z questions/retrieveQuestionsPublicHandler.js | jwt malformed
+ERROR 2023-01-21T12:48:55.561Z questions/retrieveQuestionsHandler.js | jwt malformed
+ERROR 2023-01-21T12:49:03.002Z user/retrieveUserHandler.js | jwt malformed
+ERROR 2023-01-21T12:49:03.003Z questions/retrieveQuestionsPublicHandler.js | jwt malformed
+ERROR 2023-01-21T12:49:03.004Z questions/retrieveQuestionsHandler.js | jwt malformed
+ERROR 2023-01-21T12:49:17.168Z user/retrieveUserHandler.js | jwt malformed
+ERROR 2023-01-21T12:49:17.171Z questions/retrieveQuestionsHandler.js | jwt malformed
+ERROR 2023-01-21T12:49:17.173Z questions/retrieveQuestionsPublicHandler.js | jwt malformed
+ERROR 2023-01-21T12:49:57.250Z user/retrieveUserHandler.js | jwt malformed
+ERROR 2023-01-21T12:49:57.253Z questions/retrieveQuestionsHandler.js | jwt malformed
+ERROR 2023-01-21T12:49:57.254Z questions/retrieveQuestionsPublicHandler.js | jwt malformed
+ERROR 2023-01-21T12:50:03.759Z user/retrieveUserHandler.js | jwt malformed
+ERROR 2023-01-21T12:50:03.768Z questions/retrieveQuestionsHandler.js | jwt malformed
+ERROR 2023-01-21T12:50:03.776Z questions/retrieveQuestionsPublicHandler.js | jwt malformed
+INFO 2023-01-21T13:22:21.726Z user/updateFavoritesHandler.js | User: 63caf291d4cca9a027c5a3f1 updated favorites succesfully
+INFO 2023-01-21T13:22:41.437Z user/updateFavoritesHandler.js | User: 63caf291d4cca9a027c5a3f1 updated favorites succesfully
+ERROR 2023-01-21T13:52:30.441Z user/retrieveUserHandler.js | jwt expired
+ERROR 2023-01-21T13:52:30.444Z questions/retrieveQuestionsHandler.js | jwt expired
+ERROR 2023-01-21T13:52:30.445Z questions/retrieveQuestionsPublicHandler.js | jwt expired

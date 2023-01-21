@@ -4,12 +4,7 @@ import { AuthError, ClientError, ServerError, UnknownError } from "errors";
 const API_URL = process.env.REACT_APP_API_URL;
 
 function retrieveQuestionsPublic(token, callback) {
-  /*   if (typeof token !== "string") throw new TypeError("token is not a string");
-  if (token.trim().length === 0) throw new Error("token is empty or blank"); */
   validateText(token, "token");
-
-  /*   if (typeof callback !== "function")
-    throw new TypeError("callback is not a function"); */
   validateCallback(callback);
 
   const xhr = new XMLHttpRequest();
@@ -17,17 +12,6 @@ function retrieveQuestionsPublic(token, callback) {
   xhr.onload = function () {
     const status = xhr.status;
 
-    // const { error, data } = JSON.parse(xhr.responseText);
-
-    /* if (status >= 500) callback(new Error(`server error(${status})`));
-    else if (status >= 400) callback(new Error(`client error(${status})`));
-    else if (status === 200) {
-      // const json = xhr.responseText;
-
-      // const data = JSON.parse(json);
-
-      callback(null, data.reverse());
-    } */
     switch (true) {
       case status >= 500:
         callback(
@@ -45,7 +29,6 @@ function retrieveQuestionsPublic(token, callback) {
         );
         break;
       case status === 200:
-        // callback(null, data.reverse());
         callback(null, JSON.parse(xhr.responseText).reverse());
         break;
       default:

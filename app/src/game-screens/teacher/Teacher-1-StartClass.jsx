@@ -16,7 +16,15 @@ function Teacher1StartClass({ socket, handleStartClass }) {
 
     const nameOfClass = nameOfClassInput.value;
 
-    const pin = Math.round(Math.random() * 10000);
+    const createPin = () => {
+      let pin = Math.round(Math.random().toFixed(4) * 10000);
+      if (pin < 1000 || pin > 9999) createPin();
+      return pin;
+    };
+
+    const pin = createPin();
+
+    Math.round(Math.random().toFixed(4) * 10000);
 
     const host = socket.id;
 
