@@ -22,7 +22,7 @@ const { validateString } = require("validators");
 function updateQuestionText(userId, questionId, text) {
   verifyObjectIdString(userId);
   verifyObjectIdString(questionId);
-  validateString(text);
+  validateText(text, "new question");
 
   return User.findById(userId)
     .then((user) => {

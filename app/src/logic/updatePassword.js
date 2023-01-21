@@ -3,6 +3,7 @@ import {
   validateCallback,
   validatePassword,
   validateEmail,
+  validateFormId,
 } from "validators";
 import { AuthError, ClientError, ServerError, UnknownError } from "errors";
 
@@ -20,7 +21,8 @@ function updatePassword(token, formValues, callback) {
   } = formValues;
 
   validateText(token, "token");
-  validateCallback();
+  validateCallback(callback);
+  validateFormId(formId);
 
   if (formId === "nameForm") {
     validateText(updatedName, "updated name");

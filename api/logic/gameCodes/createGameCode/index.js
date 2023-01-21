@@ -1,6 +1,6 @@
 const { User, GameCode } = require("../../../models");
 const { NotFoundError, SystemError } = require("errors");
-const { validateString } = require("validators");
+const { validateText, validatePin, validateHost } = require("validators");
 const { verifyObjectId } = require("../../../utils");
 
 /**
@@ -22,9 +22,9 @@ const { verifyObjectId } = require("../../../utils");
 
 function createGameCode(userId, nameOfClass, pin, host) {
   verifyObjectId(userId, "user id");
-  validateString(nameOfClass, "nameOfClass");
-  validateString(pin, "pin");
-  validateString(host, "host");
+  validateText(nameOfClass, "nameOfClass");
+  validatePin(pin);
+  validateHost(host);
 
   return User.findById(userId)
     .lean()

@@ -1,6 +1,6 @@
 const { Question, User } = require("../../../models");
 const { DuplicityError, NotFoundError, SystemError } = require("errors");
-const { validateString } = require("validators");
+const { verifyObjectIdString } = require("../../../utils");
 
 /**
  * Retrieves all questions with visibility "public".
@@ -17,7 +17,7 @@ const { validateString } = require("validators");
  */
 
 function retrieveQuestionsPublic(userId) {
-  // TODO verifyObjectId
+  verifyObjectIdString(userId);
 
   return User.findById(userId)
     .lean()

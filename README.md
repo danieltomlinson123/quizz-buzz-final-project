@@ -167,7 +167,6 @@ Sprint 3
 - verifyToken in retrieveGameCode, deleteQuestion and searchQuestionsPublic routeHandler then pass userId to logic to check wih db
 - complete documentation of app logic
 - validation of inputs in app and api
-- improved validation passwords, email, other details using RegEx
 - search and correction of potential errors and warnings in game play
 - logic documentation
 - management of token - autorenovation if user is still active
@@ -182,6 +181,7 @@ Sprint 3
 - improve validation of game input
 - change the naming of the files from Teacher/Student to something more general e.g. Host/Guest or Host/Player
 - change updatePassword file/logic name to updateDetails
+- change api logic to async/await
 
 ## doubts
 

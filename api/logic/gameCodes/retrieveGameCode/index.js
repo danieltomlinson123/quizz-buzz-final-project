@@ -1,6 +1,6 @@
 const { GameCode } = require("../../../models");
 const { NotFoundError, SystemError } = require("errors");
-const { validateNumber } = require("validators");
+const { validatePin } = require("validators");
 
 /**
  * Retrieves a gameCodes that match the pin.
@@ -17,6 +17,7 @@ const { validateNumber } = require("validators");
  */
 
 function retrieveGameCode(pin) {
+  validatePin(pin);
   // validate string breaks the code because pin is not a string here!!! so does validateNumber!!
   // validateNumber(pin, "pin");
 
@@ -29,8 +30,6 @@ function retrieveGameCode(pin) {
       if (!user) throw new NotFoundError(`user with id ${userId} not found`);
 
       return  */
-  console.log("pin received as argument in retrieveGameCode");
-  console.log(pin);
 
   return GameCode.find({ pin: pin })
     .catch((error) => {

@@ -5,6 +5,7 @@ import {
   validateTimeLimit,
   validateVisibility,
   validateMCQAnswer,
+  validateQuestionType,
 } from "validators";
 import { AuthError, ClientError, ServerError, UnknownError } from "errors";
 
@@ -29,6 +30,7 @@ function updateQuestionEdit(token, questionId, questionDetails, callback) {
   validateText(question, "question");
   validateTimeLimit(timeLimit);
   validateVisibility(visibility);
+  validateQuestionType(validateQuestionType);
 
   if (questionType === "MCQ") {
     // validateMCQAnswer(answerA, "answer A");

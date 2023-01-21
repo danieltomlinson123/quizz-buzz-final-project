@@ -3,7 +3,13 @@ const {
   Types: { ObjectId },
 } = require("mongoose");
 const { FormatError, AuthError } = require("errors");
-const { validatePassword } = require("validators");
+const {
+  validatePassword,
+  validateEmail,
+  validateText,
+  validateFormId,
+} = require("validators");
+const { verifyObjectIdString } = require("../../../utils");
 
 /**
  * Updates the name, email or password of a user.
@@ -21,16 +27,26 @@ const { validatePassword } = require("validators");
  */
 
 function updatePassword(userId, req) {
-  if (!ObjectId.isValid(userId)) throw new FormatError("User is not valid");
-
+  // if (!ObjectId.isValid(userId)) throw new FormatError("User is not valid");
+  verifyObjectIdString(userId);
   const { formId, updatedName, password, newEmail, oldPassword, newPassword } =
     req;
 
-  // TODO: validate all inputs
+  validateFormId(formId);
+
+  if (formId === "nameForm") {
+    validatePassword(password);
+    validateText(updatedName, "name");
+  }
 
   if (formId === "passwordForm") {
     validatePassword(oldPassword);
     validatePassword(newPassword);
+  }
+
+  if (formId === "emailForm") {
+    validatePassword(password);
+    validateEmail(email);
   }
 
   return (async () => {

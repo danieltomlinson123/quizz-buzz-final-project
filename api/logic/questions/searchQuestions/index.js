@@ -1,7 +1,7 @@
 const { User, Question } = require("../../../models");
 const { NotFoundError, SystemError } = require("errors");
 const { verifyObjectIdString } = require("../../../utils");
-const { validateString } = require("validators");
+const { validateText } = require("validators");
 
 /**
  * Retrieves all questions that match the query.
@@ -20,7 +20,7 @@ const { validateString } = require("validators");
 
 function searchQuestions(userId, query) {
   verifyObjectIdString(userId, "user id");
-  validateString(query);
+  validateText(query, "query");
 
   return User.findById(userId)
     .lean()

@@ -1,7 +1,14 @@
 const { User, Question } = require("../../../models");
 const { NotFoundError, SystemError } = require("errors");
-const { validateString } = require("validators");
-const { verifyObjectId } = require("../../../utils");
+const {
+  validateText,
+  validateTimeLimit,
+  validateVisibility,
+  validateQuestionType,
+  validateMCQAnswer,
+} = require("validators");
+const { verifyObjectIdString } = require("../../../utils");
+const validateQuestionType = require("validators/src/validateQuestionType");
 
 /**
  * Updates an exisiting question for a user.
@@ -40,8 +47,20 @@ function createQuestion(
 ) {
   //TODO: validate all
 
-  verifyObjectId(userId, "user id");
-  validateString(question, "question");
+  verifyObjectIdString(userId, "user id");
+  validateText(question, "question");
+  validateTimeLimit(timeLimit);
+  validateVisibility(visibility);
+  validateQuestionType(questionType);
+
+  if (questionType === "MCQ") {
+    // validateMCQAnswer(answerA, "answer A");
+    // validateMCQAnswer(answerB, "answer B");
+    // validateMCQAnswer(answerC, "answer C");
+    // validateMCQAnswer(answerD, "answer D");
+  } else if (questionType === "written") {
+    validateText(suggestedAnswer, "suggested answer");
+  }
 
   return User.findById(userId)
     .lean()

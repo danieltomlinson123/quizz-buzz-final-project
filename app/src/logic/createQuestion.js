@@ -4,6 +4,7 @@ import {
   validateVisibility,
   validateTimeLimit,
   validateMCQAnswer,
+  validateQuestionType,
 } from "validators";
 import { AuthError, ClientError, ServerError, UnknownError } from "errors";
 
@@ -27,6 +28,7 @@ function createQuestion(token, questionDetails, callback) {
   validateText(question, "question");
   validateTimeLimit(timeLimit);
   validateVisibility(visibility);
+  validateQuestionType(questionType);
 
   if (questionType === "MCQ") {
     // validateMCQAnswer(answerA, "answer A");

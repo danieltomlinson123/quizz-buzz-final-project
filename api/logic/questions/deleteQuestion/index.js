@@ -1,7 +1,7 @@
 const { User, Question } = require("../../../models");
 const { NotFoundError, SystemError } = require("errors");
 const { validateString } = require("validators");
-const { verifyObjectId } = require("../../../utils");
+const { verifyObjectIdString } = require("../../../utils");
 
 /**
  * Deletes a question for a user.
@@ -19,8 +19,7 @@ const { verifyObjectId } = require("../../../utils");
  */
 
 function deleteQuestion(questionId) {
-  //   verifyObjectId(userId, "user id");
-  verifyObjectId(questionId, "question id");
+  verifyObjectIdString(questionId, "question id");
 
   return Question.findById(questionId)
     .lean()

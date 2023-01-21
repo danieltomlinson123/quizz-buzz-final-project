@@ -19,7 +19,7 @@ const verifyObjectId = require("../../../utils/verifyObjectId");
  */
 
 function retrieveQuestions(userId) {
-  verifyObjectId(userId, "userId");
+  verifyObjectIdString(userId, "userId");
 
   return User.findById(userId)
     .lean()

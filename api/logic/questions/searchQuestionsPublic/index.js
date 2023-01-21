@@ -1,7 +1,7 @@
 const { User, Question } = require("../../../models");
 const { NotFoundError, SystemError } = require("errors");
 const { verifyObjectIdString } = require("../../../utils");
-const { validateString } = require("validators");
+const { validateText } = require("validators");
 
 /**
  * Retrieves all questions that match the query and have visibility "public".
@@ -19,7 +19,8 @@ const { validateString } = require("validators");
  */
 
 function searchQuestionsPublic(userId, query) {
-  validateString(query);
+  verifyObjectIdString(userId);
+  validateText(query, "query");
 
   return User.findById(userId)
     .lean()

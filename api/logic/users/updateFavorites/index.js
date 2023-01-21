@@ -3,7 +3,8 @@ const {
   Types: { ObjectId },
 } = require("mongoose");
 const { FormatError, AuthError } = require("errors");
-const { validatePassword } = require("validators");
+const { validateQuestionId, validateFavoritesAction } = require("validators");
+const { verifyObjectIdString } = require("../../../utils");
 
 /**
  * Updates the favorites array for a user.
@@ -22,7 +23,10 @@ const { validatePassword } = require("validators");
  */
 
 function updateFavorites(userId, questionId, action) {
-  if (!ObjectId.isValid(userId)) throw new FormatError("User is not valid");
+  verifyObjectIdString(userId, "user id");
+  validateQuestionId(questionId);
+  validateFavoritesAction(action);
+  // if (!ObjectId.isValid(userId)) throw new FormatError("User is not valid");
   //   validatePassword(oldPassword);
   //   validatePassword(password);
   //   validatePassword(confirmNewPassword);

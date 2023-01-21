@@ -4,6 +4,8 @@ module.exports = {
   validateCallback: require("./validateCallback"),
   validateText: require("./validateText"),
   validateVisibility: require("./validateVisibility"),
+  validateFormId: require("./validateFormId"),
+  validateQuestionType: require("./validateQuestionType"),
   validateFavoritesAction: require("./validateFavoritesAction"),
   validateHost: require("./validateHost"),
   validateQuestionId: require("./validateQuestionId"),

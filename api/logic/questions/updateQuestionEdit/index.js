@@ -1,7 +1,13 @@
 const { NotFoundError, AuthError } = require("errors");
 const { User, Question } = require("../../../models");
 const { verifyObjectIdString } = require("../../../utils");
-const { validateString } = require("validators");
+const {
+  validateText,
+  validateTimeLimit,
+  validateVisibility,
+  validateQuestionType,
+  validateMCQAnswer,
+} = require("validators");
 
 /**
  * Updates all fields of an exisiting question for a user.
@@ -41,7 +47,19 @@ function updateQuestionEdit(
 ) {
   verifyObjectIdString(userId);
   verifyObjectIdString(questionId);
-  validateString(text);
+  validateText(text, "question");
+  validateTimeLimit(timeLimit);
+  validateVisibility(visibility);
+  validateQuestionType(questionType);
+
+  if (questionType === "MCQ") {
+    // validateMCQAnswer(answerA, "answer A");
+    // validateMCQAnswer(answerB, "answer B");
+    // validateMCQAnswer(answerC, "answer C");
+    // validateMCQAnswer(answerD, "answer D");
+  } else if (questionType === "written") {
+    validateText(suggestedAnswer, "suggested answer");
+  }
 
   return User.findById(userId)
     .then((user) => {
