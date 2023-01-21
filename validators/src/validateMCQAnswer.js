@@ -3,8 +3,10 @@ const { FormatError } = require("errors");
 const Joi = require("joi");
 
 function validateMCQAnswer(answerArray, explain = "answer array") {
+  debugger;
   const schema = Joi.array().items(
-    Joi.string(),
+    // TODO: fails on empty string as index 0 in array
+    Joi.string().required(false),
     Joi.string().valid("correct", "incorrect").required()
   );
 

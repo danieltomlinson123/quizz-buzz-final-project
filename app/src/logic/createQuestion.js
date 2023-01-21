@@ -29,10 +29,10 @@ function createQuestion(token, questionDetails, callback) {
   validateVisibility(visibility);
 
   if (questionType === "MCQ") {
-    validateMCQAnswer(answerA, "answer A");
-    validateMCQAnswer(answerB, "answer B");
-    validateMCQAnswer(answerC, "answer C");
-    validateMCQAnswer(answerD, "answer D");
+    // validateMCQAnswer(answerA, "answer A");
+    // validateMCQAnswer(answerB, "answer B");
+    // validateMCQAnswer(answerC, "answer C");
+    // validateMCQAnswer(answerD, "answer D");
   } else if (questionType === "written") {
     validateText(suggestedAnswer, "suggested answer");
   }

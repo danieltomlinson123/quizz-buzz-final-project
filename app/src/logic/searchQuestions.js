@@ -4,7 +4,6 @@ import { AuthError, ClientError, ServerError, UnknownError } from "errors";
 const API_URL = process.env.REACT_APP_API_URL;
 
 function searchQuestions(token, query, callback) {
-  debugger;
   validateText(token, "token");
   validateText(query, "query");
   validateCallback(callback);
