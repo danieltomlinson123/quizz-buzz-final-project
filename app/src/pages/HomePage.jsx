@@ -367,7 +367,7 @@ function HomePage({
   // ================== jsx ================== //
 
   return name ? (
-    <div className="home-page page background flex-container--homepage">
+    <div className="home-page background flex-container--homepage">
       {location.pathname !== "/quickPlayInHome" && (
         <Header
           name={name}

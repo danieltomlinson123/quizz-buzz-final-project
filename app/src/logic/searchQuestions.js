@@ -13,26 +13,36 @@ function searchQuestions(token, query, callback) {
   xhr.onload = function () {
     const status = xhr.status;
 
-    const json = xhr.responseText;
+    // const json = xhr.responseText;
 
-    const questions = JSON.parse(json);
-    const { error } = questions;
+    // const questions = JSON.parse(json);
+    // const { error } = questions;
+
+    // const { error, questions } = JSON.parse(xhr.responseText);
 
     switch (true) {
       case status >= 500:
-        callback(new ServerError(error));
+        callback(
+          new ServerError(`error ${status}: ${JSON.parse(xhr.response).error}`)
+        );
         break;
       case status === 401:
-        callback(new AuthError(error));
+        callback(
+          new AuthError(`error ${status}: ${JSON.parse(xhr.response).error}`)
+        );
         break;
-      case status >= 400:
-        callback(new ClientError(error));
+      case status === 400:
+        callback(
+          new ClientError(`error ${status}: ${JSON.parse(xhr.response).error}`)
+        );
         break;
       case status === 200:
-        callback(null, questions.reverse());
+        // callback(null, questions.reverse());
+        callback(null, JSON.parse(xhr.responseText).reverse());
         break;
       default:
         callback(new UnknownError(`unexpected status ${status}`));
+        break;
     }
   };
 

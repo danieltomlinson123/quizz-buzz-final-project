@@ -1,0 +1,31 @@
+.menu-button__styles {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  justify-self: flex-end;
+  text-align: center;
+}
+
+.welcome {
+  color: white;
+  line-height: 1.1;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.navigation-bar {
+  background-color: var(--color-border);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-icon {
+  margin: 1rem;
+}

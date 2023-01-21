@@ -1,3 +1,6 @@
+import { validateText, validateCallback } from "validators";
+import { AuthError, ClientError, ServerError, UnknownError } from "errors";
+
 const API_URL = process.env.REACT_APP_API_URL;
 
 function updatePassword(
@@ -18,8 +21,9 @@ function updatePassword(
     confirmNewPassword,
   } = formValues;
   //====== validation ======//
-  if (typeof token !== "string") throw new TypeError("token is not a string");
-  if (token.trim().length === 0) throw new Error("token is empty or blank");
+  /*   if (typeof token !== "string") throw new TypeError("token is not a string");
+  if (token.trim().length === 0) throw new Error("token is empty or blank"); */
+  validateText(token, "token");
 
   if (formId === "passwordForm") {
     if (typeof newPassword !== "string")
@@ -36,8 +40,9 @@ function updatePassword(
 
   //TO DO validate type of name e.g. first name / surname and other inputs
 
-  if (typeof callback !== "function")
-    throw new TypeError("callback is not a function");
+  /*   if (typeof callback !== "function")
+    throw new TypeError("callback is not a function"); */
+  validateCallback();
 
   // TODO: validate other fields
 
@@ -56,16 +61,38 @@ function updatePassword(
 
   xhr.onload = function () {
     const status = xhr.status;
+    // const { error } = JSON.parse(xhr.responseText);
 
-    console.log(status);
-
-    if (status >= 500) callback(new Error(`server error(${status})`));
+    /* if (status >= 500) callback(new Error(`server error(${status})`));
     else if (status >= 400) callback(new Error(`client error(${status})`));
     else if (status === 204) {
       xhr.onerror = function () {
         console.log("API CALL ERROR");
       };
       callback(null);
+    } */
+    switch (true) {
+      case status >= 500:
+        callback(
+          new ServerError(`error ${status}: ${JSON.parse(xhr.response).error}`)
+        );
+        break;
+      case status === 401:
+        callback(
+          new AuthError(`error ${status}: ${JSON.parse(xhr.response).error}`)
+        );
+        break;
+      case status === 400:
+        callback(
+          new ClientError(`error ${status}: ${JSON.parse(xhr.response).error}`)
+        );
+        break;
+      case status === 204:
+        callback(null);
+        break;
+      default:
+        callback(new UnknownError(`unexpected status ${status}`));
+        break;
     }
   };
   // XMLHttprequest
