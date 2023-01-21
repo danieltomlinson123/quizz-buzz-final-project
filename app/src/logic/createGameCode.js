@@ -59,6 +59,9 @@ function createGameCode(token, nameOfClass, pin, host, callback) {
         break;
     }
   };
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
 
   xhr.open("POST", `${API_URL}/gameCodes`);
 

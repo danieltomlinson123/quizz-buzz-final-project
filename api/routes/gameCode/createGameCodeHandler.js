@@ -12,7 +12,6 @@ const logger = createLogger(module);
 module.exports = (req, res) => {
   runWithErrorHandling(
     () => {
-      debugger;
       const userId = verifyToken(req);
 
       const {

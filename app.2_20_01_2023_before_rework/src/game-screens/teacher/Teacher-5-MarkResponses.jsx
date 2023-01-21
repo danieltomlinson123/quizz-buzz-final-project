@@ -16,8 +16,6 @@ function Teacher5MarkResponses({
   questionType,
   correctAnswers,
 }) {
-  debugger;
-
   let correct = 0;
   let incorrect = 0;
   // ================== Hook consts ================== //
@@ -33,7 +31,6 @@ function Teacher5MarkResponses({
   // ================== Function: emits feedback to quiz members and sends count to the next screen ================== //
 
   const onButtonClick = () => {
-    debugger;
     if (questionType === "written") {
       responsesToSend.forEach((response) => {
         if (response.correct === true) {

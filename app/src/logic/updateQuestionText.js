@@ -55,6 +55,10 @@ function updateQuestionText(token, questionId, text, callback) {
     }
   };
 
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
+
   xhr.open("PATCH", `${API_URL}/questions/${questionId}/text`);
 
   xhr.setRequestHeader("Authorization", `Bearer ${token}`);

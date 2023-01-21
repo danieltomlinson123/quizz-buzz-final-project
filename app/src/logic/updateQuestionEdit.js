@@ -76,6 +76,10 @@ function updateQuestionEdit(
     }
   };
 
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
+
   xhr.open("PATCH", `${API_URL}/questions/${questionId}`);
 
   xhr.setRequestHeader("Authorization", `Bearer ${token}`);

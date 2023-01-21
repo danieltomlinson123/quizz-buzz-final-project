@@ -50,6 +50,11 @@ function retrieveGameCode(pin, callback) {
         break;
     }
   };
+
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
+
   xhr.open("POST", `${API_URL}/gameCodes/pin`);
 
   xhr.setRequestHeader("Content-type", "application/json");

@@ -30,7 +30,6 @@ function updateQuestionText(token, questionId, text, callback) {
   xhr.setRequestHeader("Content-type", "application/json");
 
   const json = JSON.stringify({ text });
-  debugger;
   xhr.send(json);
 }
 

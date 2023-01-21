@@ -32,10 +32,8 @@ describe("updateFavorites", () => {
         answerD: ["", "incorrect"],
         visibility: "public",
       }).then((question) => {
-        debugger;
         updateQuestionText(user.id, question.id, "New text").then(
           (questionUpdated) => {
-            debugger;
             expect(questionUpdated.question).toEqual("New text");
           }
         );

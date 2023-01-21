@@ -89,6 +89,10 @@ function createQuestion(
     }
   };
 
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
+
   xhr.open("POST", `${API_URL}/questions`);
 
   xhr.setRequestHeader("Authorization", `Bearer ${token}`);

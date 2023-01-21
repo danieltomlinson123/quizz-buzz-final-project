@@ -35,7 +35,6 @@ function Student4ResponseInput({
   // ================== useEffects ================== //
 
   useEffect(() => {
-    debugger;
     const id = setTimeout(handleFormSubmit2, timeLimit);
 
     setTimeoutId(id);
@@ -60,7 +59,6 @@ function Student4ResponseInput({
   // ================== Function: sends response to teacher on button click - autosends when time limit runs out ================== //
 
   const handleFormSubmit = (event) => {
-    debugger;
     event.preventDefault();
 
     clearTimeout(timeoutId);

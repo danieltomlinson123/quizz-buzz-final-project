@@ -96,6 +96,9 @@ function updatePassword(
     }
   };
   // XMLHttprequest
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
 
   xhr.open("PATCH", `${API_URL}/users/details`);
 

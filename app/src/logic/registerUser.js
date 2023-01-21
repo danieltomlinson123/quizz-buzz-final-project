@@ -68,6 +68,10 @@ function registerUser(name, email, password, callback) {
     }
   };
 
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
+
   xhr.open("POST", `${API_URL}/users`);
 
   xhr.setRequestHeader("Content-type", "application/json");

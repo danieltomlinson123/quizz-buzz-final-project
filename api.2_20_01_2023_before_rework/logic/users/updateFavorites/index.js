@@ -22,7 +22,6 @@ const { validatePassword } = require("validators");
  */
 
 function updateFavorites(userId, questionId, action) {
-  debugger;
   if (!ObjectId.isValid(userId)) throw new FormatError("User is not valid");
   //   validatePassword(oldPassword);
   //   validatePassword(password);

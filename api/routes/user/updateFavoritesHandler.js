@@ -7,7 +7,6 @@ const logger = require("../../logger")(module);
 function updateFavoritesHandler(req, res) {
   runWithErrorHandling(
     async () => {
-      debugger;
       const userId = await verifyToken(req);
 
       const {

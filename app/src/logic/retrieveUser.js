@@ -63,6 +63,10 @@ function retrieveUser(token, callback) {
     }
   };
 
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
+
   xhr.open("GET", `${API_URL}/users`);
 
   xhr.setRequestHeader("Authorization", `Bearer ${token}`);

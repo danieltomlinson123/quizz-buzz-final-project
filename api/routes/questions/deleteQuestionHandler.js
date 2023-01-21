@@ -12,8 +12,6 @@ const logger = createLogger(module);
 module.exports = (req, res) => {
   runWithErrorHandling(
     () => {
-      debugger;
-
       const {
         params: { questionId },
       } = req;

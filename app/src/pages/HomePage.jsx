@@ -188,7 +188,6 @@ function HomePage({
 
   const handleUpdateQuestion = (questionId, text) => {
     try {
-      debugger;
       updateQuestionText(sessionStorage.token, questionId, text, (error) => {
         if (error) {
           handleFeedback({ message: error.message, level: "error" });

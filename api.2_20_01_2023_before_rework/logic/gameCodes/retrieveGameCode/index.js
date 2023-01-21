@@ -26,7 +26,6 @@ function retrieveGameCode(pin) {
       throw new SystemError(error.message);
     })
     .then((user) => {
-      debugger;
       if (!user) throw new NotFoundError(`user with id ${userId} not found`);
 
       return  */
@@ -46,7 +45,6 @@ function retrieveGameCode(pin) {
   }); */
 } /* )
     .then((gameCodes) => {
-      debugger;
       // TODO sanitize
       return gameCodes;
     });

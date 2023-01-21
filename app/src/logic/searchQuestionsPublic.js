@@ -46,6 +46,10 @@ function searchQuestionsPublic(token, query, callback) {
     }
   };
 
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
+
   xhr.open("GET", `${API_URL}/questions/public/search?q=${query}`);
 
   xhr.setRequestHeader("Authorization", `Bearer ${token}`);

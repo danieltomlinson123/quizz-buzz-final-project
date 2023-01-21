@@ -67,8 +67,6 @@ connect("mongodb://127.0.0.1:27017/final-project")
       favorites: [],
     }); */
 
-    debugger;
-
     return Promise.all([
       pepito.save(),
       wendy.save(),
@@ -259,8 +257,6 @@ connect("mongodb://127.0.0.1:27017/final-project")
         answerD: ["Krypton", "incorrect"],
       });
 
-      debugger;
-
       return Promise.all([
         question1.save(),
         question2.save(),
@@ -281,7 +277,5 @@ connect("mongodb://127.0.0.1:27017/final-project")
       ]);
     }
   )
-  .catch((error) => {
-    debugger;
-  })
+  .catch((error) => {})
   .then(() => disconnect());

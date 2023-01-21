@@ -27,7 +27,6 @@ function registerUser(name, email, password, callback) {
 
   xhr.onload = function () {
     const status = xhr.status;
-    debugger;
     console.log(status);
 
     if (status >= 500) callback(new Error(`server error(${status})`));

@@ -104,7 +104,6 @@ function QuizTeacherMaster({
         }
       );
       handleScreenChangeT1(gameScreen, nameOfClass, pin, host);
-      debugger;
       handleGameBeingPlayed("join");
     } catch (error) {
       handleFeedback({ message: error.message, level: "error" });

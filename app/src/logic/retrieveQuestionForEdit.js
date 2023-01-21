@@ -58,6 +58,10 @@ function retrieveQuestionForEdit(token, questionId, callback) {
     }
   };
 
+  xhr.onerror = function () {
+    callback(new ServerError("connection failed"));
+  };
+
   xhr.open("GET", `${API_URL}/questions/${questionId}`);
 
   xhr.setRequestHeader("Authorization", `Bearer ${token}`);
