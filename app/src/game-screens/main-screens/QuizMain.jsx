@@ -1,14 +1,10 @@
 // ================== Imports ================== //
-
+import "./QuizMain.css";
 import "../game-screens.css";
 
 import { useState, useEffect } from "react";
 
-import {
-  TeacherStudentSelectPanel,
-  QuizStudentMaster,
-  QuizTeacherMaster,
-} from ".";
+import { TeacherStudentSelectPanel, QuizStudentMain, QuizTeacherMain } from ".";
 
 // ================== socket connection ================== //
 
@@ -18,7 +14,7 @@ const socket = io.connect("http://localhost:8080", { autoconnect: false });
 
 // ================== Component ================== //
 
-function QuizMasterPage({
+function QuizMainPage({
   handleFeedback,
   handleLeaveClass,
   handleGameBeingPlayed,
@@ -64,7 +60,7 @@ function QuizMasterPage({
         />
       )}
       {userType === "Student" && (
-        <QuizStudentMaster
+        <QuizStudentMain
           handleLeaveClick={handleLeaveClick}
           socket={socket}
           handleFeedback={handleFeedback}
@@ -73,7 +69,7 @@ function QuizMasterPage({
         />
       )}
       {userType === "Teacher" && (
-        <QuizTeacherMaster
+        <QuizTeacherMain
           handleLeaveClick={handleLeaveClick}
           socket={socket}
           handleLeaveClass={onLeaveClass}
@@ -85,4 +81,4 @@ function QuizMasterPage({
   );
 }
 
-export default QuizMasterPage;
+export default QuizMainPage;

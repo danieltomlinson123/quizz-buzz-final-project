@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./Teacher-3-CreateQuestionPanel.css";
 import "../game-screens.css";
 
 import "../../components/timeSelect.scss";

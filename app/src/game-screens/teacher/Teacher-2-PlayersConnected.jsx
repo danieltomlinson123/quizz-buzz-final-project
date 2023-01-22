@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./Teacher-2-PlayersConnected.css";
 import "../game-screens.css";
 
 function Teacher2PlayersConnected({

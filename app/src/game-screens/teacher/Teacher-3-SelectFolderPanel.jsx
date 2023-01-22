@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./Teacher-3-SelectFolderPanel.css";
 import "../game-screens.css";
 
 // ================== Component ================== //

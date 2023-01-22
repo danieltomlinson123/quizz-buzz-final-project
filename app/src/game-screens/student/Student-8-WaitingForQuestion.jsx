@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./Student-8-WaitingForQuestion.css";
 import "../game-screens.css";
 
 import { Spinner } from "../../components/";

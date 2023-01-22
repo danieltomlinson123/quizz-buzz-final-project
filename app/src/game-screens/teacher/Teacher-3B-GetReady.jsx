@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./Teacher-3B-GetReady.css";
 import "../game-screens.css";
 
 import { useEffect } from "react";

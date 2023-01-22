@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./Teacher-6-ResponseStats.css";
 import "../game-screens.css";
 
 // ================== Component ================== //

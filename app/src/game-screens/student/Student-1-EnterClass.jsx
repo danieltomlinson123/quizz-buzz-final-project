@@ -1,5 +1,6 @@
 // ================== Imports ================== //
 
+import "./Student-1-EnterClass.css";
 import "../game-screens.css";
 
 import withContext from "../../utils/withContext";

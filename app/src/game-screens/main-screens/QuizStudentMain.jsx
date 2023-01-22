@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./QuizStudentMain.css";
 import "../game-screens.css";
 
 import { useState, useEffect } from "react";
@@ -18,7 +18,7 @@ import {
 
 // ================== Component ================== //
 
-function QuizStudentMaster({
+function QuizStudentMain({
   socket,
   handleFeedback,
   handleLeaveClass,
@@ -219,4 +219,4 @@ function QuizStudentMaster({
   );
 }
 
-export default QuizStudentMaster;
+export default QuizStudentMain;

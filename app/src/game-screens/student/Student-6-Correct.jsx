@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./Student-6-Correct.css";
 import "../game-screens.css";
 
 import { Confetti } from "../../components";

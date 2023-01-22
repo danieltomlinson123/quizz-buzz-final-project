@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./Teacher-4-IncomingResponses.css";
 import "../game-screens.css";
 
 import { useEffect, useState, useRef } from "react";

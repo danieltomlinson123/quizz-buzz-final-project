@@ -20,7 +20,7 @@ import {
   CreateQuestionPanel,
 } from "../components";
 
-import { QuizMaster } from "../game-screens/main-screens";
+import { QuizMain } from "../game-screens/main-screens";
 
 import {
   searchQuestions,
@@ -389,7 +389,7 @@ function HomePage({
           <Route
             path="quickPlayInHome"
             element={
-              <QuizMaster
+              <QuizMain
                 handleFeedback={handleFeedback}
                 handleLeaveClass={handleLeaveClass}
                 handleGameBeingPlayed={handleGameBeingPlayed}

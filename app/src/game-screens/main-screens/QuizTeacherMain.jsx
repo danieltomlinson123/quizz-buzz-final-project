@@ -1,5 +1,5 @@
 // ================== Imports ================== //
-
+import "./QuizTeacherMain.css";
 import "../game-screens.css";
 
 import { useState, useEffect } from "react";
@@ -22,7 +22,7 @@ import createGameCode from "../../logic/createGameCode";
 
 // ================== Component ================== //
 
-function QuizTeacherMaster({
+function QuizTeacherMain({
   socket,
   handleLeaveClass,
   handleGameBeingPlayed,
@@ -299,4 +299,4 @@ function QuizTeacherMaster({
   );
 }
 
-export default withContext(QuizTeacherMaster);
+export default withContext(QuizTeacherMain);

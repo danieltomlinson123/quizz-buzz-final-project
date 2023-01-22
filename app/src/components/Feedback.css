@@ -1,3 +1,12 @@
+/* Feedback
+flex-container
+Feedback--${level ? Level : "info"}
+Feedback__box
+flex-container
+container--spaced
+container--padded
+toast-accept-button */
+
 .Feedback {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;

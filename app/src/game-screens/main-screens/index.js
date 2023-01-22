@@ -1,15 +1,15 @@
 // ================== Imports ================== //
 
-import QuizMaster from "./QuizMaster";
+import QuizMain from "./QuizMain";
 import TeacherStudentSelectPanel from "./TeacherStudentSelectPanel";
-import QuizStudentMaster from "./QuizStudentMaster";
-import QuizTeacherMaster from "./QuizTeacherMaster";
+import QuizStudentMain from "./QuizStudentMain";
+import QuizTeacherMain from "./QuizTeacherMain";
 
 // ================== Exports ================== //
 
 export {
-  QuizMaster,
-  QuizStudentMaster,
-  QuizTeacherMaster,
+  QuizMain,
+  QuizStudentMain,
+  QuizTeacherMain,
   TeacherStudentSelectPanel,
 };

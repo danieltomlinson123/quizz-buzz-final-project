@@ -9,7 +9,7 @@ import { HomePage, LoginPage, RegisterPage } from "./pages";
 
 import { Toasts } from "./components";
 
-import { QuizMaster } from "./game-screens/main-screens";
+import { QuizMain } from "./game-screens/main-screens";
 
 import Feedback from "./components/Feedback";
 import Loggito from "./utils/Loggito.js";
@@ -133,7 +133,7 @@ function App() {
         />
         <Route
           path="quickPlay"
-          element={sessionStorage.token ? <Navigate to="/" /> : <QuizMaster />}
+          element={sessionStorage.token ? <Navigate to="/" /> : <QuizMain />}
         />
         <Route
           path="/*"
