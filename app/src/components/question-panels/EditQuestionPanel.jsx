@@ -1,18 +1,18 @@
 // ================== Imports ================== //
 
 import "./EditQuestionPanel.css";
-
-import "./timeSelect.scss";
+import "./question-panels.css";
+import "../timeSelect.scss";
 
 import { useEffect, useState, useRef } from "react";
-import Loggito from "../utils/Loggito";
+import Loggito from "../../utils/Loggito";
 
-import updateQuestionEdit from "../logic/updateQuestionEdit";
-import retrieveQuestionForEdit from "../logic/retrieveQuestionForEdit";
+import updateQuestionEdit from "../../logic/updateQuestionEdit";
+import retrieveQuestionForEdit from "../../logic/retrieveQuestionForEdit";
 
-import withContext from "../utils/withContext";
+import withContext from "../../utils/withContext";
 
-import createQuestion from "../logic/createQuestion";
+import createQuestion from "../../logic/createQuestion";
 
 // ================== Component ================== //
 

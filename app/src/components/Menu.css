@@ -1,17 +1,18 @@
-/* menu-panel
-dropdown-menu
-menu-panel__list
-menu-panel__list-item
-dropdown-item
-settings-button
-dropdown__link
+/* 
+menu-panel DONE
+dropdown-menu DONE
+** menu-panel__list NOT FOUND
+menu-panel__list-item DONE
+dropdown-item DONE
+** settings-button NOT FOUND
+dropdown__link DONE
 material-symbols-outlined
-menu-panel
-themeMenu
-settings-button */
+themeMenu DONE
+*/
 
 /* menu */
 
+/* TODO: Not all styles described here are used in the menu component e.g. settings-panel, password-reset-form, close-menu-button-style */
 .menu-panel {
   color: var(--color-border);
   background-color: var(--color-primary);
@@ -47,13 +48,13 @@ settings-button */
   color: var(--color-secondary);
 }
 
-.settings-panel {
+/* .settings-panel {
   width: 100%;
 }
 
 .password-reset-form {
   width: 100%;
-}
+} */
 
 .menu-panel__list-item {
   color: var(--color-border);
@@ -64,12 +65,12 @@ settings-button */
   cursor: pointer;
 }
 
-.close-menu-button-style {
+/* .close-menu-button-style {
   font-size: 3rem;
   color: var(--color-headings);
   margin-right: 1rem;
   cursor: pointer;
-}
+} */
 
 .themeMenu {
   margin-right: 140px;

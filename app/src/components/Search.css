@@ -1,11 +1,13 @@
-/* grouped-elements
-flex-row
-input-field
-search-input
+/* 
+grouped-elements INDEX
+flex-row INDEX
+input-field DONE
+search-input DONE
 material-symbols-outlined
-nav-icon
-logout-button-style
-search-button */
+nav-icon DONE
+** logout-button-style NOT FOUND
+search-button DONE
+ */
 
 .search-input {
   width: 70%;
@@ -17,4 +19,14 @@ search-button */
 
 .nav-icon {
   margin: 1rem;
+}
+
+.input-field {
+  background-color: var(--color-teacher-secondary);
+  padding: 1.5rem 1.5rem;
+  border-radius: 1.3rem;
+  margin: 0;
+  border-style: none;
+  color: white;
+  font-size: inherit;
 }

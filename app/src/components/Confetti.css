@@ -1,7 +1,8 @@
-/* confetti-button
-confetti-button--correct
-confetti-button--incorrect
-confetti-button:hover */
+/* confetti-button DONE
+confetti-button--correct DONE
+confetti-button--incorrect DONE
+confetti-button:hover DONE
+*/
 
 .confetti-button {
   bottom: 20%;
@@ -17,6 +18,10 @@ confetti-button:hover */
   margin-top: 100px;
 }
 
+.confetti-button:hover {
+  color: aquamarine;
+}
+
 .confetti-button--correct {
   background-color: hsl(151, 67%, 33%);
 }
@@ -25,10 +30,7 @@ confetti-button:hover */
   background-color: rgb(225, 7, 7);
 }
 
-.confetti-button:hover {
-  color: aquamarine;
-}
-
+/* TODO: CHANGE THIS TO A SPECIFIC CLASS */
 button:focus {
   outline: none;
 }

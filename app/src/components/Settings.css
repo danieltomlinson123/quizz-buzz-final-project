@@ -1,18 +1,78 @@
-/* register-page
-page
-background
-flex-container
-settings-elements
-grouped-elements
-login-elements
-settings-form-card
-form
-login-form
-form__field
-input-fields
-input-item
-button--primary */
+/* 
+register-page DONE
+** page NOT FOUND
+background DONE
+flex-container INDEX
+settings-elements DONE
+grouped-elements INDEX
+login-elements DONE
+settings-form-card DONE
+form DONE
+** login-form NOT FOUND
+form__field DONE
+input-fields DONE
+** input-item NOT FOUND
+button--primary DONE
+*/
 
 .register-page {
   width: 100%;
+}
+
+.background {
+  background-color: var(--color-secondary);
+  min-height: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.settings-elements {
+  width: 100%;
+  margin-top: 350px;
+}
+
+.login-elements {
+  width: 100%;
+}
+
+.settings-form-card {
+  background-color: var(--color-teacher-secondary--light);
+  width: 90%;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: left;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+  padding: 1rem, 1.5rem;
+}
+
+.button--primary:hover {
+  background-color: var(--color-primary-hover);
 }

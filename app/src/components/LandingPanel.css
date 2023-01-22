@@ -1,7 +1,8 @@
-/* grouped-elements
-button--primary
-home-page-button
-button--primary */
+/* 
+grouped-elements INDEX
+button--primary DONE
+home-page-button DONE
+*/
 
 .home-page-button {
   font-size: 2.5rem;
@@ -12,4 +13,13 @@ button--primary */
 
 .home-page-button:hover {
   background-color: var(--color-teacher-secondary-hover);
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+  padding: 1rem, 1.5rem;
+}
+
+.button--primary:hover {
+  background-color: var(--color-primary-hover);
 }

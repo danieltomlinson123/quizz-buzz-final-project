@@ -1,11 +1,12 @@
-/* Feedback
-flex-container
-Feedback--${level ? Level : "info"}
-Feedback__box
-flex-container
-container--spaced
-container--padded
-toast-accept-button */
+/* 
+Feedback DONE
+Feedback--${level ? Level : "info"} DONE
+Feedback__box DONE
+flex-container INDEX
+** container--spaced NOT FOUND
+** container--padded NOT FOUND
+toast-accept-button DONE
+*/
 
 .Feedback {
   background-color: rgba(0, 0, 0, 0.7);

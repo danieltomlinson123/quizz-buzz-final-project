@@ -1,13 +1,14 @@
 // ================== Imports ================== //
 
 import "./CreateQuestionPanel.css";
+import "./question-panels.css";
 
-import "./timeSelect.scss";
+import "../timeSelect.scss";
 
-import Loggito from "../utils/Loggito";
-import createQuestion from "../logic/createQuestion";
+import Loggito from "../../utils/Loggito";
+import createQuestion from "../../logic/createQuestion";
 
-import withContext from "../utils/withContext";
+import withContext from "../../utils/withContext";
 import { useState } from "react";
 
 // ================== Component ================== //
