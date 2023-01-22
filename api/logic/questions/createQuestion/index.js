@@ -8,7 +8,6 @@ const {
   validateMCQAnswer,
 } = require("validators");
 const { verifyObjectIdString } = require("../../../utils");
-const validateQuestionType = require("validators/src/validateQuestionType");
 
 /**
  * Updates an exisiting question for a user.
@@ -45,8 +44,6 @@ function createQuestion(
   answerC,
   answerD
 ) {
-  //TODO: validate all
-
   verifyObjectIdString(userId, "user id");
   validateText(question, "question");
   validateTimeLimit(timeLimit);

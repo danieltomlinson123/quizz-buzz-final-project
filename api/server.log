@@ -182,3 +182,33 @@ INFO 2023-01-21T16:18:34.259Z api/index.js | db connected
 ERROR 2023-01-21T16:18:34.340Z api/index.js | Identifier 'validateQuestionType' has already been declared
 INFO 2023-01-21T16:21:29.257Z api/index.js | db connected
 ERROR 2023-01-21T16:21:29.311Z api/index.js | Identifier 'validateQuestionType' has already been declared
+INFO 2023-01-21T16:27:53.584Z api/index.js | db connected
+INFO 2023-01-21T16:29:14.823Z api/index.js | db connected
+INFO 2023-01-21T16:40:48.089Z api/index.js | db connected
+INFO 2023-01-21T16:45:48.467Z api/index.js | db connected
+INFO 2023-01-21T16:45:58.517Z api/index.js | db connected
+INFO 2023-01-21T16:46:07.738Z api/index.js | db connected
+INFO 2023-01-21T16:46:19.032Z api/index.js | db connected
+INFO 2023-01-21T16:46:29.678Z api/index.js | db connected
+INFO 2023-01-21T16:46:36.709Z api/index.js | db connected
+INFO 2023-01-21T16:46:41.874Z api/index.js | db connected
+INFO 2023-01-21T16:47:16.640Z api/index.js | db connected
+INFO 2023-01-21T16:47:26.603Z api/index.js | db connected
+INFO 2023-01-21T16:47:33.275Z api/index.js | db connected
+INFO 2023-01-21T16:47:45.761Z api/index.js | db connected
+INFO 2023-01-21T16:48:45.268Z api/index.js | db connected
+INFO 2023-01-21T16:49:18.206Z api/index.js | db connected
+ERROR 2023-01-21T16:49:18.275Z api/index.js | await is only valid in async functions and the top level bodies of modules
+INFO 2023-01-21T16:49:26.273Z api/index.js | db connected
+INFO 2023-01-21T16:49:56.363Z api/index.js | db connected
+INFO 2023-01-21T16:50:23.957Z api/index.js | db connected
+INFO 2023-01-21T16:50:34.368Z api/index.js | db connected
+INFO 2023-01-21T16:52:10.270Z api/index.js | db connected
+INFO 2023-01-21T16:52:57.377Z api/index.js | db connected
+INFO 2023-01-21T16:53:07.621Z api/index.js | db connected
+INFO 2023-01-21T16:53:36.914Z api/index.js | db connected
+INFO 2023-01-21T16:53:58.605Z api/index.js | db connected
+INFO 2023-01-21T16:54:45.764Z api/index.js | db connected
+INFO 2023-01-21T16:55:07.733Z api/index.js | db connected
+INFO 2023-01-21T16:59:20.188Z user/updatePasswordHandler.js | User: 63caf291d4cca9a027c5a3f1 updated details succesfully
+INFO 2023-01-21T17:02:16.619Z api/index.js | db connected

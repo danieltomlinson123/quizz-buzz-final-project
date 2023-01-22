@@ -6,7 +6,7 @@ const {
 const {
   questions: { createQuestion },
 } = require("../../logic");
-const { NotFoundError } = require("errors");
+
 const logger = createLogger(module);
 
 module.exports = (req, res) => {

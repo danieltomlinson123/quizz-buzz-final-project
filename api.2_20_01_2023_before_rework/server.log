@@ -1,6 +1,0 @@
-INFO 2022-12-05T10:22:10.341Z api/index.js | 
-api stopped
-INFO 2022-12-05T10:22:10.361Z api/index.js | db disconnected
-ERROR 2023-01-20T19:46:26.802Z api/index.js | connect ECONNREFUSED 127.0.0.1:27017
-INFO 2023-01-20T19:57:30.130Z api/index.js | db connected
-ERROR 2023-01-20T19:57:38.530Z user/authenticateUserHandler.js | user with email d@t.com not found

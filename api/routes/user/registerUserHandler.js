@@ -2,7 +2,7 @@ const { runWithErrorHandling, createLogger } = require("../../utils");
 const {
   users: { registerUser },
 } = require("../../logic");
-const { DuplicityError } = require("errors");
+
 const logger = createLogger(module);
 
 module.exports = (req, res) => {

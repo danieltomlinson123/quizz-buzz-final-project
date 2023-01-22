@@ -10,7 +10,15 @@ const logger = createLogger(module);
 
 function updatePasswordHandler(req, res) {
   runWithErrorHandling(
-    async () => {
+    () => {
+      const userId = verifyToken(req);
+
+      return updatePassword(userId, req.body).then(() => {
+        res.status(204).send();
+        logger.info(`User: ${userId} updated details succesfully`);
+      });
+    },
+    /* async () => {
       const userId = await verifyToken(req);
 
       await updatePassword(userId, req.body);
@@ -18,8 +26,7 @@ function updatePasswordHandler(req, res) {
       res.status(204).send();
 
       logger.info(`User: ${userId} updated details succesfully`);
-    },
-    res,
+    } */ res,
     logger
   );
 }

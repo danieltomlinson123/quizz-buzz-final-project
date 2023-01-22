@@ -1,5 +1,3 @@
-const { NotFoundError, AuthError } = require("errors");
-
 const {
   runWithErrorHandling,
   createLogger,

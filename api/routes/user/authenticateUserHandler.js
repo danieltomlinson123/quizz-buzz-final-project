@@ -3,7 +3,7 @@ const {
   users: { authenticateUser },
 } = require("../../logic");
 const { sign } = require("jsonwebtoken");
-const { NotFoundError, AuthError } = require("errors");
+
 const logger = createLogger(module);
 
 module.exports = (req, res) => {

@@ -6,7 +6,6 @@ const {
 const {
   gameCodes: { retrieveGameCode },
 } = require("../../logic");
-const { NotFoundError, AuthError } = require("errors");
 const logger = createLogger(module);
 
 module.exports = (req, res) => {
@@ -15,7 +14,7 @@ module.exports = (req, res) => {
       const {
         body: { pin },
       } = req;
-      // const userId = verifyToken(req);
+
       return retrieveGameCode(pin).then((gameCode) => res.json(gameCode));
     },
     res,

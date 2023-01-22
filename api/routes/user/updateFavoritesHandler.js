@@ -6,7 +6,19 @@ const logger = require("../../logger")(module);
 
 function updateFavoritesHandler(req, res) {
   runWithErrorHandling(
-    async () => {
+    () => {
+      const userId = verifyToken(req);
+
+      const {
+        body: { questionId, action },
+      } = req;
+
+      return updateFavorites(userId, questionId, action).then(() => {
+        res.status(204).send();
+        logger.info(`User: ${userId} updated favorites succesfully`);
+      });
+    },
+    /* async () => {
       const userId = await verifyToken(req);
 
       const {
@@ -18,8 +30,7 @@ function updateFavoritesHandler(req, res) {
       res.status(204).send();
 
       logger.info(`User: ${userId} updated favorites succesfully`);
-    },
-    res,
+    } */ res,
     logger
   );
 }

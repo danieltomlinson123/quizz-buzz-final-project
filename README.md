@@ -166,7 +166,6 @@ Sprint 3
 - finish logic testing
 - verifyToken in retrieveGameCode, deleteQuestion and searchQuestionsPublic routeHandler then pass userId to logic to check wih db
 - complete documentation of app logic
-- validation of inputs in app and api
 - search and correction of potential errors and warnings in game play
 - logic documentation
 - management of token - autorenovation if user is still active
