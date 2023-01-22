@@ -216,44 +216,7 @@ input:focus {
 /* ==================================================================== */
 /* ==================================================================== */
 
-/* =========== input =========== */
-
-/* TODO:  */
-.input-fields {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  justify-content: left;
-  width: 100%;
-  padding-top: 1rem;
-}
-
-/* =========== buttons =========== */
-
-.footer-button {
-  border-radius: 3rem;
-  border-style: none;
-  padding: 1rem 1.5rem;
-  margin: 20px 15px;
-  margin-bottom: 35px;
-  background-color: var(--color-teacher-secondary);
-  width: 40%;
-  font-size: 1.4rem;
-  color: inherit;
-}
-
-.footer-button:hover {
-  background-color: var(--color-teacher-secondary-hover);
-}
-
-.form-button {
-  position: absolute;
-  bottom: 0px;
-  margin-top: 15px;
-  margin-bottom: 40px;
-}
-
-/* =========== icons and title =========== */
+/* =========== icons =========== */
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
@@ -268,63 +231,7 @@ input:focus {
   cursor: pointer;
 }
 
-.button-icon {
-  width: auto;
-}
-.button-icon:hover {
-  color: var(--color-teacher-secondary);
-}
-
-.app-title {
-  justify-self: center;
-  align-self: center;
-  font-size: 2.5rem;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 10px;
-}
-
-/* =========== forms =========== */
-
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.form-field {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: transparent;
-  width: 100%;
-  margin: 0;
-  text-align: left;
-}
-
-.form--spread {
-  justify-content: space-between;
-  height: 100%;
-  margin-top: 20px;
-}
-
-.input-field {
-  background-color: var(--color-teacher-secondary);
-  padding: 1.5rem 1.5rem;
-  border-radius: 1.3rem;
-  margin: 0;
-  border-style: none;
-  color: white;
-  font-size: inherit;
-}
-
-.input-label {
-  margin-top: 1rem;
-  margin-bottom: 0.4rem;
-  margin-left: 0.3rem;
-}
+/* =========== input =========== */
 
 input::selection {
   background-color: var(--color-teacher-secondary-hover);
@@ -350,13 +257,6 @@ input:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-
-.flex-container--homepage {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
 }
 
@@ -388,64 +288,9 @@ input:focus {
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* flex-grow: 1; */
   justify-content: center;
   gap: 10px;
   align-items: center;
-}
-
-/* ========== Page-level Styles ========== */
-
-.background {
-  background-color: var(--color-secondary);
-  min-height: 100%;
-  display: flex;
-  margin: 0;
-}
-
-.main-page-content {
-  height: 100%;
-  flex-grow: 1;
-  overflow: auto;
-  width: 100%;
-}
-
-.header {
-  width: 100%;
-  background-color: var(--color-secondary);
-  flex-shrink: 0;
-}
-
-/* ========== Footer ========== */
-
-.footer {
-  background-color: transparent;
-  bottom: 0;
-  width: 100%;
-  flex-shrink: 0;
-}
-
-/* ========== Forms ========== */
-
-.form__field {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.login-elements {
-  width: 100%;
-}
-
-.settings-elements {
-  width: 100%;
-  margin-top: 350px;
-}
-
-.settings-form-card {
-  background-color: var(--color-teacher-secondary--light);
-  width: 90%;
-  border-radius: 10px;
 }
 
 /* ========== Buttons ========== */
@@ -458,111 +303,4 @@ button {
   color: white;
   width: 40%;
   font-size: 1.4rem;
-}
-
-.list__item-delete-button {
-  align-self: flex-end;
-  width: 1rem;
-  height: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-  color: var(--color-headings);
-  padding: 0;
-}
-
-.list__item-delete-button:hover {
-  border-top: none;
-  /* flex-shrink: 0; */
-}
-
-.button--primary {
-  background-color: var(--color-primary);
-  padding: 1rem, 1.5rem;
-}
-
-.button--primary:hover {
-  background-color: var(--color-primary-hover);
-}
-
-.transparent-button {
-  cursor: pointer;
-  font-size: 3rem;
-  background-color: transparent;
-  color: var(--color-headings-hover);
-  padding: 0;
-}
-
-.transparent-button:hover {
-  border: none;
-  font-size: 3.5rem;
-}
-
-/* ========== lists ========== */
-
-.list {
-  color: var(--color-headings);
-  display: flex;
-  gap: 30px;
-  width: 320px;
-  padding: 0 1.5rem;
-  overflow: scroll;
-  flex-direction: column;
-
-  height: fit-content;
-  justify-content: flex-start;
-  margin: 0;
-  margin-top: 2rem;
-  flex-grow: 1;
-}
-
-.list__item {
-  background-color: var(--color-border);
-  flex-direction: column;
-  width: 100%;
-  min-height: 70px;
-  max-height: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  flex-shrink: 0;
-  overflow: scroll;
-  flex-wrap: nowrap;
-  border-radius: 10px;
-}
-
-.list__item-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: transparent;
-  margin: 0;
-  margin-bottom: 1.5rem;
-  border: none;
-  outline: none;
-  resize: none;
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  flex-shrink: 0;
-  width: calc(100% - 2rem);
-  max-height: 200px;
-  color: white;
-}
-
-.list__item-text-readonly {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  word-wrap: break-word;
-  text-overflow: inherit;
-}
-
-.list-item__text--form {
-  width: 100%;
-  background-color: var(--color-teacher-secondary);
-  border-radius: 10px;
-  padding: 1.5rem 2rem;
 }
