@@ -1,6 +1,5 @@
 const { Question, User } = require("../../../models");
-const { DuplicityError, NotFoundError, SystemError } = require("errors");
-const { validateString } = require("validators");
+const { NotFoundError } = require("errors");
 const { AuthError } = require("errors");
 const { verifyObjectIdString } = require("../../../utils");
 
@@ -23,29 +22,40 @@ function retrieveQuestionForEdit(userId, questionId) {
   verifyObjectIdString(userId);
   verifyObjectIdString(questionId);
 
-  return User.findById(userId)
-    .then((user) => {
-      if (!user) throw new NotFoundError(`user with id ${userId} not found`);
-      return Question.findById(questionId);
-    })
-    .then((question) => {
-      if (!question)
-        throw new NotFoundError(`question with id ${questionId} not found`);
+  return (
+    User.findById(userId)
+      .lean()
+      .then((user) => {
+        if (!user) throw new NotFoundError(`user with id ${userId} not found`);
+        return Question.findById(questionId);
+      })
+      // .lean() lean caused an error here
+      .catch((error) => {
+        throw new SystemError(error.message);
+      })
+      .then((question) => {
+        if (!question)
+          throw new NotFoundError(`question with id ${questionId} not found`);
 
-      /* if (question.user.toString() !== userId)
-        throw new AuthError(
-          `question with id ${questionId} does not belong to user with id ${userId}`
-        ); */
+        // This code was commented out before, but it seems like a useful authorisation check
+        if (question.user.toString() !== userId)
+          throw new AuthError(
+            `question with id ${questionId} does not belong to user with id ${userId}`
+          );
 
-      // sanitise
-      question._doc.id = question._doc._id.toString();
+        // sanitise
+        question._doc.id = question._doc._id.toString();
 
-      delete question._doc._id;
+        delete question._doc._id;
 
-      delete question._doc.__v;
+        delete question._doc.__v;
 
-      return question;
-    });
+        return question;
+      })
+      .catch((error) => {
+        throw new SystemError(error.message);
+      })
+  );
 }
 
 module.exports = retrieveQuestionForEdit;

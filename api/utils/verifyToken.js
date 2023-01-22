@@ -5,7 +5,6 @@ function verifyToken(req) {
   const {
     headers: { authorization },
   } = req;
-
   validateText(authorization, "authorization");
 
   const token = authorization.substring(7);

@@ -1,6 +1,5 @@
 const { User, Question } = require("../../../models");
 const { NotFoundError, SystemError } = require("errors");
-const { validateString } = require("validators");
 const { verifyObjectIdString } = require("../../../utils");
 
 /**
@@ -21,6 +20,8 @@ const { verifyObjectIdString } = require("../../../utils");
 function deleteQuestion(questionId) {
   verifyObjectIdString(questionId, "question id");
 
+  // TODO: this must be changed to work with first checking the userId
+
   return Question.findById(questionId)
     .lean()
     .catch((error) => {
@@ -31,8 +32,11 @@ function deleteQuestion(questionId) {
         throw new NotFoundError(`question with id ${questionId} not found`);
 
       return Question.deleteOne({ _id: questionId }).catch((error) => {
-        throw new systemError(error.message);
+        throw new SystemError(error.message);
       });
+    })
+    .catch((error) => {
+      throw new SystemError(error.message);
     })
     .then((question) => {});
 }

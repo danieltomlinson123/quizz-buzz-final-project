@@ -1,8 +1,6 @@
 const { Question, User } = require("../../../models");
-const { DuplicityError, NotFoundError, SystemError } = require("errors");
-const { validateString } = require("validators");
+const { NotFoundError, SystemError } = require("errors");
 const { verifyObjectIdString } = require("../../../utils");
-const verifyObjectId = require("../../../utils/verifyObjectId");
 
 /**
  * Retrieves all questions for a user.

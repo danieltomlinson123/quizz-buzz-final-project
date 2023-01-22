@@ -25,11 +25,13 @@ function updateQuestionText(userId, questionId, text) {
   validateText(text, "new question");
 
   return User.findById(userId)
+    .lean()
     .then((user) => {
       if (!user) throw new NotFoundError(`user with id ${userId} not found`);
 
       return Question.findById(questionId);
     })
+    .lean()
     .then((question) => {
       if (!question)
         throw new NotFoundError(`question with id ${questionId} not found`);
@@ -43,6 +45,9 @@ function updateQuestionText(userId, questionId, text) {
       question.modifiedAt = Date.now();
 
       return question.save();
+    })
+    .catch((error) => {
+      throw new SystemError(error.message);
     })
     .then(() => {});
 }

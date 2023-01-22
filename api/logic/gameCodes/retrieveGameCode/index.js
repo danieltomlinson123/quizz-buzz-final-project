@@ -18,35 +18,24 @@ const { validatePin } = require("validators");
 
 function retrieveGameCode(pin) {
   validatePin(pin);
-  // validate string breaks the code because pin is not a string here!!! so does validateNumber!!
-  // validateNumber(pin, "pin");
 
-  /* return User.findById(userId)
-    .lean()
-    .catch((error) => {
-      throw new SystemError(error.message);
-    })
-    .then((user) => {
-      if (!user) throw new NotFoundError(`user with id ${userId} not found`);
-
-      return  */
-
-  return GameCode.find({ pin: pin })
-    .catch((error) => {
-      throw new SystemError(error.message);
-    })
-    .then((gameCodes) => gameCodes)
-    .catch((error) => {
-      throw new NotFoundError(`no open games match the details entered`);
-    });
-  /* GameCode.find({ user: userId }).catch((error) => {
-    throw new NotFoundError(`no game codes found for user with id ${userId}`);
-  }); */
-} /* )
-    .then((gameCodes) => {
-      // TODO sanitize
-      return gameCodes;
-    });
-} */
+  return (
+    GameCode.find({ pin: pin })
+      // will lean work here for an array of values?
+      .lean()
+      .catch((error) => {
+        throw new SystemError(error.message);
+      })
+      .then((gameCodes) => {
+        // TODO: check this
+        if (gameCodes.length === 0)
+          throw new NotFoundError(`no open games match the details entered`);
+        return gameCodes;
+      })
+      .catch((error) => {
+        throw new SystemError(error.message);
+      })
+  );
+}
 
 module.exports = retrieveGameCode;

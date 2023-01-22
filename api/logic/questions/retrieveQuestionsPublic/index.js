@@ -1,5 +1,5 @@
 const { Question, User } = require("../../../models");
-const { DuplicityError, NotFoundError, SystemError } = require("errors");
+const { NotFoundError } = require("errors");
 const { verifyObjectIdString } = require("../../../utils");
 
 /**
@@ -22,7 +22,7 @@ function retrieveQuestionsPublic(userId) {
   return User.findById(userId)
     .lean()
     .then((user) => {
-      // TODO if (!user) throw ... user not found
+      if (!user) throw new NotFoundError(`user with id ${userId} not found`);
 
       return Question.find(
         { visibility: "public" },

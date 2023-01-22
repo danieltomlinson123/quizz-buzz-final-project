@@ -49,7 +49,6 @@ function retrieveUser(token, callback) {
   xhr.open("GET", `${API_URL}/users`);
 
   xhr.setRequestHeader("Authorization", `Bearer ${token}`);
-
   xhr.send();
 }
 

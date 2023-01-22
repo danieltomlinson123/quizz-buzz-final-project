@@ -6,19 +6,16 @@ const {
 const gameCode = new Schema({
   nameOfClass: {
     type: String,
-    // default: "",
     required: true,
   },
 
   pin: {
     type: String,
-    // default: "",
     required: true,
   },
 
   host: {
     type: String,
-    // default: "",
     required: true,
   },
 

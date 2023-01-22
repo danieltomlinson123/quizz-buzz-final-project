@@ -10,7 +10,7 @@ const API_URL = process.env.REACT_APP_API_URL;
 
 function updateFavorites(token, questionId, action, callback) {
   validateText(token, "token");
-  validateQuestionId(validateQuestionId);
+  validateQuestionId(questionId);
   validateFavoritesAction(action);
   validateCallback(callback);
 

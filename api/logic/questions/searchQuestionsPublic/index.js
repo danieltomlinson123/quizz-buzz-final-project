@@ -25,7 +25,7 @@ function searchQuestionsPublic(userId, query) {
   return User.findById(userId)
     .lean()
     .then((user) => {
-      // TODO if (!user) throw ... user not found
+      if (!user) throw new NotFoundError(`user with id ${userId} not found`);
 
       return Question.find(
         { visibility: "public", question: { $regex: new RegExp(query) } },

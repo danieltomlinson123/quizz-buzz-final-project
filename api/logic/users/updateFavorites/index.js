@@ -1,9 +1,6 @@
 const { User } = require("../../../models");
-const {
-  Types: { ObjectId },
-} = require("mongoose");
-const { FormatError, AuthError } = require("errors");
-const { validateQuestionId, validateFavoritesAction } = require("validators");
+const { AuthError } = require("errors");
+const { validateFavoritesAction } = require("validators");
 const { verifyObjectIdString } = require("../../../utils");
 
 /**
@@ -24,24 +21,18 @@ const { verifyObjectIdString } = require("../../../utils");
 
 function updateFavorites(userId, questionId, action) {
   verifyObjectIdString(userId, "user id");
-  validateQuestionId(questionId);
+  verifyObjectIdString(questionId, "question id");
   validateFavoritesAction(action);
-  // if (!ObjectId.isValid(userId)) throw new FormatError("User is not valid");
-  //   validatePassword(oldPassword);
-  //   validatePassword(password);
-  //   validatePassword(confirmNewPassword);
-  //   if (newPassword !== confirmNewPassword)
-  //     throw new AuthError(
-  //       "New password and confirm new password are not the same"
-  //     );
 
   return (async () => {
+    // TODO: change this to promises and add a catch for the async parts
     const foundUser = await User.findById(userId);
 
-    // if (!foundUser || foundUser.password !== oldPassword)
-    //   throw new AuthError(
-    //     `User ${userId} does not exist or credentials are wrong`
-    //   );
+    if (!foundUser)
+      // AuthError or NotFoundError? - In other logics it's not found error
+      throw new AuthError(
+        `User ${userId} does not exist or credentials are wrong`
+      );
 
     if (action === "add")
       foundUser.favorites[foundUser.favorites.length] = questionId;

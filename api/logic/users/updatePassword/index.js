@@ -1,8 +1,5 @@
 const { User } = require("../../../models");
-const {
-  Types: { ObjectId },
-} = require("mongoose");
-const { FormatError, AuthError } = require("errors");
+const { AuthError } = require("errors");
 const {
   validatePassword,
   validateEmail,
@@ -27,7 +24,6 @@ const { verifyObjectIdString } = require("../../../utils");
  */
 
 function updatePassword(userId, req) {
-  // if (!ObjectId.isValid(userId)) throw new FormatError("User is not valid");
   verifyObjectIdString(userId);
   const { formId, updatedName, password, newEmail, oldPassword, newPassword } =
     req;
@@ -48,6 +44,8 @@ function updatePassword(userId, req) {
     validatePassword(password);
     validateEmail(email);
   }
+
+  // TODO: change this to promises and add a catch for the async parts
 
   return (async () => {
     const foundUser = await User.findById(userId);

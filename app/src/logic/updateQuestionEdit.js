@@ -30,7 +30,7 @@ function updateQuestionEdit(token, questionId, questionDetails, callback) {
   validateText(question, "question");
   validateTimeLimit(timeLimit);
   validateVisibility(visibility);
-  validateQuestionType(validateQuestionType);
+  validateQuestionType(questionType);
 
   if (questionType === "MCQ") {
     // validateMCQAnswer(answerA, "answer A");

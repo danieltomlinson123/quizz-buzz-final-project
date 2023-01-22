@@ -212,3 +212,136 @@ INFO 2023-01-21T16:54:45.764Z api/index.js | db connected
 INFO 2023-01-21T16:55:07.733Z api/index.js | db connected
 INFO 2023-01-21T16:59:20.188Z user/updatePasswordHandler.js | User: 63caf291d4cca9a027c5a3f1 updated details succesfully
 INFO 2023-01-21T17:02:16.619Z api/index.js | db connected
+INFO 2023-01-22T08:51:51.542Z api/index.js | db connected
+INFO 2023-01-22T08:52:01.089Z api/index.js | db connected
+INFO 2023-01-22T08:52:12.704Z api/index.js | db connected
+INFO 2023-01-22T08:52:46.495Z api/index.js | db connected
+INFO 2023-01-22T08:54:10.975Z api/index.js | db connected
+INFO 2023-01-22T08:54:13.183Z api/index.js | db connected
+INFO 2023-01-22T08:56:02.704Z api/index.js | db connected
+INFO 2023-01-22T08:56:52.205Z api/index.js | db connected
+INFO 2023-01-22T08:57:53.728Z api/index.js | db connected
+INFO 2023-01-22T08:58:29.606Z api/index.js | db connected
+INFO 2023-01-22T08:59:54.317Z api/index.js | db connected
+INFO 2023-01-22T08:59:56.957Z api/index.js | db connected
+INFO 2023-01-22T09:00:52.270Z api/index.js | db connected
+INFO 2023-01-22T09:01:16.941Z api/index.js | db connected
+INFO 2023-01-22T09:01:52.065Z api/index.js | db connected
+INFO 2023-01-22T09:02:24.013Z api/index.js | db connected
+INFO 2023-01-22T09:02:29.289Z api/index.js | db connected
+INFO 2023-01-22T09:02:50.558Z api/index.js | db connected
+INFO 2023-01-22T09:03:00.867Z api/index.js | db connected
+INFO 2023-01-22T09:03:15.472Z api/index.js | db connected
+INFO 2023-01-22T09:03:17.916Z api/index.js | db connected
+INFO 2023-01-22T09:03:26.680Z api/index.js | db connected
+INFO 2023-01-22T09:03:29.925Z api/index.js | db connected
+INFO 2023-01-22T09:04:01.176Z api/index.js | db connected
+INFO 2023-01-22T09:04:22.289Z api/index.js | db connected
+INFO 2023-01-22T09:04:32.664Z api/index.js | db connected
+INFO 2023-01-22T09:04:57.237Z api/index.js | db connected
+INFO 2023-01-22T09:05:06.751Z api/index.js | db connected
+INFO 2023-01-22T09:05:45.025Z api/index.js | db connected
+INFO 2023-01-22T09:08:46.339Z api/index.js | db connected
+INFO 2023-01-22T09:08:58.392Z api/index.js | db connected
+INFO 2023-01-22T09:09:00.180Z api/index.js | db connected
+INFO 2023-01-22T09:09:28.128Z api/index.js | db connected
+INFO 2023-01-22T09:11:25.537Z api/index.js | db connected
+INFO 2023-01-22T09:11:50.860Z api/index.js | db connected
+INFO 2023-01-22T09:12:08.560Z api/index.js | db connected
+INFO 2023-01-22T09:13:39.010Z api/index.js | db connected
+INFO 2023-01-22T09:13:45.975Z api/index.js | db connected
+INFO 2023-01-22T09:13:57.888Z api/index.js | db connected
+INFO 2023-01-22T09:17:29.145Z api/index.js | db connected
+INFO 2023-01-22T09:18:02.094Z api/index.js | db connected
+ERROR 2023-01-22T09:18:10.739Z questions/retrieveQuestionsPublicHandler.js | jwt expired
+ERROR 2023-01-22T09:18:10.744Z user/retrieveUserHandler.js | jwt expired
+ERROR 2023-01-22T09:18:10.748Z questions/retrieveQuestionsHandler.js | jwt expired
+INFO 2023-01-22T09:18:27.754Z api/index.js | db connected
+INFO 2023-01-22T09:23:12.313Z api/index.js | db connected
+INFO 2023-01-22T09:23:51.472Z api/index.js | db connected
+INFO 2023-01-22T09:24:25.643Z api/index.js | db connected
+INFO 2023-01-22T09:24:57.977Z api/index.js | db connected
+INFO 2023-01-22T09:25:06.180Z api/index.js | db connected
+INFO 2023-01-22T09:26:02.603Z api/index.js | db connected
+INFO 2023-01-22T09:26:15.358Z api/index.js | db connected
+INFO 2023-01-22T09:26:31.411Z api/index.js | db connected
+INFO 2023-01-22T09:27:38.512Z api/index.js | db connected
+ERROR 2023-01-22T09:27:49.639Z questions/retrieveQuestionForEditHandler.js | User.findById(...).lean(...).then(...).lean is not a function
+ERROR 2023-01-22T09:28:47.085Z user/retrieveUserHandler.js | error with user id: "value" is required
+ERROR 2023-01-22T09:28:47.088Z questions/retrieveQuestionsHandler.js | error with userId: "value" is required
+ERROR 2023-01-22T09:28:47.091Z questions/retrieveQuestionsPublicHandler.js | error with id: "value" is required
+ERROR 2023-01-22T09:29:10.240Z user/retrieveUserHandler.js | error with user id: "value" is required
+ERROR 2023-01-22T09:29:10.242Z questions/retrieveQuestionsHandler.js | error with userId: "value" is required
+ERROR 2023-01-22T09:29:10.245Z questions/retrieveQuestionsPublicHandler.js | error with id: "value" is required
+INFO 2023-01-22T09:29:53.757Z api/index.js | db connected
+ERROR 2023-01-22T09:30:09.494Z user/retrieveUserHandler.js | error with user id: "value" is required
+ERROR 2023-01-22T09:30:09.496Z questions/retrieveQuestionsHandler.js | error with userId: "value" is required
+ERROR 2023-01-22T09:30:09.498Z questions/retrieveQuestionsPublicHandler.js | error with id: "value" is required
+INFO 2023-01-22T09:30:40.527Z api/index.js | db connected
+INFO 2023-01-22T09:30:54.760Z api/index.js | db connected
+ERROR 2023-01-22T09:31:04.355Z user/retrieveUserHandler.js | error with user id: "value" is required
+ERROR 2023-01-22T09:31:04.359Z questions/retrieveQuestionsHandler.js | error with userId: "value" is required
+ERROR 2023-01-22T09:31:04.364Z questions/retrieveQuestionsPublicHandler.js | error with id: "value" is required
+INFO 2023-01-22T09:31:55.327Z api/index.js | db connected
+INFO 2023-01-22T09:32:01.679Z api/index.js | db connected
+INFO 2023-01-22T09:32:14.170Z api/index.js | db connected
+INFO 2023-01-22T09:32:19.027Z api/index.js | db connected
+INFO 2023-01-22T09:32:31.897Z api/index.js | 
+api stopped
+INFO 2023-01-22T09:32:31.907Z api/index.js | db disconnected
+INFO 2023-01-22T09:32:47.970Z api/index.js | db connected
+ERROR 2023-01-22T09:34:58.680Z user/retrieveUserHandler.js | error with user id: "value" is required
+INFO 2023-01-22T09:34:58.700Z api/index.js | 
+api stopped
+ERROR 2023-01-22T09:34:58.708Z questions/retrieveQuestionsHandler.js | error with userId: "value" is required
+ERROR 2023-01-22T09:34:58.710Z questions/retrieveQuestionsPublicHandler.js | error with id: "value" is required
+INFO 2023-01-22T09:34:58.714Z api/index.js | db disconnected
+INFO 2023-01-22T09:35:07.793Z api/index.js | db connected
+ERROR 2023-01-22T09:37:48.820Z user/retrieveUserHandler.js | error with user id: "value" is required
+ERROR 2023-01-22T09:37:48.826Z questions/retrieveQuestionsPublicHandler.js | error with id: "value" is required
+ERROR 2023-01-22T09:37:48.828Z questions/retrieveQuestionsHandler.js | error with userId: "value" is required
+INFO 2023-01-22T09:37:52.762Z api/index.js | 
+api stopped
+INFO 2023-01-22T09:37:52.772Z api/index.js | db disconnected
+INFO 2023-01-22T09:37:59.413Z api/index.js | db connected
+ERROR 2023-01-22T09:41:14.468Z user/retrieveUserHandler.js | error with user id: "value" is required
+ERROR 2023-01-22T09:41:14.484Z questions/retrieveQuestionsPublicHandler.js | error with id: "value" is required
+ERROR 2023-01-22T09:41:14.489Z questions/retrieveQuestionsHandler.js | error with userId: "value" is required
+INFO 2023-01-22T09:41:17.807Z api/index.js | 
+api stopped
+INFO 2023-01-22T09:41:17.820Z api/index.js | db disconnected
+INFO 2023-01-22T09:41:23.951Z api/index.js | db connected
+ERROR 2023-01-22T09:42:26.927Z user/retrieveUserHandler.js | error with user id: "value" is required
+ERROR 2023-01-22T09:42:30.550Z questions/retrieveQuestionsHandler.js | error with userId: "value" is required
+ERROR 2023-01-22T09:42:32.990Z questions/retrieveQuestionsPublicHandler.js | error with id: "value" is required
+INFO 2023-01-22T09:43:18.481Z api/index.js | 
+api stopped
+INFO 2023-01-22T09:43:18.495Z api/index.js | db disconnected
+INFO 2023-01-22T09:43:26.518Z api/index.js | db connected
+INFO 2023-01-22T09:51:35.319Z api/index.js | 
+api stopped
+INFO 2023-01-22T09:51:35.335Z api/index.js | db disconnected
+INFO 2023-01-22T09:51:39.954Z api/index.js | db connected
+ERROR 2023-01-22T09:51:55.711Z questions/retrieveQuestionForEditHandler.js | User.findById(...).lean(...).then(...).lean is not a function
+INFO 2023-01-22T09:52:16.778Z api/index.js | db connected
+INFO 2023-01-22T09:52:26.549Z api/index.js | db connected
+ERROR 2023-01-22T09:52:31.988Z questions/retrieveQuestionForEditHandler.js | User.findById(...).then(...).lean is not a function
+INFO 2023-01-22T09:52:53.516Z api/index.js | db connected
+INFO 2023-01-22T09:53:11.025Z api/index.js | db connected
+ERROR 2023-01-22T09:53:15.905Z questions/retrieveQuestionForEditHandler.js | User.findById(...).then(...).lean is not a function
+INFO 2023-01-22T09:53:31.199Z api/index.js | db connected
+INFO 2023-01-22T09:53:35.305Z api/index.js | db connected
+ERROR 2023-01-22T09:53:35.354Z api/index.js | Unexpected identifier
+INFO 2023-01-22T09:53:39.652Z api/index.js | db connected
+INFO 2023-01-22T09:54:28.955Z api/index.js | db connected
+INFO 2023-01-22T09:54:37.775Z api/index.js | db connected
+ERROR 2023-01-22T10:02:19.422Z questions/updateQuestionEditHandler.js | User.findById(...).lean(...).then(...).lean is not a function
+INFO 2023-01-22T10:03:02.308Z api/index.js | db connected
+INFO 2023-01-22T10:04:52.412Z api/index.js | db connected
+INFO 2023-01-22T10:05:08.942Z api/index.js | db connected
+INFO 2023-01-22T10:08:14.617Z user/updateFavoritesHandler.js | User: 63caf291d4cca9a027c5a3f1 updated favorites succesfully
+INFO 2023-01-22T10:08:16.392Z user/updateFavoritesHandler.js | User: 63caf291d4cca9a027c5a3f1 updated favorites succesfully
+INFO 2023-01-22T10:08:17.441Z user/updateFavoritesHandler.js | User: 63caf291d4cca9a027c5a3f1 updated favorites succesfully
+INFO 2023-01-22T10:08:20.110Z user/updateFavoritesHandler.js | User: 63caf291d4cca9a027c5a3f1 updated favorites succesfully
+INFO 2023-01-22T10:08:21.608Z user/updateFavoritesHandler.js | User: 63caf291d4cca9a027c5a3f1 updated favorites succesfully
+INFO 2023-01-22T10:08:22.225Z user/updateFavoritesHandler.js | User: 63caf291d4cca9a027c5a3f1 updated favorites succesfully
