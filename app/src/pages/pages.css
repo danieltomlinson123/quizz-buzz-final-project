@@ -1,0 +1,42 @@
+.background {
+  background-color: var(--color-secondary);
+  min-height: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+  padding: 1rem, 1.5rem;
+}
+
+.button--primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.login-elements {
+  width: 100%;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: left;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

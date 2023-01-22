@@ -1,5 +1,6 @@
 // ================== Imports ================== //
 
+import "./pages.css";
 import "./HomePage.css";
 
 import { useState, useEffect } from "react";

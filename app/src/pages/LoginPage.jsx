@@ -1,10 +1,10 @@
 // ================== Imports ================== //
+import "./pages.css";
+import "./LoginPage.css";
 
 import Loggito from "../utils/Loggito";
 import authenticateUser from "../logic/authenticateUser";
 import withContext from "../utils/withContext";
-
-import "./LoginPage.css";
 
 function LoginPage({
   context: {
