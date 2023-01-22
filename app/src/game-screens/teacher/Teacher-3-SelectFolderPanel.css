@@ -1,3 +1,11 @@
+/* 
+grouped-elements INDEX
+material-symbols-outlined
+button-icon DONE
+button--primary DONE
+home-page-button DONE
+ */
+
 .home-page-button {
   font-size: 2.5rem;
   padding: 2rem;
@@ -7,4 +15,20 @@
 
 .home-page-button:hover {
   background-color: var(--color-teacher-secondary-hover);
+}
+
+.button-icon {
+  width: auto;
+}
+.button-icon:hover {
+  color: var(--color-teacher-secondary);
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+  padding: 1rem, 1.5rem;
+}
+
+.button--primary:hover {
+  background-color: var(--color-primary-hover);
 }

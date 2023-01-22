@@ -1,0 +1,12 @@
+/* 
+game-screen GAME-SCREENS
+game-screen-main GAME-SCREENS
+info GAME-SCREENS
+material-symbols-outlined
+tick-icon
+game-screen-footer GAME-SCREENS
+ */
+
+.tick-icon {
+  font-size: 20rem;
+}

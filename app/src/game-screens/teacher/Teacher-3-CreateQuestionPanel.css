@@ -1,0 +1,42 @@
+/* 
+game-screen GAME-SCREENS
+game-screen-main GAME-SCREENS
+flex--spaced INDEX
+grouped-elements INDEX
+info--bold GAME-SCREENS
+non-footer-button GAME-SCREENS
+form GAME-SCREENS
+form--spread GAME-SCREENS
+flex-row INDEX
+form-field GAME-SCREENS
+list__item-text GAME-SCREENS
+list-item__text--form GAME-SCREENS
+input-field GAME-SCREENS
+footer-button GAME-SCREENS
+paragraph--left GAME-SCREENS
+input-label GAME-SCREENS
+material-symbols-rounded
+question-option-button DONE
+check-circle DONE
+check-circle--correct DONE
+footer-button GAME-SCREENS
+game-screen-footer GAME-SCREENS
+ */
+
+.question-option-button {
+  padding: 0.2 rem;
+  margin: none;
+  width: auto;
+  font-size: 2rem;
+  color: white;
+}
+
+.check-circle {
+  background-color: var(--color-teacher-secondary--light);
+  padding: 00.3rem;
+  border-radius: 50%;
+}
+
+.check-circle--correct {
+  background-color: var(--color-feedback-correct);
+}

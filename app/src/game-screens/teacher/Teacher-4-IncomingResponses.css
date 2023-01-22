@@ -1,0 +1,69 @@
+/* 
+game-screen GAME-SCREENS
+game-screen-main GAME-SCREENS
+flex--spaced INDEX
+grouped-elements INDEX
+info--bold GAME-SCREENS
+flex-row INDEX
+progress-bar DONE
+progress DONE
+num DONE
+paragraph--bold GAME-SCREENS
+list__item-text GAME-SCREENS
+list__item-text-readonly GAME-SCREENS
+info GAME-SCREENS
+MCQResponse DONE
+MCQResponse--correct DONE
+footer-button GAME-SCREENS
+game-screen-footer  GAME-SCREENS
+*/
+
+.progress-bar {
+  width: 60%;
+  height: 35px;
+  padding: 5px;
+  background: white;
+  border-radius: 10px;
+}
+
+.progress {
+  width: 1%;
+  height: 100%;
+  background: #50c89c;
+  border-radius: 5px;
+}
+
+@keyframes fill {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 1%;
+  }
+}
+
+.num {
+  background-color: var(--color-teacher-secondary-hover);
+  padding: 4px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  text-justify: center;
+}
+
+.MCQResponse {
+  background-color: var(--color-teacher-secondary--light);
+  width: 50%;
+  min-height: 60px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.MCQResponse--correct {
+  background-color: var(--color-feedback-correct);
+}

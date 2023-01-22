@@ -1,0 +1,13 @@
+/* 
+game-screen GAME-SCREENS
+game-screen-main GAME-SCREENS
+info--bold GAME-SCREENS
+class-closed
+game-screen-footer GAME-SCREENS
+ */
+
+.class-closed {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin-bottom: 25%;
+}

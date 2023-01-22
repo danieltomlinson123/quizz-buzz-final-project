@@ -267,3 +267,98 @@
   margin: 0;
   width: 100%;
 }
+
+.footer-button {
+  border-radius: 3rem;
+  border-style: none;
+  padding: 1rem 1.5rem;
+  margin: 20px 15px;
+  margin-bottom: 35px;
+  background-color: var(--color-teacher-secondary);
+  width: 40%;
+  font-size: 1.4rem;
+  color: inherit;
+}
+
+.footer-button:hover {
+  background-color: var(--color-teacher-secondary-hover);
+}
+
+.list__item-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  flex-shrink: 0;
+  width: calc(100% - 2rem);
+  max-height: 200px;
+  color: white;
+}
+
+.list__item-text-readonly {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  word-wrap: break-word;
+  text-overflow: inherit;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form--spread {
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.form-button {
+  position: absolute;
+  bottom: 0px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.input-field {
+  background-color: var(--color-teacher-secondary);
+  padding: 1.5rem 1.5rem;
+  border-radius: 1.3rem;
+  margin: 0;
+  border-style: none;
+  color: white;
+  font-size: inherit;
+}
+
+.input-label {
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  margin-left: 0.3rem;
+}
+
+.list-item__text--form {
+  width: 100%;
+  background-color: var(--color-teacher-secondary);
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+}

@@ -1,0 +1,26 @@
+/* 
+game-screen GAME-SCREENS
+game-screen-header GAME-SCREENS
+material-symbols-outlined
+button-icon DONE
+app-title DONE
+game-screen-main GAME-SCREENS
+footer-button GAME-SCREENS
+game-screen-footer GAME-SCREENS
+ */
+
+.app-title {
+  justify-self: center;
+  align-self: center;
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.button-icon {
+  width: auto;
+}
+.button-icon:hover {
+  color: var(--color-teacher-secondary);
+}
