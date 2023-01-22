@@ -1,18 +1,31 @@
+/* !! SOME OF THESE CLASSES ARE IN GAMES SCREENS BUT GAMES SCREENS IS NOT IMPORTED INTO THE COMPONENT */
+
 /* grouped-elements
-questions-list-panel
-materials-symbols-outlined
+questions-list-panel IN LIST-PANELS
+materials-symbols-outlined IN GENERAL
 button-icon
-list-panel
-list
-questions-list
-list__item
+**list-panel NOT FOUND
+list IN LIST-PANELS
+questions-list IN LIST-PANELS
+list__item IN LIST-PANELS
 question-options-grouped
-question-option-button
-question-option-button-stars--true
-material-symbols-rounded
-question-option-button-stars--false
-flex-row
-list__item-text
-list__item-text-readonly
-select-question-button
-input-item */
+* question-option-button IN GAME SCREENS
+question-option-button-stars--true IN LIST PANELS
+material-symbols-rounded IN GENERAL 
+question-option-button-stars--false IN LIST PANELS
+* flex-row IN GAME-SCREENS & INDEX
+list__item-text IN LIST-PANELS
+list__item-text-readonly IN LIST-PANELS
+* select-question-button IN GAME SCREENS & LIST PANELS
+**input-item NOT FOUND
+*/
+
+.grouped-elements {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}

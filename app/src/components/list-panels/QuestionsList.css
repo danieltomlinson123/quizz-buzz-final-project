@@ -1,18 +1,55 @@
 /* grouped-elements
-questions-list-panel
+questions-list-panel DONE
 material-symbols-outlined
-button-icon
-list-panel
-list
-questions-list
-list__item
-question-options-grouped
-question-option-button
-flex-row
+button-icon DONE
+** list-panel NOT FOUND
+list DONE
+questions-list DONE
+list__item DONE
+question-options-grouped DONE
+question-option-button DONE
+flex-row INDEX
 material-symbols-rounded
-list__item-text
-input-item
+list__item-text DONE
+** input-item NOT FOUND
 select-question-button
-footer
-transparent-button
-footer-button */
+footer DONE
+transparent-button DONE
+footer-button DONE
+*/
+
+.footer {
+  background-color: transparent;
+  bottom: 0;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.footer-button {
+  border-radius: 3rem;
+  border-style: none;
+  padding: 1rem 1.5rem;
+  margin: 20px 15px;
+  margin-bottom: 35px;
+  background-color: var(--color-teacher-secondary);
+  width: 40%;
+  font-size: 1.4rem;
+  color: inherit;
+}
+
+.footer-button:hover {
+  background-color: var(--color-teacher-secondary-hover);
+}
+
+.transparent-button {
+  cursor: pointer;
+  font-size: 3rem;
+  background-color: transparent;
+  color: var(--color-headings-hover);
+  padding: 0;
+}
+
+.transparent-button:hover {
+  border: none;
+  font-size: 3.5rem;
+}

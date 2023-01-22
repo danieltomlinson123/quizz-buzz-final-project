@@ -1,5 +1,20 @@
 /* ========== CSS for all files in folder ========== */
-/* ========== (CollectionsList, CommunityList, QuestionsList) ========== */
+/* ========== (CollectionsList, CommunityList, QuestionsList, favoritesList) ========== */
+.question-option-button {
+  padding: 0.2 rem;
+  margin: none;
+  width: auto;
+  font-size: 2rem;
+  color: white;
+}
+
+.question-options-grouped {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
 
 .question-option-button-stars--true {
   padding: 0 1rem;
@@ -17,4 +32,77 @@
 
 .questions-list {
   height: 50%;
+}
+
+.select-question-button {
+  background-color: var(--color-teacher-primary);
+  width: 40%;
+}
+
+.select-question-button:hover {
+  background-color: var(--color-teacher-secondary);
+}
+
+.button-icon {
+  width: auto;
+}
+.button-icon:hover {
+  color: var(--color-teacher-secondary);
+}
+
+.list {
+  color: var(--color-headings);
+  display: flex;
+  gap: 30px;
+  width: 320px;
+  padding: 0 1.5rem;
+  overflow: scroll;
+  flex-direction: column;
+
+  height: fit-content;
+  justify-content: flex-start;
+  margin: 0;
+  margin-top: 2rem;
+  flex-grow: 1;
+}
+
+.list__item {
+  background-color: var(--color-border);
+  flex-direction: column;
+  width: 100%;
+  min-height: 70px;
+  max-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  flex-shrink: 0;
+  overflow: scroll;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+}
+
+.list__item-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  flex-shrink: 0;
+  width: calc(100% - 2rem);
+  max-height: 200px;
+  color: white;
+}
+
+.list__item-text-readonly {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  word-wrap: break-word;
+  text-overflow: inherit;
 }
