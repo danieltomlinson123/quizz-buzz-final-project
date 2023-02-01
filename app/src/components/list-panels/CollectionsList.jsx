@@ -1,7 +1,6 @@
 // ================== Imports ================== //
 
 import "./CollectionsList.css";
-
 import "./list-panels.css";
 
 // ================== Component ================== //

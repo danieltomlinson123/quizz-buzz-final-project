@@ -1,7 +1,6 @@
 // ================== Imports ================== //
 
 import "./QuestionsList.css";
-
 import "./list-panels.css";
 
 import { useEffect, useState } from "react";
@@ -35,7 +34,7 @@ function QuestionsList({
 }) {
   // ================== Consts ================== //
 
-  const logger = new Loggito("List");
+  const logger = new Loggito("Questions list");
 
   const questionText = {}; // dictionary
 
@@ -131,7 +130,7 @@ function QuestionsList({
         loadQuestions();
       });
     } catch (error) {
-      handleFeedback({ message: error.message, level: "error" });
+      handleFeedback({ message: error.message, level: "warn" });
 
       logger.warn(error.message);
     }

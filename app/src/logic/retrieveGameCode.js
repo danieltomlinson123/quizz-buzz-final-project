@@ -1,9 +1,10 @@
-import { validateCallback } from "validators";
+import { validateCallback, validatePin } from "validators";
 import { AuthError, ClientError, ServerError, UnknownError } from "errors";
 
 const API_URL = process.env.REACT_APP_API_URL;
 
 function retrieveGameCode(pin, callback) {
+  validatePin(pin);
   validateCallback(callback);
 
   const xhr = new XMLHttpRequest();

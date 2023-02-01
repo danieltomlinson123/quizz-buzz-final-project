@@ -28,7 +28,8 @@ function Student1EnterClass({
     const nameOfClass = nameOfClassInput.value;
     const nickname = nicknameInput.value;
 
-    if (pin.trim() === "") {
+    // TODO: these validation messages are dealt with in the logic, also... these validations are not within a try catch
+    /*   if (pin.trim() === "") {
       alert("Input fields cannot be left blank.");
       throw new Error("Input fields cannot be left blank");
     }
@@ -39,7 +40,7 @@ function Student1EnterClass({
     if (nickname.trim() === "") {
       alert("Input fields cannot be left blank.");
       throw new Error("Input fields cannot be left blank");
-    }
+    } */
 
     // const pinString = pin.toString();
 

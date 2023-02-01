@@ -30,7 +30,7 @@ function FavoritesList({
 }) {
   // ================== Consts ================== //
 
-  const logger = new Loggito("List");
+  const logger = new Loggito("Favorites list");
 
   const questionText = {}; // dictionary
 

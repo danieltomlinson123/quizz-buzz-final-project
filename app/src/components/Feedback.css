@@ -40,14 +40,14 @@ toast-accept-button DONE
   background-color: red;
 }
 
-.Feedback--warning > .Feedback__box {
+.Feedback--warn > .Feedback__box {
   background-color: orange;
-}
-
-.Feedback--success > .Feedback__box {
-  background-color: green;
 }
 
 .Feedback--info > .Feedback__box {
   background-color: dodgerblue;
+}
+
+.Feedback--success > .Feedback__box {
+  background-color: green;
 }

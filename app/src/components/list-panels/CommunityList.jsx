@@ -31,7 +31,7 @@ function CommunityList({
 }) {
   // ================== consts ================== //
 
-  const logger = new Loggito("List");
+  const logger = new Loggito("Community list");
 
   const questionText = {}; // dictionary
 
@@ -112,7 +112,7 @@ function CommunityList({
           }
         );
     } catch (error) {
-      handleFeedback({ message: error.message, level: "error" });
+      handleFeedback({ message: error.message, level: "warn" });
 
       logger.warn(error.message);
     }
